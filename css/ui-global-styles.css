@@ -1,0 +1,1430 @@
+/*secondary logo svg patch*/
+.secondary-logo[src$=".svg"] {
+  height: 55px !important;
+  margin-top: 14px;
+}
+@media only screen and (max-width: 740px) {
+  .secondary-logo[src$=".svg"] {
+    margin-top: 0;
+  }
+}
+
+.row.expanded {
+  max-width: none !important;
+}
+
+.page-title.title-override {
+  color: #492365;
+  font-family: "tradegothicltstd-boldext", sans-serif;
+  margin: 1em;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.showcase-html-section {
+  padding-top: 0;
+}
+
+.fullwidth, .-fullwidth, .stretchbox, .-stretchbox, .banner {
+  width: 100%;
+}
+
+.offscreen, .-offscreen {
+  position: absolute;
+  left: -10000px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.centered-text, .-centered-text, .text-center, .-text-center {
+  text-align: center;
+}
+
+.hidden, .-hidden {
+  display: none;
+}
+
+/**** wsu main button colors ****/
+.button.color-1, .button.-wcpurp, .button--wcpurp {
+  background-color: #492365;
+}
+.button.color-1:hover, .button.-wcpurp:hover, .button--wcpurp:hover {
+  background-color: #64308b;
+}
+.button.color-2, .button.-unigray, .button--unigray {
+  background-color: #575047;
+}
+.button.color-2:hover, .button.-unigray:hover, .button--unigray:hover {
+  background-color: #736a5e;
+}
+.button.color-3 {
+  background-color: #7F56C5;
+}
+.button.color-3:hover {
+  background-color: #9c7cd2;
+}
+.button.color-4, .button.-hlcolor, .button--hlcolor {
+  background-color: #8446ac;
+}
+.button.color-4:hover, .button.-hlcolor:hover, .button--hlcolor:hover {
+  background-color: #9c65c0;
+}
+.button.color-5 {
+  background-color: #a391b1;
+}
+.button.color-5:hover {
+  background-color: #bcafc6;
+}
+.button.color-6 {
+  background-color: #aa989c;
+}
+.button.color-6:hover {
+  background-color: #c1b4b7;
+}
+.button.color-7, .button.-moyes, .button--moyes {
+  background-color: #a3d55d;
+}
+.button.color-7:hover, .button.-moyes:hover, .button--moyes:hover {
+  background-color: #bae086;
+}
+.button.color-8, .button.-dumke, .button--dumke {
+  background-color: #099844;
+}
+.button.color-8:hover, .button.-dumke:hover, .button--dumke:hover {
+  background-color: #0cc85a;
+}
+.button.color-9, .button.-wsugreen, .button--wsugreen {
+  background-color: #005c49;
+}
+.button.color-9:hover, .button.-wsugreen:hover, .button--wsugreen:hover {
+  background-color: #008f71;
+}
+.button.color-10, .button.-lind, .button--lind {
+  background-color: #25cad3;
+}
+.button.color-10:hover, .button.-lind:hover, .button--lind:hover {
+  background-color: #4bd8e0;
+}
+.button.color-11, .button.-csbs, .button--csbs {
+  background-color: #005f71;
+}
+.button.color-11:hover, .button.-csbs:hover, .button--csbs:hover {
+  background-color: #008aa4;
+}
+.button.color-12, .button.-wsublue, .button--wsublue {
+  background-color: #346094;
+}
+.button.color-12:hover, .button.-wsublue:hover, .button--wsublue:hover {
+  background-color: #4178ba;
+}
+.button.color-13, .button.-wsumauve, .button--wsumauve {
+  background-color: #691940;
+}
+.button.color-13:hover, .button.-wsumauve:hover, .button--wsumauve:hover {
+  background-color: #922359;
+}
+.button.color-14, .button.-wsured, .button--wsured {
+  background-color: #a52428;
+}
+.button.color-14:hover, .button.-wsured:hover, .button--wsured:hover {
+  background-color: #cf2d32;
+}
+.button.color-15, .button.-east, .button--east {
+  background-color: #d25d12;
+}
+.button.color-15:hover, .button.-east:hover, .button--east:hover {
+  background-color: #ed762a;
+}
+.button.color-16, .button.-cos, .button--cos {
+  background-color: #f6b221;
+}
+.button.color-16:hover, .button.-cos:hover, .button--cos:hover {
+  background-color: #f8c352;
+}
+.button.color-17, .button.-wsubrown, .button--wsubrown {
+  background-color: #84471e;
+}
+.button.color-17:hover, .button.-wsubrown:hover, .button--wsubrown:hover {
+  background-color: #ae5d27;
+}
+.button.color-1, .button.godd, .button--godd {
+  background-color: #483627;
+}
+.button.color-1:hover, .button.godd:hover, .button--godd:hover {
+  background-color: #694f39;
+}
+
+.light-gray--bg {
+  background-color: #f3f3f3;
+}
+
+.sizeup1-3 {
+  font-size: 1.3em;
+}
+
+.sizeup1-5 {
+  font-size: 1.5em;
+}
+
+.sizeup1-7 {
+  font-size: 1.7em;
+}
+
+.sizeup2-0 {
+  font-size: 2em;
+}
+
+.sizeup2-3 {
+  font-size: 2.3em;
+}
+
+.sizeup2-5 {
+  font-size: 2.5em;
+}
+
+.sizeup2-7 {
+  font-size: 2.7em;
+}
+
+.sizeup3-0 {
+  font-size: 3em;
+}
+
+.sizeup3-3 {
+  font-size: 3.3em;
+}
+
+.sizeup3-5 {
+  font-size: 3.5em;
+}
+
+.sizeup3-7 {
+  font-size: 3.7em;
+}
+
+.sizeup4-0 {
+  font-size: 4em;
+}
+
+.sizeup4-3 {
+  font-size: 4.3em;
+}
+
+.sizeup4-5 {
+  font-size: 4.5em;
+}
+
+.sizeup4-7 {
+  font-size: 4.7em;
+}
+
+.sizeup5-0 {
+  font-size: 5em;
+}
+
+.sizeup5-3 {
+  font-size: 5.3em;
+}
+
+.sizeup5-5 {
+  font-size: 5.5em;
+}
+
+.sizeup5-7 {
+  font-size: 5.7em;
+}
+
+.sizeup6-0 {
+  font-size: 6em;
+}
+
+.sizeup6-3 {
+  font-size: 6.3em;
+}
+
+.sizeup6-5 {
+  font-size: 6.5em;
+}
+
+.sizeup6-7 {
+  font-size: 6.7em;
+}
+
+.sizeup7-0 {
+  font-size: 7em;
+}
+
+.to-uppercase {
+  text-transform: uppercase;
+}
+
+.to-lowercase {
+  text-transform: none;
+}
+
+.tgb-text {
+  font-family: "tradegothiclt-bold", sans-serif;
+  font-size: 1.2em;
+}
+
+/*section padding*/
+section.padded-half, .section.padded-half {
+  padding: 2em 0.9em 1em;
+}
+
+section.padded-half-even, .section.padded-half-even {
+  padding: 2em 0.9em;
+}
+
+section.padded-full, .section.padded-full {
+  padding: 4em 0.9em 2em;
+}
+
+section.padded-full-even, .section.padded-full-even {
+  padding: 4em 0.9em;
+}
+
+section.padded-extreme, .section.padded-extreme {
+  padding: 6em 0.9em;
+}
+
+section.padded-extreme-even, .section.padded-extreme-even {
+  padding: 6em 0.9em;
+}
+
+/*verticle spacers*/
+section.spacer, .section.spacer {
+  height: 200px;
+}
+
+section.spacer-half, .section.spacer-half {
+  height: 100px;
+}
+
+section.spacer-quarter, .section.spacer-quarter {
+  height: 50px;
+}
+
+section.text-width-limit {
+  max-width: 47.5em;
+  margin: 0 auto;
+}
+
+/*colored background insets, usually lightest shade on each palette color*/
+.inset {
+  background-color: #e8e8e8;
+}
+
+section.inset, .section.inset {
+  padding: 4em 0.9em 2em;
+  background-color: #e8e8e8;
+}
+
+section.inset-csbs, .section.inset-csbs {
+  padding: 4em 0.9em 2em;
+  background-color: #e5eff1;
+}
+
+section.inset-dumke, .section.inset-dumke {
+  padding: 4em 0.9em 2em;
+  background-color: #e5f4ec;
+}
+
+section.inset-cos, section.inset-cos {
+  padding: 4em 0.9em 2em;
+  background-color: #fef7e8;
+}
+
+section.inset-east, .section.inset-east {
+  padding: 4em 0.9em 2em;
+  background-color: #faeee7;
+}
+
+section.inset-lind, .section.inset-lind {
+  padding: 4em 0.9em 2em;
+  background-color: #e9fafb;
+}
+
+section.inset-godd, .section.inset-godd {
+  padding: 4em 0.9em 2em;
+  background-color: #ecebe9;
+}
+
+section.inset-moyes, .section.inset-moyes {
+  padding: 4em 0.9em 2em;
+  background-color: #f6fbee;
+}
+
+section.inset-purp, .section.inset-purp {
+  padding: 4em 0.9em 2em;
+  background-color: #ece9ef;
+}
+
+/**
+*** csbs color themes
+**/
+.csbs--bg {
+  background-color: #005f71;
+}
+
+.csbs2--bg {
+  background-color: #7fafb8;
+}
+
+.csbs3--bg {
+  background-color: #ccdfe3;
+}
+
+.csbs4--bg {
+  background-color: #e5eff1;
+}
+
+.csbs--bg-trans-7 {
+  background-color: rgba(0, 95, 113, 0.7);
+}
+
+.csbs2--bg-trans-7 {
+  background-color: rgba(127, 175, 184, 0.7);
+}
+
+.csbs3--bg-trans-7 {
+  background-color: rgba(204, 223, 227, 0.7);
+}
+
+.csbs4--bg-trans-7 {
+  background-color: rgba(229, 239, 241, 0.7);
+}
+
+.csbs--bg-trans-5 {
+  background-color: rgba(0, 95, 113, 0.5);
+}
+
+.csbs2--bg-trans-5 {
+  background-color: rgba(127, 175, 184, 0.5);
+}
+
+.csbs3--bg-trans-5 {
+  background-color: rgba(204, 223, 227, 0.5);
+}
+
+.csbs4--bg-trans-5 {
+  background-color: rgba(229, 239, 241, 0.5);
+}
+
+.csbs--bg-trans-3 {
+  background-color: rgba(0, 95, 113, 0.3);
+}
+
+.csbs2--bg-trans-3 {
+  background-color: rgba(127, 175, 184, 0.3);
+}
+
+.csbs3--bg-trans-3 {
+  background-color: rgba(204, 223, 227, 0.3);
+}
+
+.csbs4--bg-trans-3 {
+  background-color: rgba(229, 239, 241, 0.3);
+}
+
+.csbs-text {
+  color: #005f71;
+}
+
+/**
+*** dumke color theme
+**/
+.dumke--bg {
+  background-color: #099844;
+}
+
+.dumke2--bg {
+  background-color: #7fcba1;
+}
+
+.dumke3--bg {
+  background-color: #cceada;
+}
+
+.dumke4--bg {
+  background-color: #e5f4ec;
+}
+
+.dumke--bg-trans-7 {
+  background-color: rgba(9, 152, 68, 0.7);
+}
+
+.dumke2--bg-trans-7 {
+  background-color: rgba(127, 203, 161, 0.7);
+}
+
+.dumke3--bg-trans-7 {
+  background-color: rgba(204, 234, 218, 0.7);
+}
+
+.dumke4--bg-trans-7 {
+  background-color: rgba(229, 244, 236, 0.7);
+}
+
+.dumke--bg-trans-5 {
+  background-color: rgba(9, 152, 68, 0.5);
+}
+
+.dumke2--bg-trans-5 {
+  background-color: rgba(127, 203, 161, 0.5);
+}
+
+.dumke3--bg-trans-5 {
+  background-color: rgba(204, 234, 218, 0.5);
+}
+
+.dumke4--bg-trans-5 {
+  background-color: rgba(229, 244, 236, 0.5);
+}
+
+.dumke--bg-trans-3 {
+  background-color: rgba(9, 152, 68, 0.3);
+}
+
+.dumke2--bg-trans-3 {
+  background-color: rgba(127, 203, 161, 0.3);
+}
+
+.dumke3--bg-trans-3 {
+  background-color: rgba(204, 234, 218, 0.3);
+}
+
+.dumke4--bg-trans-3 {
+  background-color: rgba(229, 244, 236, 0.3);
+}
+
+.dumke-text {
+  color: #099844;
+}
+
+/**
+** cos color theme
+**/
+.cos--bg {
+  background-color: #f6b221;
+}
+
+.cos2--bg {
+  background-color: #fad890;
+}
+
+.cos3--bg {
+  background-color: #fdf0d3;
+}
+
+.cos4--bg {
+  background-color: #fef7e8;
+}
+
+.cos--bg-trans-7 {
+  background-color: rgba(246, 178, 33, 0.7);
+}
+
+.cos2--bg-trans-7 {
+  background-color: rgba(250, 216, 144, 0.7);
+}
+
+.cos3--bg-trans-7 {
+  background-color: rgba(253, 240, 211, 0.7);
+}
+
+.cos4--bg-trans-7 {
+  background-color: rgba(254, 247, 232, 0.7);
+}
+
+.cos--bg-trans-5 {
+  background-color: rgba(246, 178, 33, 0.5);
+}
+
+.cos2--bg-trans-5 {
+  background-color: rgba(250, 216, 144, 0.5);
+}
+
+.cos3--bg-trans-5 {
+  background-color: rgba(253, 240, 211, 0.5);
+}
+
+.cos4--bg-trans-5 {
+  background-color: rgba(254, 247, 232, 0.5);
+}
+
+.cos--bg-trans-3 {
+  background-color: rgba(246, 178, 33, 0.3);
+}
+
+.cos2--bg-trans-3 {
+  background-color: rgba(250, 216, 144, 0.3);
+}
+
+.cos3--bg-trans-3 {
+  background-color: rgba(253, 240, 211, 0.3);
+}
+
+.cos4--bg-trans-3 {
+  background-color: rgba(254, 247, 232, 0.3);
+}
+
+.cos-text {
+  color: #f6b221;
+}
+
+/**
+*** east color theme
+**/
+.east--bg {
+  background-color: #d25d12;
+}
+
+.east2--bg {
+  background-color: #e8ae88;
+}
+
+.east3--bg {
+  background-color: #f6dfd0;
+}
+
+.east4--bg {
+  background-color: #faeee7;
+}
+
+.east--bg-trans-7 {
+  background-color: rgba(210, 93, 18, 0.7);
+}
+
+.east2--bg-trans-7 {
+  background-color: rgba(232, 174, 136, 0.7);
+}
+
+.east3--bg-trans-7 {
+  background-color: rgba(246, 223, 208, 0.7);
+}
+
+.east4--bg-trans-7 {
+  background-color: rgba(250, 238, 231, 0.7);
+}
+
+.east--bg-trans-5 {
+  background-color: rgba(210, 93, 18, 0.5);
+}
+
+.east2--bg-trans-5 {
+  background-color: rgba(232, 174, 136, 0.5);
+}
+
+.east3--bg-trans-5 {
+  background-color: rgba(246, 223, 208, 0.5);
+}
+
+.east4--bg-trans-5 {
+  background-color: rgba(250, 238, 231, 0.5);
+}
+
+.east--bg-trans-3 {
+  background-color: rgba(210, 93, 18, 0.3);
+}
+
+.east2--bg-trans-3 {
+  background-color: rgba(232, 174, 136, 0.3);
+}
+
+.east3--bg-trans-3 {
+  background-color: rgba(246, 223, 208, 0.3);
+}
+
+.east4--bg-trans-3 {
+  background-color: rgba(250, 238, 231, 0.3);
+}
+
+.east-text {
+  color: #d25d12;
+}
+
+/**
+*** godd color theme
+**/
+.godd--bg {
+  background-color: #483627;
+}
+
+.godd2--bg {
+  background-color: #a39a93;
+}
+
+.godd3--bg {
+  background-color: #dad7d4;
+}
+
+.godd4--bg {
+  background-color: #ecebe9;
+}
+
+.godd--bg-trans-7 {
+  background-color: rgba(72, 54, 39, 0.7);
+}
+
+.godd2--bg-trans-7 {
+  background-color: rgba(163, 154, 147, 0.7);
+}
+
+.godd3--bg-trans-7 {
+  background-color: rgba(218, 215, 212, 0.7);
+}
+
+.godd4--bg-trans-7 {
+  background-color: rgba(236, 235, 233, 0.7);
+}
+
+.godd--bg-trans-5 {
+  background-color: rgba(72, 54, 39, 0.5);
+}
+
+.godd2--bg-trans-5 {
+  background-color: rgba(163, 154, 147, 0.5);
+}
+
+.godd3--bg-trans-5 {
+  background-color: rgba(218, 215, 212, 0.5);
+}
+
+.godd4--bg-trans-5 {
+  background-color: rgba(236, 235, 233, 0.5);
+}
+
+.godd--bg-trans-3 {
+  background-color: rgba(72, 54, 39, 0.3);
+}
+
+.godd2--bg-trans-3 {
+  background-color: rgba(163, 154, 147, 0.3);
+}
+
+.godd3--bg-trans-3 {
+  background-color: rgba(218, 215, 212, 0.3);
+}
+
+.godd4--bg-trans-3 {
+  background-color: rgba(236, 235, 233, 0.3);
+}
+
+.godd-text {
+  color: #483627;
+}
+
+/**
+*** hlcolor color theme
+**/
+.hlcolor--bg {
+  background-color: #8446ac;
+}
+
+.hlcolor2--bg {
+  background-color: #c1a2d5;
+}
+
+.hlcolor3--bg {
+  background-color: #e6daee;
+}
+
+.hlcolor4--bg {
+  background-color: #f2ecf7;
+}
+
+.hlcolor--bg-trans-7 {
+  background-color: rgba(132, 70, 172, 0.7);
+}
+
+.hlcolor2--bg-trans-7 {
+  background-color: rgba(193, 162, 213, 0.7);
+}
+
+.hlcolor3--bg-trans-7 {
+  background-color: rgba(230, 218, 238, 0.7);
+}
+
+.hlcolor4--bg-trans-7 {
+  background-color: rgba(242, 236, 247, 0.7);
+}
+
+.hlcolor--bg-trans-5 {
+  background-color: rgba(132, 70, 172, 0.5);
+}
+
+.hlcolor2--bg-trans-5 {
+  background-color: rgba(193, 162, 213, 0.5);
+}
+
+.hlcolor3--bg-trans-5 {
+  background-color: rgba(230, 218, 238, 0.5);
+}
+
+.hlcolor4--bg-trans-5 {
+  background-color: rgba(242, 236, 247, 0.5);
+}
+
+.hlcolor--bg-trans-3 {
+  background-color: rgba(132, 70, 172, 0.3);
+}
+
+.hlcolor2--bg-trans-3 {
+  background-color: rgba(193, 162, 213, 0.3);
+}
+
+.hlcolor3--bg-trans-3 {
+  background-color: rgba(230, 218, 238, 0.3);
+}
+
+.hlcolor4--bg-trans-3 {
+  background-color: rgba(242, 236, 247, 0.3);
+}
+
+.hlcolor-text {
+  color: #8446ac;
+}
+
+/**
+*** lind color theme
+**/
+.lind--bg {
+  background-color: #25cad3;
+}
+
+.lind2--bg {
+  background-color: #92e4e9;
+}
+
+.lind3--bg {
+  background-color: #d3f4f6;
+}
+
+.lind4--bg {
+  background-color: #e9fafb;
+}
+
+.lind--bg-trans-7 {
+  background-color: rgba(37, 202, 211, 0.7);
+}
+
+.lind2--bg-trans-7 {
+  background-color: rgba(146, 228, 233, 0.7);
+}
+
+.lind3--bg-trans-7 {
+  background-color: rgba(211, 244, 246, 0.7);
+}
+
+.lind4--bg-trans-7 {
+  background-color: rgba(233, 250, 251, 0.7);
+}
+
+.lind--bg-trans-5 {
+  background-color: rgba(37, 202, 211, 0.5);
+}
+
+.lind2--bg-trans-5 {
+  background-color: rgba(146, 228, 233, 0.5);
+}
+
+.lind3--bg-trans-5 {
+  background-color: rgba(211, 244, 246, 0.5);
+}
+
+.lind4--bg-trans-5 {
+  background-color: rgba(233, 250, 251, 0.5);
+}
+
+.lind--bg-trans-3 {
+  background-color: rgba(37, 202, 211, 0.5);
+}
+
+.lind2--bg-trans-3 {
+  background-color: rgba(146, 228, 233, 0.3);
+}
+
+.lind3--bg-trans-3 {
+  background-color: rgba(211, 244, 246, 0.3);
+}
+
+.lind4--bg-trans-3 {
+  background-color: rgba(233, 250, 251, 0.3);
+}
+
+.lind-text {
+  color: #25cad3;
+}
+
+/**
+*** moyes color theme
+**/
+.moyes--bg {
+  background-color: #a3d55d;
+}
+
+.moyes2--bg {
+  background-color: #d1eaae;
+}
+
+.moyes3--bg {
+  background-color: #edf7df;
+}
+
+.moyes4--bg {
+  background-color: #f6fbee;
+}
+
+.moyes--bg-trans-7 {
+  background-color: rgba(163, 213, 93, 0.7);
+}
+
+.moyes2--bg-trans-7 {
+  background-color: rgba(209, 234, 174, 0.7);
+}
+
+.moyes3--bg-trans-7 {
+  background-color: rgba(237, 247, 223, 0.7);
+}
+
+.moyes4--bg-trans-7 {
+  background-color: rgba(246, 251, 238, 0.7);
+}
+
+.moyes--bg-trans-5 {
+  background-color: rgba(163, 213, 93, 0.5);
+}
+
+.moyes2--bg-trans-5 {
+  background-color: rgba(209, 234, 174, 0.5);
+}
+
+.moyes3--bg-trans-5 {
+  background-color: rgba(237, 247, 223, 0.5);
+}
+
+.moyes4--bg-trans-5 {
+  background-color: rgba(246, 251, 238, 0.5);
+}
+
+.moyes--bg-trans-3 {
+  background-color: rgba(163, 213, 93, 0.3);
+}
+
+.moyes2--bg-trans-3 {
+  background-color: rgba(209, 234, 174, 0.3);
+}
+
+.moyes3--bg-trans-3 {
+  background-color: rgba(237, 247, 223, 0.3);
+}
+
+.moyes4--bg-trans-3 {
+  background-color: rgba(246, 251, 238, 0.3);
+}
+
+.moyes-text {
+  color: #a3d55d;
+}
+
+/**
+*** unigray color theme
+**/
+.unigray--bg {
+  background-color: #575047;
+}
+
+.unigray2--bg {
+  background-color: #aba7a3;
+}
+
+.unigray3--bg {
+  background-color: #dddcda;
+}
+
+.unigray4--bg {
+  background-color: #eeedec;
+}
+
+.unigray--bg-trans-7 {
+  background-color: rgba(87, 80, 71, 0.7);
+}
+
+.unigray2--bg-trans-7 {
+  background-color: rgba(171, 167, 163, 0.7);
+}
+
+.unigray3--bg-trans-7 {
+  background-color: rgba(221, 220, 218, 0.7);
+}
+
+.unigray4--bg-trans-7 {
+  background-color: rgba(238, 237, 236, 0.7);
+}
+
+.unigray--bg-trans-5 {
+  background-color: rgba(87, 80, 71, 0.5);
+}
+
+.unigray2--bg-trans-5 {
+  background-color: rgba(171, 167, 163, 0.5);
+}
+
+.unigray3--bg-trans-5 {
+  background-color: rgba(221, 220, 218, 0.5);
+}
+
+.unigray4--bg-trans-5 {
+  background-color: rgba(238, 237, 236, 0.5);
+}
+
+.unigray--bg-trans-3 {
+  background-color: rgba(87, 80, 71, 0.3);
+}
+
+.unigray2--bg-trans-3 {
+  background-color: rgba(171, 167, 163, 0.3);
+}
+
+.unigray3--bg-trans-3 {
+  background-color: rgba(221, 220, 218, 0.3);
+}
+
+.unigray4--bg-trans-3 {
+  background-color: rgba(238, 237, 236, 0.3);
+}
+
+.unigray-text {
+  color: #575047;
+}
+
+/**
+*** wcpurple color theme
+**/
+.wcpurp--bg {
+  background-color: #492365;
+}
+
+.wcpurp2--bg {
+  background-color: #a491b2;
+}
+
+.wcpurp3--bg {
+  background-color: #dbd3e0;
+}
+
+.wcpurp4--bg {
+  background-color: #ece9ef;
+}
+
+.wcpurp--bg-trans-7 {
+  background-color: rgba(73, 35, 101, 0.7);
+}
+
+.wcpurp2--bg-trans-7 {
+  background-color: rgba(164, 145, 178, 0.7);
+}
+
+.wcpurp3--bg-trans-7 {
+  background-color: rgba(219, 211, 224, 0.7);
+}
+
+.wcpurp4--bg-trans-7 {
+  background-color: rgba(236, 233, 239, 0.7);
+}
+
+.wcpurp--bg-trans-5 {
+  background-color: rgba(73, 35, 101, 0.5);
+}
+
+.wcpurp2--bg-trans-5 {
+  background-color: rgba(164, 145, 178, 0.5);
+}
+
+.wcpurp3--bg-trans-5 {
+  background-color: rgba(219, 211, 224, 0.5);
+}
+
+.wcpurp4--bg-trans-5 {
+  background-color: rgba(236, 233, 239, 0.5);
+}
+
+.wcpurp--bg-trans-3 {
+  background-color: rgba(73, 35, 101, 0.3);
+}
+
+.wcpurp2--bg-trans-3 {
+  background-color: rgba(164, 145, 178, 0.3);
+}
+
+.wcpurp3--bg-trans-3 {
+  background-color: rgba(219, 211, 224, 0.3);
+}
+
+.wcpurp4--bg-trans-3 {
+  background-color: rgba(236, 233, 239, 0.3);
+}
+
+.wcpurp-text {
+  color: #492365;
+}
+
+/**
+*** wsublue color theme
+**/
+.wsublue--bg {
+  background-color: #346094;
+}
+
+.wsublue2--bg {
+  background-color: #99afc9;
+}
+
+.wsublue3--bg {
+  background-color: #d6dfea;
+}
+
+.wsublue4--bg {
+  background-color: #eaeff4;
+}
+
+.wsublue--bg-trans-3 {
+  background-color: rgba(52, 96, 148, 0.3);
+}
+
+.wsublue2--bg-trans-3 {
+  background-color: rgba(153, 175, 201, 0.3);
+}
+
+.wsublue3--bg-trans-3 {
+  background-color: rgba(214, 223, 234, 0.3);
+}
+
+.wsublue4--bg-trans-3 {
+  background-color: rgba(234, 239, 244, 0.3);
+}
+
+.wsublue--bg-trans-5 {
+  background-color: rgba(52, 96, 148, 0.5);
+}
+
+.wsublue2--bg-trans-5 {
+  background-color: rgba(153, 175, 201, 0.5);
+}
+
+.wsublue3--bg-trans-5 {
+  background-color: rgba(214, 223, 234, 0.5);
+}
+
+.wsublue4--bg-trans-5 {
+  background-color: rgba(234, 239, 244, 0.5);
+}
+
+.wsublue--bg-trans-7 {
+  background-color: rgba(52, 96, 148, 0.7);
+}
+
+.wsublue2--bg-trans-7 {
+  background-color: rgba(153, 175, 201, 0.7);
+}
+
+.wsublue3--bg-trans-7 {
+  background-color: rgba(214, 223, 234, 0.7);
+}
+
+.wsublue4--bg-trans-7 {
+  background-color: rgba(234, 239, 244, 0.7);
+}
+
+.wsublue-text {
+  color: #346094;
+}
+
+/**
+*** wsubrown color theme
+**/
+.wsubrown--bg {
+  background-color: #84471e;
+}
+
+.wsubrown2--bg {
+  background-color: #c1a38e;
+}
+
+.wsubrown3--bg {
+  background-color: #e6dad2;
+}
+
+.wsubrown4--bg {
+  background-color: #f2ece8;
+}
+
+.wsubrown--bg-trans-3 {
+  background-color: rgba(132, 71, 30, 0.3);
+}
+
+.wsubrown2--bg-trans-3 {
+  background-color: rgba(193, 163, 142, 0.3);
+}
+
+.wsubrown3--bg-trans-3 {
+  background-color: rgba(230, 218, 210, 0.3);
+}
+
+.wsubrown4--bg-trans-3 {
+  background-color: rgba(242, 236, 232, 0.3);
+}
+
+.wsubrown--bg-trans-5 {
+  background-color: rgba(132, 71, 30, 0.5);
+}
+
+.wsubrown2--bg-trans-5 {
+  background-color: rgba(193, 163, 142, 0.5);
+}
+
+.wsubrown3--bg-trans-5 {
+  background-color: rgba(230, 218, 210, 0.5);
+}
+
+.wsubrown4--bg-trans-5 {
+  background-color: rgba(242, 236, 232, 0.5);
+}
+
+.wsubrown--bg-trans-7 {
+  background-color: rgba(132, 71, 30, 0.7);
+}
+
+.wsubrown2--bg-trans-7 {
+  background-color: rgba(193, 163, 142, 0.7);
+}
+
+.wsubrown3--bg-trans-7 {
+  background-color: rgba(230, 218, 210, 0.7);
+}
+
+.wsubrown4--bg-trans-7 {
+  background-color: rgba(242, 236, 232, 0.7);
+}
+
+.wsubrown-text {
+  color: #84471e;
+}
+
+/**
+*** wsugreen color theme
+**/
+.wsugreen--bg {
+  background-color: #005c49;
+}
+
+.wsugreen2--bg {
+  background-color: #7fada4;
+}
+
+.wsugreen3--bg {
+  background-color: #ccdedb;
+}
+
+.wsugreen4--bg {
+  background-color: #e5eeec;
+}
+
+.wsugreen--bg-trans-3 {
+  background-color: rgba(0, 92, 73, 0.3);
+}
+
+.wsugreen2--bg-trans-3 {
+  background-color: rgba(127, 173, 164, 0.3);
+}
+
+.wsugreen3--bg-trans-3 {
+  background-color: rgba(204, 222, 219, 0.3);
+}
+
+.wsugreen4--bg-trans-3 {
+  background-color: rgba(229, 238, 236, 0.3);
+}
+
+.wsugreen--bg-trans-5 {
+  background-color: rgba(0, 92, 73, 0.5);
+}
+
+.wsugreen2--bg-trans-5 {
+  background-color: rgba(127, 173, 164, 0.5);
+}
+
+.wsugreen3--bg-trans-5 {
+  background-color: rgba(204, 222, 219, 0.5);
+}
+
+.wsugreen4--bg-trans-5 {
+  background-color: rgba(229, 238, 236, 0.5);
+}
+
+.wsugreen--bg-trans-7 {
+  background-color: rgba(0, 92, 73, 0.7);
+}
+
+.wsugreen2--bg-trans-7 {
+  background-color: rgba(127, 173, 164, 0.7);
+}
+
+.wsugreen3--bg-trans-7 {
+  background-color: rgba(204, 222, 219, 0.7);
+}
+
+.wsugreen4--bg-trans-7 {
+  background-color: rgba(229, 238, 236, 0.7);
+}
+
+.wsugreen-text {
+  color: #005c49;
+}
+
+/**
+*** wsumauve color theme
+**/
+.wsumauve--bg {
+  background-color: #691940;
+}
+
+.wsumauve2--bg {
+  background-color: #b48c9f;
+}
+
+.wsumauve3--bg {
+  background-color: #e1d1d9;
+}
+
+.wsumauve4--bg {
+  background-color: #f0e8ec;
+}
+
+.wsumauve--bg-trans-3 {
+  background-color: rgba(105, 25, 64, 0.3);
+}
+
+.wsumauve2--bg-trans-3 {
+  background-color: rgba(180, 140, 159, 0.3);
+}
+
+.wsumauve3--bg-trans-3 {
+  background-color: rgba(225, 209, 217, 0.3);
+}
+
+.wsumauve4--bg-trans-3 {
+  background-color: rgba(240, 232, 236, 0.3);
+}
+
+.wsumauve--bg-trans-5 {
+  background-color: rgba(105, 25, 64, 0.5);
+}
+
+.wsumauve2--bg-trans-5 {
+  background-color: rgba(180, 140, 159, 0.5);
+}
+
+.wsumauve3--bg-trans-5 {
+  background-color: rgba(225, 209, 217, 0.5);
+}
+
+.wsumauve4--bg-trans-5 {
+  background-color: rgba(240, 232, 236, 0.5);
+}
+
+.wsumauve--bg-trans-7 {
+  background-color: rgba(105, 25, 64, 0.7);
+}
+
+.wsumauve2--bg-trans-7 {
+  background-color: rgba(180, 140, 159, 0.7);
+}
+
+.wsumauve3--bg-trans-7 {
+  background-color: rgba(225, 209, 217, 0.7);
+}
+
+.wsumauve4--bg-trans-7 {
+  background-color: rgba(240, 232, 236, 0.7);
+}
+
+.wsumauve-text {
+  color: #691940;
+}
+
+/**
+*** wsured color theme
+**/
+.wsured--bg {
+  background-color: #a52428;
+}
+
+.wsured2--bg {
+  background-color: #d29193;
+}
+
+.wsured3--bg {
+  background-color: #edd3d4;
+}
+
+.wsured4--bg {
+  background-color: #f6e9e9;
+}
+
+.wsured--bg-trans-3 {
+  background-color: rgba(165, 36, 40, 0.3);
+}
+
+.wsured2--bg-trans-3 {
+  background-color: rgba(210, 145, 147, 0.3);
+}
+
+.wsured3--bg-trans-3 {
+  background-color: rgba(237, 211, 212, 0.3);
+}
+
+.wsured4--bg-trans-3 {
+  background-color: rgba(246, 233, 233, 0.3);
+}
+
+.wsured--bg-trans-5 {
+  background-color: rgba(165, 36, 40, 0.5);
+}
+
+.wsured2--bg-trans-5 {
+  background-color: rgba(210, 145, 147, 0.5);
+}
+
+.wsured3--bg-trans-5 {
+  background-color: rgba(237, 211, 212, 0.5);
+}
+
+.wsured4--bg-trans-5 {
+  background-color: rgba(246, 233, 233, 0.5);
+}
+
+.wsured--bg-trans-7 {
+  background-color: rgba(165, 36, 40, 0.7);
+}
+
+.wsured2--bg-trans-7 {
+  background-color: rgba(210, 145, 147, 0.7);
+}
+
+.wsured3--bg-trans-7 {
+  background-color: rgba(237, 211, 212, 0.7);
+}
+
+.wsured4--bg-trans-7 {
+  background-color: rgba(246, 233, 233, 0.7);
+}
+
+.wsured-text {
+  color: #a52428;
+}
+
+/*# sourceMappingURL=ui-global-styles.css.map */

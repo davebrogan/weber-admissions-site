@@ -1,0 +1,44 @@
+<!--feature-box is a card-module with three elements that can be optionally displayed, hidden or reordered-->
+<div class="row small-collapse medium-uncollapse" data-equalizer>
+    <div class="small-12 medium-6 columns"><!--add specific use class name-->
+        <div class="feature-box">
+            <div class="feature-box__header-image">
+                <a aria-hidden="true" href="https://www.weber.edu/social-work-gerontology/social-work-programs.html">
+                    <picture>
+                        <source media="(min-width: 768px)" srcset="https://apps.weber.edu/wsuimages/davidbrogan/images/door-check-1x.jpg 1x, https://apps.weber.edu/wsuimages/davidbrogan/images/door-check-2x.jpg 2x">
+                        <img class="feature-box__header-image__image" alt="" src="https://apps.weber.edu/wsuimages/davidbrogan/images/door-check-1x.jpg" />
+                    </picture>
+                </a>
+            </div>
+            <h3 class="feature-box__title title-override text-center">Subject Title</h3>
+            <div class="feature-box__content" data-equalizer-watch>
+                <h4 class="feature-box__subtitle">Optional Subject Subtitle</h4>
+                <p>This is a feature box module. It can display an optional header image, a title and supporting text. A button can be added to link out. Add the "-visible" modifier to the "feature-box__header-image" element when using a header image/</p>
+                <p>This block is well-suited to calls-to-action and as a home page element to port the user to more information.</p>
+                <p>Originally designed by Adam Farrell for Academic Web Services.</p>
+            </div>
+            <a class="button feature-box__button" href="https://www.weber.edu/">WSU Home</a>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="column small-12 large-9 large-centered">
+        <div class="feature-box-alt">
+            <h3 class="feature-box-alt__title title-override">Alternative Feature Box</h3>
+            <div class="feature-box-alt__content">
+                <p>This is a feature-box-alt module. It can be used to provide a repeating design structure for content basic content on a page.</p>
+                <p>This block is well-suited for breaking up informational content into smaller, more parsable, sections.</p>
+                <p>Designed by Adam Farrell for Academic Web Services.</p>
+            </div>
+            <a class="button feature-box__button feature-box-alt__button" href="https://www.weber.edu/">WSU Home</a>
+        </div>
+    </div>
+</div>
+
+<!-- available modifiers:
+---- -no-content
+---- -no-header
+---- -shadow
+---- -#{$palette-color}-theme
+--->

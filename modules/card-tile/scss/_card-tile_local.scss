@@ -1,0 +1,7 @@
+.card-tile--solid {
+  //add color theme bg class
+}
+.card-tile--image {
+  //each instance must have local class namespace
+  @include bg-interchange-retina()
+}

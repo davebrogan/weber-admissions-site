@@ -1,0 +1,21 @@
+/** banner local build **/
+//
+// always add specific .-modifier
+//
+.banner {
+  //
+  //creates media queries for both 1x and 2x resolutions of a background image
+  //start with the url for the '1x' version of the image
+  //
+  @include bg-interchange-retina();
+
+  //max-height: 700px; (optional)
+  //min-height: 350px; (optional)
+
+  //
+  // calculates a consistent width to height ratio
+  // based either on an aspect ratio (ex.: 16:9)
+  // or the pixel dimensions of the original image
+  //
+  @include aspect-ratio();
+}

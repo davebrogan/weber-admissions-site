@@ -1,0 +1,69 @@
+//
+// Format and test integers entered as arguments. Works for wsu-palette function to format numbers entered as opacity values
+// @author Dave Brogan
+// @param {String} $value - data entered as arg
+// @return $abs-value - a whole integer between 1 and 10
+//
+@function opacity-value-checker($value) {
+  @if type-of($value) != number {
+	@warn 'Opacity value must be data-type: number between 0 and 100 (exclusive). Numbers greater than 1 will be converted to a corresponding value between 0 and 1.';
+	@return false;
+  }
+  @if ($value > 100) {
+	@warn 'Opacity value is too large. Please check that value is a number between 0 and 100 (exclusive). Numbers greater than 1 will be converted to a corresponding value between 0 and 1.';
+	@return false;
+  }
+  $abs-value: abs($value);
+  @if (($abs-value < 1) and ($abs-value > 0)) or ($abs-value == 1) {
+	@return $abs-value;
+  }
+  @if ($abs-value > 1) and ($abs-value < 10) {
+	$abs-value: floor($abs-value) * 0.1;
+	@return $abs-value;
+  }
+  @if ($abs-value >= 10) and ($abs-value < 100) {
+	$abs-value: floor($abs-value) * 0.01;
+	@return $abs-value;
+  }
+}
+
+//
+// Generates colors from the "base colors" data set in variables.scss
+//
+@function wsu-palette($map-name, $color-number, $opacity: 1) {
+  $color-key: map-get($map-name, color-name) + $color-number;
+  $opacity: opacity-value-checker($opacity);
+  @return opacify(map-get($map-name, $color-key), $opacity);
+}
+
+//
+//creates a semi-transparent color background
+//
+@function text-box-bg($bg-color, $color-index, $opacity) {
+  $color-out: wsu-palette($bg-color, $color-index, $opacity);
+  @return $color-out;
+}
+
+//
+// Replace `$search` with `$replace` in `$string`
+// @author Hugo Giraudel
+// @param {String} $string - Initial string
+// @param {String} $search - Substring to replace
+// @param {String} $replace ('') - New value
+// @return {String} - Updated string
+//
+@function str-replace($string, $search, $replace: '') {
+  $index: str-index($string, $search);
+  @if $index {
+	@return str-slice($string, 1, $index - 1) + $replace + str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+  }
+  @return $string;
+}
+
+//
+// takes a 1x file name and changes the "1x" to "2x"
+//
+@function img-res-double($file-name) {
+  $doubleString: str-replace($file-name, '-1x', '-2x');
+  @return $doubleString;
+}

@@ -1,0 +1,339 @@
+//
+// background image utilities
+//
+@mixin bg-img($url) {
+  background-image: url($url);
+}
+
+@mixin bg-img-2x($url) {
+  @media only screen and (min-width: 1024px) and (min-resolution: 192dpi) {
+    background-image: url(img-res-double($url));
+  }
+}
+
+//
+// creates media queries for both 1x and 2x resolutions of a background image
+// start with the url for the '1x' version of the image
+//
+@mixin bg-interchange-retina($url:'https://apps.weber.edu/wsuimages/davidbrogan/images/night-star-filter-overlay-1x.jpg') {
+  @include bg-img($url);
+  @include bg-img-2x($url);
+}
+
+@mixin bg-img-placement($pos-x:center, $pos-y:center) {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: $pos-x $pos-y;
+}
+
+//
+// flex utilities-master-block
+//
+@mixin flex-row($align, $justify) {
+  display: flex;
+  flex-direction: row;
+  align-items: $align;
+  justify-content: $justify;
+}
+
+@mixin flex-column($align, $justify) {
+  display: flex;
+  flex-direction: column;
+  align-items: $align;
+  justify-content: $justify;
+}
+
+@mixin build-container-size($pad-vert, $pad-horiz, $max-width, $max-height:null) {
+  padding: $pad-vert $pad-horiz;
+  max-width: $max-width;
+  max-height: $max-height;
+}
+
+//
+// converts responsive-image block from square to circle
+//
+@mixin circle-image ($width, $border-radius) {
+  width: $width;
+  height: $width;
+  border-radius: $border-radius;
+  shape-outside: margin-box;
+}
+
+//
+// calculates a consistent width to height ratio
+// based either on an aspect ratio (ex.: 16:9)
+// or the pixel dimensions of the original image
+//
+@mixin aspect-ratio($container-width:100vw, $aspect-width:16, $aspect-height:9) {
+  $height: calc(#{$container-width} * (#{$aspect-height} / #{$aspect-width}));
+  @if $aspect-width == 2 and $aspect-height == 1 {
+    &--aspect-2-1 {
+      height: calc(#{$container-width} * (#{$aspect-height} / #{$aspect-width}));
+    }
+  } @else if $aspect-width == 3 and $aspect-height == 2 {
+    &--aspect-3-2 {
+      height: calc(#{$container-width} * (#{$aspect-height} / #{$aspect-width}));
+    }
+  } @else if $aspect-width == 4 and $aspect-height == 3 {
+    &--aspect-4-3 {
+      height: calc(#{$container-width} * (#{$aspect-height} / #{$aspect-width}));
+    }
+  } @else if $aspect-width == 16 and $aspect-height == 9 {
+    &--aspect-16-9 {
+      height: calc(#{$container-width} * (#{$aspect-height} / #{$aspect-width}));
+    }
+  } @else if $aspect-width == 21 and $aspect-height == 9 {
+    &--aspect-21-9 {
+      height: calc(#{$container-width} * (#{$aspect-height} / #{$aspect-width}));
+    }
+  } @else if $aspect-width == 4 and $aspect-height == 1 {
+    &--aspect-4-1 {
+      height: calc(#{$container-width} * (#{$aspect-height} / #{$aspect-width}));
+    }
+  } @else {
+    &--aspect-source {
+      height: #{$height};
+    }
+  }
+}
+
+//
+// like the aspect-ratio mixin but for custom width and height only
+//
+@mixin aspect-ratio-source($container-width:100vw, $aspect-width, $aspect-height) {
+  $height: calc(#{$container-width} * (#{$aspect-height} / #{$aspect-width}));
+  &--aspect-#{$aspect-width}-#{$aspect-height} {
+    height: #{$height};
+  }
+}
+
+//
+// generates css for feature-box elements * theme colors (palette)
+// allows for theming by adding ".-theme-name" modifier to module root node
+//
+@mixin feature-box-themes() {
+  $self: &;
+  @each $name, $color in $color-names {
+    &.-#{$name}-theme {
+      $theme-color: wsu-palette($color, 1);
+      #{$self}__title {
+        background-color: $theme-color;
+      }
+      #{$self}__button {
+        background-color: $theme-color;
+        &:hover {
+          background-color: lighten($theme-color, 10%);
+        }
+      }
+    }
+  }
+}
+
+//
+// generates css for feature-box-alt elements * theme colors (palette)
+// allows for theming by adding ".-theme-name" modifier to module root node
+//
+@mixin feature-box-alt-themes() {
+  $self: &;
+  @each $name, $color in $color-names {
+    &.-#{$name}-theme {
+      $theme-color: wsu-palette($color, 1);
+      #{$self}__title {
+        &.title-override {
+          color: $theme-color !important;
+          border-bottom: 3px solid $theme-color !important;
+        }
+      }
+      #{$self}__button {
+        background-color: $theme-color;
+        &:hover {
+          background-color: lighten($theme-color, 10%);
+        }
+      }
+    }
+  }
+}
+
+//
+// generates css for nav-onpage-icon theme colors
+// allows for theming by adding ".theme-name" modifier to module root node
+//
+@mixin nav-onpage-themes() {
+  $self: &;
+  @each $name, $color in $color-names {
+    &.-#{$name}-theme {
+      $theme-color: wsu-palette($color, 1);
+      background-color: $theme-color;
+      &:hover {
+        background-color: lighten($theme-color, 10%);
+      }
+    }
+  }
+}
+
+//
+// generates css for card-module elements * theme colors (palette)
+// allows for theming by adding ".-theme-name" modifier to module root node
+//
+@mixin card-module-themes() {
+  $self: &;
+  @each $name, $color in $color-names {
+    &.-#{$name}-theme {
+      $theme-color: wsu-palette($color, 1);
+      #{$self}__header {
+        background-color: $theme-color;
+      }
+      #{$self}__button {
+        background-color: $theme-color;
+        &:hover {
+          background-color: lighten($theme-color, 10%);
+        }
+      }
+    }
+  }
+}
+
+//
+// generates css for card-overlay elements * theme colors (palette)
+// allows for theming by adding ".-theme-name" modifier to module root node
+//
+@mixin card-overlay-themes() {
+  $self: &;
+  @each $name, $color in $color-names {
+    &.-#{$name}-theme {
+      $theme-color: wsu-palette($color, 1);
+      #{$self}__link {
+        color: $theme-color;
+        &:hover {
+          color: darken($theme-color, 20%);
+        }
+      }
+      #{$self}__button {
+        background-color: $theme-color;
+        &:hover {
+          background-color: darken($theme-color, 20%);
+        }
+      }
+    }
+  }
+}
+
+//
+// generates color themes from color-map variables
+//
+@mixin color-theme($color-map-name) {
+  $color-name: map-get($color-map-name, color-name);
+  $i: 0;
+  $j: 1;
+  $x: 0;
+  $trans: null;
+  $op: null;
+  @while $i < 4 {
+    @for $num from 1 to 5 {
+      $palette-item: wsu-palette($color-map-name, $num, $i + $j);
+      @if $num == 1 {
+        $x: '';
+      } @else {
+        $x: $num;
+      }
+      @if $i < 1 {
+        $trans: '';
+        $op: '';
+      } @else {
+        $trans: '-trans-';
+        $op: $i + $j;
+      }
+      .#{$color-name + $x}--bg#{$trans + $op} {
+        background-color: $palette-item;
+      }
+    }
+    $i: $i + 1;
+    $j: $j + 1;
+  }
+  .#{$color-name}-text {
+    color: wsu-palette($color-map-name, 1);
+  }
+}
+
+//
+// generates css for how-to--basic block, elements * theme colors (palette)
+// allows for theming by adding ".-#{&color-name}-theme" modifier to module root node
+//
+@mixin how-to--basic-themes() {
+  $self: &;
+  @each $name, $color in $color-names {
+    $theme-color: wsu-palette($color, 1);
+    $theme-color-light: wsu-palette($color, 3);
+    &.-#{$name}-theme {
+      #{$self}__section:nth-child(even) {
+        background-color: $light-gray-bg;
+        & .text-box__text > a {
+          color: #fff;
+          &:hover {
+            color: darken(#fff, 10%);
+          }
+        }
+        & .how-to__button {
+          background-color: $theme-color;
+          &:hover {
+            background-color: lighten($theme-color, 10%);
+          }
+        }
+      }
+      #{$self}__section:nth-child(odd) {
+        background-color: $theme-color;
+        & .how-to__button.button{
+          background-color: wsu-palette($color, 3);
+          color: $gray-text !important;
+          &:hover {
+            background-color: darken($theme-color-light, 10%);
+          }
+        }
+      }
+    }
+  }
+}
+
+//
+// generates css for how-to--simple block, elements * theme colors (palette)
+// allows for theming by adding ".-#{&color-name}-theme" modifier to module root node
+//
+@mixin how-to--simple-themes() {
+  $self: &;
+  @each $name, $color in $color-names {
+    $theme-color: wsu-palette($color, 1);
+    &.-#{$name}-theme {
+      #{$self}__step {
+        border-top: 2px solid $theme-color;
+      }
+      #{$self}__step-number {
+        background-color: $theme-color;
+      }
+      #{$self}__button {
+        background-color: $theme-color;
+        &:hover {
+          background-color: darken($theme-color, 10%);
+        }
+      }
+    }
+  }
+}
+
+
+
+
+@mixin theme-maker-block($block-name, $modifier-name) {
+  &__#{$block-name} {
+    #{".-" + $modifier-name} {
+      background-color: $modifier-name;
+    }
+  }
+}
+
+@mixin theme-maker-element($element-name, $modifier-name) {
+  &__#{$element-name} {
+    #{".-" + $modifier-name} {
+      background-color: $modifier-name;
+    }
+  }
+}

@@ -1,0 +1,402 @@
+//
+// base colors
+//
+$cos-colors: (
+		color-name: 'cos',
+		'cos1': rgba(246,178,33,0),
+		'cos2': rgba(250,216,144,0),
+		'cos3': rgba(253,240,211,0),
+		'cos4': rgba(254,247,232,0),
+);
+
+$csbs-colors: (
+		color-name: 'csbs',
+		'csbs1': rgba(0,95,113,0),
+		'csbs2': rgba(127,175,184,0),
+		'csbs3': rgba(204,223,227,0),
+		'csbs4': rgba(229,239,241,0),
+);
+
+$dumke-colors: (
+		color-name: 'dumke',
+		'dumke1': rgba(9,152,68,0),
+		'dumke2': rgba(127,203,161,0),
+		'dumke3': rgba(204,234,218,0),
+		'dumke4': rgba(229,244,236,0),
+);
+
+$east-colors: (
+		color-name: 'east',
+		'east1': rgba(210,93,18,0),
+		'east2': rgba(232,174,136,0),
+		'east3': rgba(246,223,208,0),
+		'east4': rgba(250,238,231,0),
+);
+
+$godd-colors: (
+		color-name: 'godd',
+		'godd1': rgba(72,54,39,0),
+		'godd2': rgba(163,154,147,0),
+		'godd3': rgba(218,215,212,0),
+		'godd4': rgba(236,235,233,0),
+);
+
+$hlcolor-colors: (
+		color-name: 'hlcolor',
+		'hlcolor1': rgba(132,70,172,0),
+		'hlcolor2': rgba(193,162,213,0),
+		'hlcolor3': rgba(230,218,238,0),
+		'hlcolor4': rgba(242,236,247,0),
+);
+
+$lind-colors: (
+		color-name: 'lind',
+		'lind1': rgba(37,202,211,0),
+		'lind2': rgba(146,228,233,0),
+		'lind3': rgba(211,244,246,0),
+		'lind4': rgba(233,250,251,0),
+);
+
+$mauve-colors: (
+		color-name: 'mauve',
+		'mauve1': rgba(105,25,64,0),
+		'mauve2': rgba(180,140,159,0),
+		'mauve3': rgba(225,209,217,0),
+		'mauve4': rgba(240,232,236,0),
+);
+
+$moyes-colors: (
+		color-name: 'moyes',
+		'moyes1': rgba(163,213,93,0),
+		'moyes2': rgba(209,234,174,0),
+		'moyes3': rgba(237,247,223,0),
+		'moyes4': rgba(246,251,238,0),
+);
+
+$unigray-colors: (
+		color-name: 'unigray',
+		'unigray1': rgba(87,80,71,0),
+		'unigray2': rgba(171,167,163,0),
+		'unigray3': rgba(221,220,218,0),
+		'unigray4': rgba(238,237,236,0),
+);
+
+$wcpurp-colors: (
+		color-name: 'wcpurp',
+		'wcpurp1': rgba(73,35,101,0),
+		'wcpurp2': rgba(164,145,178,0),
+		'wcpurp3': rgba(219,211,224,0),
+		'wcpurp4': rgba(236,233,239,0),
+);
+
+$wsumauve-colors: (
+		color-name: 'wsumauve',
+		'wsumauve1': rgba(105,25,64,0),
+		'wsumauve2': rgba(180,140,159,0),
+		'wsumauve3': rgba(225,209,217,0),
+		'wsumauve4': rgba(240,232,236,0),
+);
+
+$wsubrown-colors: (
+		color-name: 'wsubrown',
+		'wsubrown1': rgba(132,71,30,0),
+		'wsubrown2': rgba(193,163,142,0),
+		'wsubrown3': rgba(230,218,210,0),
+		'wsubrown4': rgba(242,236,232,0),
+);
+
+$wsured-colors: (
+		color-name: 'wsured',
+		'wsured1': rgba(165,36,40,0),
+		'wsured2': rgba(210,145,147,0),
+		'wsured3': rgba(237,211,212,0),
+		'wsured4': rgba(246,233,233,0),
+);
+
+$wsublue-colors: (
+		color-name: 'wsublue',
+		'wsublue1': rgba(52,96,148,0),
+		'wsublue2': rgba(153,175,201,0),
+		'wsublue3': rgba(214,223,234,0),
+		'wsublue4': rgba(234,239,244,0),
+);
+
+$wsugreen-colors: (
+		color-name: 'wsugreen',
+		'wsugreen1': rgba(0,92,73,0),
+		'wsugreen2': rgba(127,173,164,0),
+		'wsugreen3': rgba(204,222,219,0),
+		'wsugreen4': rgba(229,238,236,0),
+);
+
+$wsuwhite-colors: (
+		color-name: 'white',
+		'white1': rgba(255,255,255,0),
+		'white2': rgba(255,255,255,0),
+		'white3': rgba(255,255,255,0),
+		'white4': rgba(255,255,255,0),
+);
+
+//
+// base colors - map of maps
+//
+$wsu-colors: (
+		$cos-colors: (
+				color-name: 'cos',
+				'cos1': rgba(246,178,33,0),
+				'cos2': rgba(250,216,144,0),
+				'cos3': rgba(253,240,211,0),
+				'cos4': rgba(254,247,232,0),
+		),
+
+		$csbs-colors: (
+				color-name: 'csbs',
+				'csbs1': rgba(0,95,113,0),
+				'csbs2': rgba(127,175,184,0),
+				'csbs3': rgba(204,223,227,0),
+				'csbs4': rgba(229,239,241,0),
+		),
+
+		$dumke-colors: (
+				color-name: 'dumke',
+				'dumke1': rgba(9,152,68,0),
+				'dumke2': rgba(127,203,161,0),
+				'dumke3': rgba(204,234,218,0),
+				'dumke4': rgba(229,244,236,0),
+		),
+
+		$east-colors: (
+				color-name: 'east',
+				'east1': rgba(210,93,18,0),
+				'east2': rgba(232,174,136,0),
+				'east3': rgba(246,223,208,0),
+				'east4': rgba(250,238,231,0),
+		),
+
+		$godd-colors: (
+				color-name: 'godd',
+				'godd1': rgba(72,54,39,0),
+				'godd2': rgba(163,154,147,0),
+				'godd3': rgba(218,215,212,0),
+				'godd4': rgba(236,235,233,0),
+		),
+
+		$hlcolor-colors: (
+				color-name: 'hlcolor',
+				'hlcolor1': rgba(132,70,172,0),
+				'hlcolor2': rgba(193,162,213,0),
+				'hlcolor3': rgba(230,218,238,0),
+				'hlcolor4': rgba(242,236,247,0),
+		),
+
+		$lind-colors: (
+				color-name: 'lind',
+				'lind1': rgba(37,202,211,0),
+				'lind2': rgba(146,228,233,0),
+				'lind3': rgba(211,244,246,0),
+				'lind4': rgba(233,250,251,0),
+		),
+
+		$mauve-colors: (
+				color-name: 'mauve',
+				'mauve1': rgba(105,25,64,0),
+				'mauve2': rgba(180,140,159,0),
+				'mauve3': rgba(225,209,217,0),
+				'mauve4': rgba(240,232,236,0),
+		),
+
+		$moyes-colors: (
+				color-name: 'moyes',
+				'moyes1': rgba(163,213,93,0),
+				'moyes2': rgba(209,234,174,0),
+				'moyes3': rgba(237,247,223,0),
+				'moyes4': rgba(246,251,238,0),
+		),
+
+		$unigray-colors: (
+				color-name: 'unigray',
+				'unigray1': rgba(87,80,71,0),
+				'unigray2': rgba(171,167,163,0),
+				'unigray3': rgba(221,220,218,0),
+				'unigray4': rgba(238,237,236,0),
+		),
+
+		$wcpurp-colors: (
+				color-name: 'wcpurp',
+				'wcpurp1': rgba(73,35,101,0),
+				'wcpurp2': rgba(164,145,178,0),
+				'wcpurp3': rgba(219,211,224,0),
+				'wcpurp4': rgba(236,233,239,0),
+		),
+
+		$wsumauve-colors: (
+				color-name: 'wsumauve',
+				'mauve1': rgba(105,25,64,0),
+				'mauve2': rgba(180,140,159,0),
+				'mauve3': rgba(225,209,217,0),
+				'mauve4': rgba(240,232,236,0),
+		),
+
+		$wsubrown-colors: (
+				color-name: 'wsubrown',
+				'wsubrown1': rgba(132,71,30,0),
+				'wsubrown2': rgba(193,163,142,0),
+				'wsubrown3': rgba(230,218,210,0),
+				'wsubrown4': rgba(242,236,232,0),
+		),
+
+		$wsured-colors: (
+				color-name: 'wsured',
+				'wsured1': rgba(165,36,40,0),
+				'wsured2': rgba(210,145,147,0),
+				'wsured3': rgba(237,211,212,0),
+				'wsured4': rgba(246,233,233,0),
+		),
+
+		$wsublue-colors: (
+				color-name: 'wsublue',
+				'wsublue1': rgba(52,96,148,0),
+				'wsublue2': rgba(153,175,201,0),
+				'wsublue3': rgba(214,223,234,0),
+				'wsublue4': rgba(234,239,244,0),
+		),
+
+		$wsugreen-colors: (
+				color-name: 'wsugreen',
+				'wsugreen1': rgba(0,92,73,0),
+				'wsugreen2': rgba(127,173,164,0),
+				'wsugreen3': rgba(204,222,219,0),
+				'wsugreen4': rgba(229,238,236,0),
+		),
+
+		$wsuwhite-colors: (
+				color-name: 'white',
+				'white1': rgba(255,255,255,0),
+				'white2': rgba(255,255,255,0),
+				'white3': rgba(255,255,255,0),
+				'white4': rgba(255,255,255,0),
+		),
+);
+
+//
+// cap for accessing color names
+//
+$color-names: (
+		cos: $cos-colors,
+		csbs: $csbs-colors,
+		dumke: $dumke-colors,
+		east: $east-colors,
+		godd: $godd-colors,
+		hlcolor: $hlcolor-colors,
+		lind: $lind-colors,
+		mauve: $mauve-colors,
+		moyes: $moyes-colors,
+		unigray: $unigray-colors,
+		wcpurp: $wcpurp-colors,
+		wsumauve: $wsumauve-colors,
+		wsubrown: $wsubrown-colors,
+		wsured: $wsured-colors,
+		wsublue: $wsublue-colors,
+		wsugreen: $wsugreen-colors,
+		wsuwhite: $wsuwhite-colors,
+);
+
+$gray-text: #575047;
+$white-text: #FFF;
+$white-title-override: #FFF !important;
+$off-white-text: #fafafa;
+
+$shadow-lo-res: 0 2px 7px 2px #a0a0a0;
+$shadow-hi-res: 0 2px 7px 2px #ccc;
+
+$light-gray-bg: #f3f3f3;
+
+$max-char-constraint-width: 47.5em;
+
+//
+// fonts
+//
+$font-tg: 'tradegothiclt', sans-serif;
+$font-tgl: 'tradegothiclt-light', sans-serif;
+$font-tglo: 'tradegothiclt-lightoblique', sans-serif;
+$font-tgo: 'tradegothicltcom-obl', sans-serif;
+$font-tgb: 'tradegothiclt-bold', sans-serif;
+$font-tgb2: 'tradegothicltcom-bd2', sans-serif;
+$font-tgbo: 'tradegothicltcom-boldobl', sans-serif;
+$font-tgb2o: 'tradegothicltcom-bd2obl', sans-serif;
+$font-tgc18: 'tradegothiclt-condeighteen', sans-serif;
+$font-tgc18o: 'tradegothicltcom-cn18obl', sans-serif;
+$font-tgbc20: 'tradegothicltcom-bdcn20', sans-serif;
+$font-tgbc20o: 'tradegothicltcom-bdcn20obl', sans-serif;
+$font-tge: 'tradegothicltstd-extended', sans-serif;
+$font-tgbe: 'tradegothicltstd-boldext', sans-serif;
+$font-pmnr: 'caecilialtstd-roman', serif;
+$font-pmnl: 'caecilialtstd-light', serif;
+$font-pmnli: 'caecilialtstd-lightitalic', serif;
+$font-pmni: 'caecilialtstd-italic', serif;
+$font-pmnb: 'caecilialtstd-bold', serif;
+$font-pmnbi: 'caecilialtstd-bolditalic', serif;
+$font-pmnh: 'caecilialtstd-heavy', serif;
+$font-pmnhi: 'caecilialtstd-heavyitalic', serif;
+
+
+//
+// title overrides
+// (used with .title-override class on __title element
+//
+$title-small: 1.2em;
+$title-medium: 1.3em;
+$title-large: 1.5em;
+
+
+//
+// section padding
+//
+$padded-extreme: 6em 0.9em;
+$padded-extreme-even: 6em 0.9em;
+$padded-full: 4em 0.9em 2em;
+$padded-full-even: 4em 0.9em;
+$padded-half: 2em 0.9em 1em;
+$padded-half-even: 2em 0.9em;
+
+
+//
+// breakpoints
+//
+$break-phone: 480px;
+$break-large-phone: 640px;
+$break-tablet-under: 767px;
+$break-tablet: 768px;
+$break-tablet-over: 769px;
+$break-laptop-under: 1023px;
+$break-laptop: 1024px;
+$break-laptop-over: 1025px;
+$break-desktop: 1500px;
+$break-large-screen: 2400px;
+
+//
+// aspect ratios
+//
+$aspect-2-1: calc(100vw * (1 / 2));
+$aspect-3-2: calc(100vw * (2 / 3));
+$aspect-4-3: calc(100vw * (3 / 4));
+$aspect-16-9: calc(100vw * (9 / 16));
+$aspect-21-9: calc(100vw * (9 / 21));
+$aspect-4-1: calc(100vw * (1 / 4));
+
+//
+// media queries
+//
+$target-phone: "only screen and (max-width: " + $break-phone + ")";
+$target-large-phone: "only screen and (max-width: " + $break-large-phone + ")";
+$target-tablet-under: "only screen and (max-width: " + $break-tablet-under + ")";
+$target-tablet: "only screen and (max-width: " + $break-tablet + ")";
+$target-phone-tablet-range: "only screen and (min-width: " + $break-large-phone + ") and ( max-width: " $break-laptop-under + ")";
+$target-tablet-range: "only screen and (min-width: " + $break-tablet + ") and (max-width: " + $break-laptop-under + ")";
+$target-tablet-over: "only screen and (min-width: " + $break-tablet + ")";
+$target-laptop-under: "only screen and (max-width: " + $break-laptop-under + ")";
+$target-laptop: "only screen and (max-width: " + $break-laptop + ")";
+$target-laptop-over: "only screen and (min-width: " + $break-laptop-over + ")";
+$target-break-desktop: "only screen and (min-width: " + $break-desktop + ")";
+$target-desktop-under: "only screen and (max-width: " + $break-desktop + ")";
+$target-large-screen: "only screen and (min-width: " + $break-large-screen + ")";

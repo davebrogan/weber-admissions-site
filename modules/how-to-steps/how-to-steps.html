@@ -1,0 +1,112 @@
+<!--
+---- how-to--basic
+---- multi steps displayed in strips
+---- alternating dark and light backgrounds
+---- themeable
+--->
+<section class="how-to how-to--basic -csbs-theme">
+    <div class="row how-to--basic__section">
+        <h2 class="how-to--basic__title title-override">How To Sections - Multi Step Guides - Basic How-to</h2>
+    </div>
+    <div class="row how-to--basic__section">
+        <div class="columns xlarge-1 how-to--basic__icon">
+            <img alt="" class="icon-medium" src="https://apps.weber.edu/wsuimages/davidbrogan/icons/check-in-box-csbs.svg" />
+        </div>
+        <div class="columns xlarge-11 how-to--basic__content text-box--gray">
+            <h3 class="text-box__title">Step 1:</h3>
+            <div class="text-box__text">
+                <p>A bunch of how to text</p>
+                <p>More text on how to do something.</p>
+            </div>
+            <a class="button how-to__button" href="#">Button Text</a></div>
+    </div>
+    <div class="row how-to--basic__section">
+        <div class="columns xlarge-1 how-to--basic__icon">
+            <img alt="" class="icon-medium" src="https://apps.weber.edu/wsuimages/davidbrogan/icons/check-in-box-white.svg" />
+        </div>
+        <div class="columns xlarge-11 how-to--basic__content text-box--white">
+            <h3 class="text-box__title">Step 2:</h3>
+            <div class="text-box__text">
+                <p>A bunch of how to text</p>
+                <p>More text on how to do something.</p>
+            </div>
+            <a class="button how-to__button" href="#">Button Text</a></div>
+    </div>
+</section>
+
+<!--
+---- how-to--simple
+---- multi steps displayed in an
+---- open concept.
+---- Each step number sits behind a solid colored border.
+--->
+
+<!-- original markup
+<div class="row how-to how-to--simple -wcpurp-theme">
+    <h2 class="how-to--simple__title title-override">How to Apply</h2>
+    <div class="column xlarge-8 xlarge-centered how-to--simple__section">
+        <div class="how-to--simple__step">
+            <p class="how-to--simple__step-number">Step 1:</p>
+        </div>
+
+        <h3 class="how-to--simple__section-title">Apply to WSU</h3>
+        <div class="how-to--simple__content">
+            <p>If you have not already applied to WSU, you <em>must</em> do so before continuing.</p>
+        </div>
+        <a class="button how-to__button how-to--simple__button" href="https://www.weber.edu/admissions">Apply for WSU Admissions</a>
+    </div>
+</div>
+----------->
+
+<section class="padded-full-even">
+    <div class="row how-to how-to--simple -wcpurp-theme">
+        <h2 class="how-to--simple__title title-override">How to Steps - Simple</h2>
+
+        <div class="column xlarge-8 xlarge-centered how-to--simple__section">
+            <div class="how-to--simple__step">
+                <p class="how-to--simple__step-number">Step 1:</p>
+            </div>
+
+            <div class="how-to--simple__content">
+                <h3 class="how-to--simple__section-title">Apply to WSU</h3>
+
+                <p>If you have not already applied to WSU, you <em>must</em> do so before continuing.</p>
+                <a class="button how-to__button how-to--simple__button" href="https://www.weber.edu/admissions">Apply for WSU Admissions</a></div>
+        </div>
+
+        <div class="column xlarge-8 xlarge-centered how-to--simple__section">
+            <div class="how-to--simple__step">
+                <p class="how-to--simple__step-number">Step 2:</p>
+            </div>
+
+            <div class="how-to--simple__content">
+                <h3 class="how-to--simple__section-title">Meet With Our Admissions Coordinator</h3>
+
+                <p>So you can discuss our program and requirements. Visit our <a href="https://www.weber.edu/athletic-training/advising.html">advising page</a> for more information.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--
+---- how-to--extended
+---- module for complex how to
+---- when many buttons, accordions and
+---- sub-sections are required.
+--->
+
+<div class="how-to how-to--extended">
+    <section class="how-to--extended__section">
+
+    </section>
+    <section class="how-to--extended__section">
+
+    </section>
+</div>
+
+<!--
+---- available-modifiers:
+---- basic color themes (root node: how-to--basic -#{$color-name}-theme)
+---- extended color themes (section node: how-to--extended__section -#{$color-name}-theme)
+--->
