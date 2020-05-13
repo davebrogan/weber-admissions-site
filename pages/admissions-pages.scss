@@ -1,0 +1,8 @@
+@import "../ui-utilities-master/variables";
+@import "../ui-utilities-master/placeholders";
+@import "../ui-utilities-master/functions";
+@import "../ui-utilities-master/mixins";
+
+@import "../modules/apply-strip/scss/apply-strip-local.scss";
+@import "main-template/admissions-page-template";
+@import "admissions-home/admissions-home";

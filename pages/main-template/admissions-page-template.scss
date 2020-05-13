@@ -1,0 +1,28 @@
+@import "../../ui-utilities-master/variables";
+@import "../../ui-utilities-master/placeholders";
+@import "../../ui-utilities-master/functions";
+@import "../../ui-utilities-master/mixins";
+
+/***** Admissions SubPages ********/
+
+.main-content {
+  &__title {
+    text-align: center;
+  }
+  &__partitions__right {
+    border-left: 2px solid wsu-palette($unigray-colors, 1);
+  }
+  &__item {
+    &--underlined {
+      border-bottom: 2px solid wsu-palette($unigray-colors, 1);
+    }
+  }
+  &__item__badges {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+.foot-link-flex {
+  border-bottom: 2px solid wsu-palette($unigray-colors, 1);
+}
