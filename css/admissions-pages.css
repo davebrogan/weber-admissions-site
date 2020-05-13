@@ -75,11 +75,22 @@ svg.foot-icons:hover {
 .main-content__title {
   text-align: center;
 }
+.main-content__partitions__right {
+  border-left: 2px solid #575047;
+}
+.main-content__partitions__right > .main-content__partitions__right .main-content__partitions__right__item {
+  padding-top: 15px;
+}
+.main-content__item--underlined {
+  border-bottom: 2px solid #575047;
+}
+.main-content__item__badges {
+  display: flex;
+  justify-content: space-evenly;
+}
 
 .foot-link-flex {
   border-bottom: 2px solid #575047;
 }
 
-.main-content__partitions__right {
-  border-left: 2px solid #575047;
-}
+/**************/

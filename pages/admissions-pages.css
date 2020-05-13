@@ -74,16 +74,47 @@ svg.foot-icons:hover {
 /***** Admissions SubPages ********/
 .main-content__title {
   text-align: center;
+  font-family: "tradegothicltstd-boldext", sans-serif !important;
+  color: #492365 !important;
 }
 .main-content__partitions__right {
   border-left: 2px solid #575047;
 }
+@media only screen and (max-width: 1023px) {
+  .main-content__partitions__right {
+    border-left: none;
+  }
+}
+.main-content__partitions__right > .main-content__item {
+  padding-top: 15px;
+}
+.main-content__item .main-content__item__title {
+  font-family: "tradegothicltcom-bd2", sans-serif !important;
+  text-transform: uppercase !important;
+  font-size: 1.3em !important;
+}
+.main-content__item__tuition-amount {
+  font-family: "tradegothicltstd-boldext", sans-serif;
+  font-size: 3.1em;
+}
 .main-content__item--underlined {
   border-bottom: 2px solid #575047;
+}
+.main-content__item__list {
+  list-style-type: none;
+}
+.main-content__item__video {
+  margin: 15px 0 10px;
 }
 .main-content__item__badges {
   display: flex;
   justify-content: space-evenly;
+}
+.main-content__item__follow {
+  display: flex;
+}
+.main-content__item__follow a:hover {
+  transform: scale(1.05);
 }
 
 .foot-link-flex {

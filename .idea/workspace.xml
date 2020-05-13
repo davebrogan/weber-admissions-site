@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1257a340-e828-4cf5-bac0-316d36fe6571" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/main-template/admissions-page-template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/admissions-pages.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/admissions-pages.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/admissions-pages.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-pages.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/main-template/admissions-page-template.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/main-template/admissions-page-template.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/main-template/admissions-page-template.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/main-template/admissions-page-template.scss" afterDir="false" />
     </list>
@@ -23,13 +24,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pages/main-template/admissions-page-template.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="349">
-                  <caret line="143" column="18" lean-forward="true" selection-end-line="198" selection-end-column="10" />
-                  <folding>
-                    <element signature="n#svg#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#1;n#section#0;n#!!top" />
-                    <element signature="n#svg#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#1;n#section#0;n#!!top" />
-                    <element signature="n#svg#0;n#a#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#section#0;n#div#1;n#section#0;n#!!top" />
-                  </folding>
+                <state relative-caret-position="345">
+                  <caret line="154" column="18" lean-forward="true" selection-start-line="154" selection-start-column="18" selection-end-line="154" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -38,27 +34,20 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pages/main-template/admissions-page-template.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="368">
-                  <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+                <state relative-caret-position="759">
+                  <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pages/admissions-pages.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1273" />
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/admissions-pages.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="751">
-                  <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+                <state relative-caret-position="1063">
+                  <caret line="121" column="1" selection-start-line="121" selection-start-column="1" selection-end-line="121" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -97,14 +86,15 @@
         <option value="$PROJECT_DIR$/modules/apply-strip/apply-strip.html" />
         <option value="$PROJECT_DIR$/pages/admissions-pages.scss" />
         <option value="$PROJECT_DIR$/css/admissions-pages.css" />
+        <option value="$PROJECT_DIR$/pages/admissions-pages.css" />
         <option value="$PROJECT_DIR$/pages/main-template/admissions-page-template.scss" />
         <option value="$PROJECT_DIR$/pages/main-template/admissions-page-template.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1709" />
-    <option name="y" value="-85" />
+    <option name="x" value="1440" />
+    <option name="y" value="-117" />
     <option name="width" value="1376" />
     <option name="height" value="1005" />
   </component>
@@ -206,18 +196,18 @@
       <workItem from="1588004671322" duration="3575000" />
       <workItem from="1588180259117" duration="1202000" />
       <workItem from="1588610205739" duration="181000" />
-      <workItem from="1589238288841" duration="7119000" />
+      <workItem from="1589238288841" duration="10807000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12077000" />
+    <option name="totallyTimeSpent" value="15765000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1441" y="-117" width="1920" height="1057" extended-state="6" />
+    <frame x="1442" y="-117" width="1910" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15548456" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15631692" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -233,7 +223,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Terminal" order="3" visible="true" weight="0.25026625" />
+      <window_info anchor="right" id="Terminal" order="3" visible="true" weight="0.251606" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,32 +283,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/admissions-pages.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="751">
-          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/main-template/admissions-page-template.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+        <state relative-caret-position="772">
+          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/admissions-pages.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1273" />
+        <state relative-caret-position="1063">
+          <caret line="121" column="1" selection-start-line="121" selection-start-column="1" selection-end-line="121" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/main-template/admissions-page-template.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/main-template/admissions-page-template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="143" column="18" lean-forward="true" selection-end-line="198" selection-end-column="10" />
-          <folding>
-            <element signature="n#svg#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#1;n#section#0;n#!!top" />
-            <element signature="n#svg#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#1;n#section#0;n#!!top" />
-            <element signature="n#svg#0;n#a#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#section#0;n#div#1;n#section#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="345">
+          <caret line="154" column="18" lean-forward="true" selection-start-line="154" selection-start-column="18" selection-end-line="154" selection-end-column="18" />
         </state>
       </provider>
     </entry>

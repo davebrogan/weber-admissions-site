@@ -8,18 +8,47 @@
 .main-content {
   &__title {
     text-align: center;
+    font-family: $font-tgbe !important;
+    color: wsu-palette($wcpurp-colors, 1) !important;
   }
   &__partitions__right {
     border-left: 2px solid wsu-palette($unigray-colors, 1);
+    @media #{$target-laptop-under} {
+      border-left: none;
+    }
+    & > .main-content__item {
+      padding-top: 15px;
+    }
   }
   &__item {
+    & &__title {
+      font-family: $font-tgb2 !important;
+      text-transform: uppercase !important;
+      font-size: 1.3em !important;
+    }
+    &__tuition-amount {
+      font-family: $font-tgbe;
+      font-size: 3.1em;
+    }
     &--underlined {
       border-bottom: 2px solid wsu-palette($unigray-colors, 1);
     }
-  }
-  &__item__badges {
-    display: flex;
-    justify-content: space-evenly;
+    &__list {
+      list-style-type: none;
+    }
+    &__video {
+      margin: 15px 0 10px;
+    }
+    &__badges {
+      display: flex;
+      justify-content: space-evenly;
+    }
+    &__follow {
+      display: flex;
+      & a:hover {
+        transform: scale(1.05);
+      }
+    }
   }
 }
 
