@@ -4,6 +4,29 @@
 @import "../../ui-utilities-master/mixins";
 
 /***** Admissions SubPages ********/
+.showcase-html-section {
+  box-shadow: none;
+}
+
+.mega-menu {
+  position: initial;
+}
+.mobile-logo {
+  position: initial;
+  margin-top: 50px;
+}
+.banner {
+  @include aspect-ratio-source(100vw, 3200, 1000);
+}
+.additional-header__banner-text {
+  margin-right: 9vw;
+  max-width: 586px;
+  width: 40%;
+  min-width: 350px;
+  @media #{$target-tablet-under} {
+    margin-right: 0;
+  }
+}
 
 .main-content {
   &__title {
@@ -42,11 +65,14 @@
     &__badges {
       display: flex;
       justify-content: space-evenly;
+      &__badge {
+        max-width: 200px;
+      }
     }
     &__follow {
       display: flex;
       & a:hover {
-        transform: scale(1.05);
+        transform: scale(1.1);
       }
     }
   }

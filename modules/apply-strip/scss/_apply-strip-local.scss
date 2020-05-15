@@ -41,6 +41,7 @@ section.foot-links {
   font-family: 'tradegothiclt', sans-serif;
   color: #492365 !important;
   transition: all 0.3s linear;
+  font-size: large;
 
 }
 
@@ -57,6 +58,7 @@ a.direc-anchor:hover {
 svg.foot-icons {
   fill: #492365;
   height: 130px;
+  max-width: 100px; //custom
 }
 
 svg.foot-icons:hover {

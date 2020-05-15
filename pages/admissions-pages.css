@@ -39,6 +39,7 @@ section.foot-links {
   font-family: "tradegothiclt", sans-serif;
   color: #492365 !important;
   transition: all 0.3s linear;
+  font-size: large;
 }
 
 a.direc-anchor:hover {
@@ -53,6 +54,7 @@ a.direc-anchor:hover {
 svg.foot-icons {
   fill: #492365;
   height: 130px;
+  max-width: 100px;
 }
 
 svg.foot-icons:hover {
@@ -72,6 +74,35 @@ svg.foot-icons:hover {
   }
 }
 /***** Admissions SubPages ********/
+.showcase-html-section {
+  box-shadow: none;
+}
+
+.mega-menu {
+  position: initial;
+}
+
+.mobile-logo {
+  position: initial;
+  margin-top: 50px;
+}
+
+.banner--aspect-3200-1000 {
+  height: calc(100vw * (1000 / 3200));
+}
+
+.additional-header__banner-text {
+  margin-right: 9vw;
+  max-width: 586px;
+  width: 40%;
+  min-width: 350px;
+}
+@media only screen and (max-width: 767px) {
+  .additional-header__banner-text {
+    margin-right: 0;
+  }
+}
+
 .main-content__title {
   text-align: center;
   font-family: "tradegothicltstd-boldext", sans-serif !important;
@@ -110,13 +141,46 @@ svg.foot-icons:hover {
   display: flex;
   justify-content: space-evenly;
 }
+.main-content__item__badges__badge {
+  max-width: 200px;
+}
 .main-content__item__follow {
   display: flex;
 }
 .main-content__item__follow a:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 .foot-link-flex {
   border-bottom: 2px solid #575047;
+}
+
+/** banner local build - MAIN TEMPLATE **/
+.additional-header__banner--page-name {
+  background-image: url("https://apps.weber.edu/wsuimages/Admissions/site-files/css/images/sample-banner-1x.jpg");
+  max-height: 700px;
+  min-height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right top;
+}
+@media only screen and (min-width: 1024px) and (min-resolution: 192dpi) {
+  .additional-header__banner--page-name {
+    background-image: url("https://apps.weber.edu/wsuimages/Admissions/site-files/css/images/sample-banner-2x.jpg");
+  }
+}
+
+/** banner local build - MAIN TEMPLATE **/
+.additional-header__banner--new-freshmen {
+  background-image: url("https://apps.weber.edu/wsuimages/Admissions/site-files/css/images/sample-banner-1x.jpg");
+  max-height: 700px;
+  min-height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right top;
+}
+@media only screen and (min-width: 1024px) and (min-resolution: 192dpi) {
+  .additional-header__banner--new-freshmen {
+    background-image: url("https://apps.weber.edu/wsuimages/Admissions/site-files/css/images/sample-banner-2x.jpg");
+  }
 }
