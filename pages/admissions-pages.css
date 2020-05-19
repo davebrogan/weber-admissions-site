@@ -1,3 +1,5 @@
+/****** Utilities *******/
+/******* Templates *******/
 /**** Apply Strip Local Build ****/
 /********************* Links ***********************/
 section.foot-links {
@@ -103,10 +105,17 @@ svg.foot-icons:hover {
   }
 }
 
+.main-content__date-table tbody {
+  border: none;
+}
 .main-content__title {
   text-align: center;
   font-family: "tradegothicltstd-boldext", sans-serif !important;
   color: #492365 !important;
+  font-size: 2rem !important;
+}
+.main-content__title span {
+  font-size: 0.8em;
 }
 .main-content__partitions__right {
   border-left: 2px solid #575047;
@@ -119,6 +128,9 @@ svg.foot-icons:hover {
 .main-content__partitions__right > .main-content__item {
   padding-top: 15px;
 }
+.main-content__item {
+  padding: 15px 0;
+}
 .main-content__item .main-content__item__title {
   font-family: "tradegothicltcom-bd2", sans-serif !important;
   text-transform: uppercase !important;
@@ -127,6 +139,7 @@ svg.foot-icons:hover {
 .main-content__item__tuition-amount {
   font-family: "tradegothicltstd-boldext", sans-serif;
   font-size: 3.1em;
+  display: block;
 }
 .main-content__item--underlined {
   border-bottom: 2px solid #575047;
@@ -155,6 +168,7 @@ svg.foot-icons:hover {
   border-bottom: 2px solid #575047;
 }
 
+/*** Banners *****/
 /** banner local build - MAIN TEMPLATE **/
 .additional-header__banner--page-name {
   background-image: url("https://apps.weber.edu/wsuimages/Admissions/site-files/css/images/sample-banner-1x.jpg");
@@ -170,17 +184,16 @@ svg.foot-icons:hover {
   }
 }
 
-/** banner local build - MAIN TEMPLATE **/
 .additional-header__banner--new-freshmen {
-  background-image: url("https://apps.weber.edu/wsuimages/Admissions/site-files/css/images/sample-banner-1x.jpg");
+  background-image: url("https://apps.weber.edu/wsuimages/Admissions/site-files/images/sample-banner-1x.jpg");
   max-height: 700px;
-  min-height: 350px;
+  min-height: 400px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right top;
 }
 @media only screen and (min-width: 1024px) and (min-resolution: 192dpi) {
   .additional-header__banner--new-freshmen {
-    background-image: url("https://apps.weber.edu/wsuimages/Admissions/site-files/css/images/sample-banner-2x.jpg");
+    background-image: url("https://apps.weber.edu/wsuimages/Admissions/site-files/images/sample-banner-2x.jpg");
   }
 }

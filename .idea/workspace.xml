@@ -3,14 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="1257a340-e828-4cf5-bac0-316d36fe6571" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/apply-strip/apply-strip.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/apply-strip/apply-strip.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/apply-strip/scss/_apply-strip-local.scss" beforeDir="false" afterPath="$PROJECT_DIR$/modules/apply-strip/scss/_apply-strip-local.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/admissions-pages.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-pages.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/admissions-pages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-pages.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/main-template/admissions-page-template.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/main-template/admissions-page-template.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/main-template/admissions-page-template.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/main-template/admissions-page-template.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/sample-page/sample-page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/sample-page/sample-page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subpages/_sample-banner.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subpages/admissions-page-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subpages/new-freshmen/_new-freshmen-banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subpages/new-freshmen/_new-freshmen-banner.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subpages/new-freshmen/new-freshmen.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subpages/new-freshmen/new-freshmen.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/subpages/new-freshmen/new-freshmen.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
-              <caret line="224" column="23" lean-forward="true" selection-start-line="224" selection-start-column="23" selection-end-line="224" selection-end-column="23" />
+            <state relative-caret-position="3220">
+              <caret line="293" column="18" lean-forward="true" selection-start-line="293" selection-start-column="18" selection-end-line="293" selection-end-column="18" />
               <folding>
                 <element signature="n#div#1;n#section#0;n#!!top" />
               </folding>
@@ -36,28 +36,51 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/admissions-pages.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/main-template/admissions-page-template.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="898">
+              <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/main-template/admissions-page-template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="252" column="34" lean-forward="true" selection-start-line="252" selection-start-column="34" selection-end-line="252" selection-end-column="34" />
+            <state relative-caret-position="454">
+              <caret line="224" column="81" selection-start-line="224" selection-start-column="54" selection-end-line="224" selection-end-column="81" />
               <folding>
+                <element signature="n#div#1;n#section#0;n#!!top" />
                 <element signature="n#div#0;n#section#1;n#!!top" />
-                <element signature="n#div#1;n#section#1;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/admissions-pages.scss">
+        <entry file="file://$PROJECT_DIR$/pages/subpages/new-freshmen/_new-freshmen-banner.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+            <state>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>button</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -72,19 +95,20 @@
         <option value="$PROJECT_DIR$/modules/apply-strip/apply-strip.html" />
         <option value="$PROJECT_DIR$/pages/main-template/_sample-banner.scss" />
         <option value="$PROJECT_DIR$/modules/apply-strip/scss/_apply-strip-local.scss" />
-        <option value="$PROJECT_DIR$/pages/main-template/admissions-page-template.scss" />
+        <option value="$PROJECT_DIR$/pages/subpages/_sample-banner.scss" />
         <option value="$PROJECT_DIR$/pages/subpages/new-freshmen/_new-freshmen-banner.scss" />
-        <option value="$PROJECT_DIR$/pages/main-template/admissions-page-template.html" />
         <option value="$PROJECT_DIR$/pages/admissions-pages.scss" />
+        <option value="$PROJECT_DIR$/pages/main-template/admissions-page-template.scss" />
+        <option value="$PROJECT_DIR$/pages/main-template/admissions-page-template.html" />
         <option value="$PROJECT_DIR$/pages/subpages/new-freshmen/new-freshmen.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1513" />
+    <option name="x" value="1440" />
     <option name="y" value="-117" />
-    <option name="width" value="1821" />
-    <option name="height" value="1047" />
+    <option name="width" value="1376" />
+    <option name="height" value="1005" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -92,7 +116,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -153,10 +176,24 @@
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="subpages" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="subpages" type="462c0819:PsiDirectoryNode" />
+              <item name="new-freshmen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="admissions-pages.scss" type="620a8d5e:NestingTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -196,18 +233,20 @@
       <workItem from="1588004671322" duration="3575000" />
       <workItem from="1588180259117" duration="1202000" />
       <workItem from="1588610205739" duration="181000" />
-      <workItem from="1589238288841" duration="21651000" />
+      <workItem from="1589238288841" duration="21693000" />
+      <workItem from="1589820445091" duration="496000" />
+      <workItem from="1589825781075" duration="5777000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26609000" />
+    <option name="totallyTimeSpent" value="32924000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1442" y="-117" width="1910" height="1057" extended-state="6" />
+    <frame x="1465" y="-84" width="1920" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16006424" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1629393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -223,7 +262,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Terminal" order="3" visible="true" weight="0.20824412" />
+      <window_info active="true" anchor="right" id="Terminal" order="3" visible="true" weight="0.2539936" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,9 +276,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/main-template/admissions-page-template.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/main-template/admissions-page-template.css" />
     <entry file="file://$PROJECT_DIR$/css/ui-global-styles.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -299,61 +336,63 @@
     <entry file="file://$PROJECT_DIR$/modules/banner/banner.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/sample-page/sample-page.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/sample-page/sample-page.scss">
+    <entry file="file://$PROJECT_DIR$/pages/sample-page/sample-page.html" />
+    <entry file="file://$PROJECT_DIR$/pages/sample-page/sample-page.scss" />
+    <entry file="file://$PROJECT_DIR$/pages/subpages/_sample-banner.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        <state relative-caret-position="322">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/subpages/admissions-page-template.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/main-template/_sample-banner.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/admissions-pages.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/subpages/new-freshmen/_new-freshmen-banner.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/main-template/admissions-page-template.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        <state relative-caret-position="898">
+          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/main-template/admissions-page-template.html">
+    <entry file="file://$PROJECT_DIR$/pages/admissions-pages.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="252" column="34" lean-forward="true" selection-start-line="252" selection-start-column="34" selection-end-line="252" selection-end-column="34" />
-          <folding>
-            <element signature="n#div#0;n#section#1;n#!!top" />
-            <element signature="n#div#1;n#section#1;n#!!top" />
-          </folding>
+        <state>
+          <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/subpages/new-freshmen/new-freshmen.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="224" column="23" lean-forward="true" selection-start-line="224" selection-start-column="23" selection-end-line="224" selection-end-column="23" />
+        <state relative-caret-position="3220">
+          <caret line="293" column="18" lean-forward="true" selection-start-line="293" selection-start-column="18" selection-end-line="293" selection-end-column="18" />
           <folding>
             <element signature="n#div#1;n#section#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/main-template/admissions-page-template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="224" column="81" selection-start-line="224" selection-start-column="54" selection-end-line="224" selection-end-column="81" />
+          <folding>
+            <element signature="n#div#1;n#section#0;n#!!top" />
+            <element signature="n#div#0;n#section#1;n#!!top" />
           </folding>
         </state>
       </provider>

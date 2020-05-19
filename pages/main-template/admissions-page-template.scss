@@ -29,10 +29,19 @@
 }
 
 .main-content {
+  &__date-table {
+    tbody {
+      border: none;
+    }
+  }
   &__title {
     text-align: center;
     font-family: $font-tgbe !important;
     color: wsu-palette($wcpurp-colors, 1) !important;
+    font-size: 2rem !important;
+    span {
+      font-size: 0.8em;
+    }
   }
   &__partitions__right {
     border-left: 2px solid wsu-palette($unigray-colors, 1);
@@ -44,6 +53,7 @@
     }
   }
   &__item {
+    padding: 15px 0;
     & &__title {
       font-family: $font-tgb2 !important;
       text-transform: uppercase !important;
@@ -52,6 +62,7 @@
     &__tuition-amount {
       font-family: $font-tgbe;
       font-size: 3.1em;
+      display: block;
     }
     &--underlined {
       border-bottom: 2px solid wsu-palette($unigray-colors, 1);

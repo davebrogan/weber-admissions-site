@@ -1,10 +1,14 @@
+/****** Utilities *******/
 @import "../ui-utilities-master/variables";
 @import "../ui-utilities-master/placeholders";
 @import "../ui-utilities-master/functions";
 @import "../ui-utilities-master/mixins";
 
+/******* Templates *******/
 @import "../modules/apply-strip/scss/apply-strip-local.scss";
 @import "main-template/admissions-page-template";
 @import "admissions-home/admissions-home";
+
+/*** Banners *****/
 @import "main-template/sample-banner.scss";
 @import "subpages/new-freshmen/new-freshmen-banner";
