@@ -19,12 +19,11 @@
   @include aspect-ratio-source(100vw, 3200, 1000);
 }
 .additional-header__banner-text {
-  margin-right: 9vw;
   max-width: 586px;
   width: 40%;
   min-width: 350px;
   @media #{$target-tablet-under} {
-    margin-right: 0;
+    margin: 0;
   }
 }
 
