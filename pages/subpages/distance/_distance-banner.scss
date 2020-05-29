@@ -1,0 +1,14 @@
+
+.additional-header__banner--distance {
+
+  @include bg-interchange-retina('https://apps.weber.edu/wsuimages/Admissions/site-files/images/distance-banner-1x.jpg');
+
+  max-height: 700px;
+  min-height: 400px;
+
+  @include bg-img-placement(right, center);
+}
+
+.additional-header__banner-text--distance {
+  margin-right: 6vw;
+}

@@ -254,3 +254,21 @@ svg.foot-icons:hover {
 .additional-header__banner-text--transfer {
   margin-left: 6vw;
 }
+
+.additional-header__banner--distance {
+  background-image: url("https://apps.weber.edu/wsuimages/Admissions/site-files/images/distance-banner-1x.jpg");
+  max-height: 700px;
+  min-height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right center;
+}
+@media only screen and (min-width: 1024px) and (min-resolution: 192dpi) {
+  .additional-header__banner--distance {
+    background-image: url("https://apps.weber.edu/wsuimages/Admissions/site-files/images/distance-banner-2x.jpg");
+  }
+}
+
+.additional-header__banner-text--distance {
+  margin-right: 6vw;
+}
