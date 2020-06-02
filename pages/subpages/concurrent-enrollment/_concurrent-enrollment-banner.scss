@@ -1,0 +1,14 @@
+/*************** Concurrent Enrollment ****************/
+.additional-header__banner--ce {
+
+  @include bg-interchange-retina('https://www.weber.edu/wsuimages/Admissions/site-files/images/concurrent-enrollment-banner-1x.jpg');
+
+  max-height: 700px;
+  min-height: 400px;
+
+  @include bg-img-placement(left, center);
+}
+
+.additional-header__banner-text--ce {
+  margin-right: 6vw;
+}

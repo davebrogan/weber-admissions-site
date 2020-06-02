@@ -1,0 +1,14 @@
+/************* Returning Students *******************/
+.additional-header__banner--returning {
+
+  @include bg-interchange-retina('https://apps.weber.edu/wsuimages/Admissions/site-files/images/returning-students-banner-1x.jpg');
+
+  max-height: 700px;
+  min-height: 400px;
+
+  @include bg-img-placement(center, center);
+}
+
+.additional-header__banner-text--returning {
+  margin-left: 6vw;
+}
