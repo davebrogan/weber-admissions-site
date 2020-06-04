@@ -354,3 +354,22 @@ svg.foot-icons:hover {
 .additional-header__banner-text--returning {
   margin-left: 6vw;
 }
+
+/************* Returning Students *******************/
+.additional-header__banner--non-degree {
+  background-image: url("https://www.weber.edu/wsuimages/Admissions/site-files/images/non-degree-banner-1x.jpg");
+  max-height: 700px;
+  min-height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+@media only screen and (min-width: 1024px) and (min-resolution: 192dpi) {
+  .additional-header__banner--non-degree {
+    background-image: url("https://www.weber.edu/wsuimages/Admissions/site-files/images/non-degree-banner-2x.jpg");
+  }
+}
+
+.additional-header__banner-text--non-degree {
+  margin-right: 6vw;
+}
