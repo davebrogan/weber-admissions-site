@@ -1,0 +1,14 @@
+/************* Counselors *******************/
+.additional-header__banner--counselors {
+
+  @include bg-interchange-retina('https://www.weber.edu/wsuimages/Admissions/site-files/images/counselors-banner-1x.jpg');
+
+  max-height: 700px;
+  min-height: 400px;
+
+  @include bg-img-placement(center, center);
+}
+
+.additional-header__banner-text--counselors {
+  margin-right: 6vw;
+}

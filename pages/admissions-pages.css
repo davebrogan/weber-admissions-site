@@ -355,7 +355,7 @@ svg.foot-icons:hover {
   margin-left: 6vw;
 }
 
-/************* Returning Students *******************/
+/************* Non-degree Seeking *******************/
 .additional-header__banner--non-degree {
   background-image: url("https://www.weber.edu/wsuimages/Admissions/site-files/images/non-degree-banner-1x.jpg");
   max-height: 700px;
@@ -371,5 +371,43 @@ svg.foot-icons:hover {
 }
 
 .additional-header__banner-text--non-degree {
+  margin-right: 6vw;
+}
+
+/************* Counselors *******************/
+.additional-header__banner--counselors {
+  background-image: url("https://www.weber.edu/wsuimages/Admissions/site-files/images/counselors-banner-1x.jpg");
+  max-height: 700px;
+  min-height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+@media only screen and (min-width: 1024px) and (min-resolution: 192dpi) {
+  .additional-header__banner--counselors {
+    background-image: url("https://www.weber.edu/wsuimages/Admissions/site-files/images/counselors-banner-2x.jpg");
+  }
+}
+
+.additional-header__banner-text--counselors {
+  margin-right: 6vw;
+}
+
+/************* Parents *******************/
+.additional-header__banner--parents {
+  background-image: url("https://www.weber.edu/wsuimages/Admissions/site-files/images/parents-banner-1x.jpg");
+  max-height: 700px;
+  min-height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+@media only screen and (min-width: 1024px) and (min-resolution: 192dpi) {
+  .additional-header__banner--parents {
+    background-image: url("https://www.weber.edu/wsuimages/Admissions/site-files/images/parents-banner-2x.jpg");
+  }
+}
+
+.additional-header__banner-text--parents {
   margin-right: 6vw;
 }
