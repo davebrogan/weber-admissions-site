@@ -7,7 +7,6 @@
 .showcase-html-section {
   box-shadow: none;
 }
-
 .mega-menu {
   position: initial;
 }
@@ -26,7 +25,6 @@
     margin: 0;
   }
 }
-
 .main-content {
   &__date-table {
     tbody {
@@ -82,8 +80,12 @@
     }
     &__follow {
       display: flex;
-      & a:hover {
-        transform: scale(1.1);
+      &__item {
+        flex: 1 1 0;
+        transition: all 0.3s !important;
+        &:hover {
+          transform: scale(1.1) !important;
+        }
       }
     }
   }

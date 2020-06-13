@@ -18,6 +18,7 @@ section.foot-links {
   align-items: center;
   -ms-flex-pack: center;
   width: 100%;
+  margin-bottom: 40px;
 }
 
 .direc-link {
@@ -31,6 +32,24 @@ section.foot-links {
   margin-bottom: 0px;
   border-radius: 50%;
   transition: all 0.3s linear;
+  display: flex;
+  flex-direction: column;
+  &__link {
+    text-decoration: none !important;
+  }
+  &__text {
+    display: block;
+    font-family: 'tradegothiclt', sans-serif;
+    color: #492365 !important;
+    transition: all 0.3s linear;
+    font-size: large;
+    &:hover {
+      color: #8446AC !important;
+      @media screen and (prefers-reduced-motion: reduce) {
+        transform: none;
+      }
+    }
+  }
 }
 
 .direc-btn:hover {

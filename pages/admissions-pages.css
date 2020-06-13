@@ -18,6 +18,7 @@ section.foot-links {
   align-items: center;
   -ms-flex-pack: center;
   width: 100%;
+  margin-bottom: 40px;
 }
 
 .direc-link {
@@ -31,6 +32,26 @@ section.foot-links {
   margin-bottom: 0px;
   border-radius: 50%;
   transition: all 0.3s linear;
+  display: flex;
+  flex-direction: column;
+}
+.direc-btn__link {
+  text-decoration: none !important;
+}
+.direc-btn__text {
+  display: block;
+  font-family: "tradegothiclt", sans-serif;
+  color: #492365 !important;
+  transition: all 0.3s linear;
+  font-size: large;
+}
+.direc-btn__text:hover {
+  color: #8446AC !important;
+}
+@media screen and (prefers-reduced-motion: reduce) {
+  .direc-btn__text:hover {
+    transform: none;
+  }
 }
 
 .direc-btn:hover {
@@ -160,8 +181,12 @@ svg.foot-icons:hover {
 .main-content__item__follow {
   display: flex;
 }
-.main-content__item__follow a:hover {
-  transform: scale(1.1);
+.main-content__item__follow__item {
+  flex: 1 1 0;
+  transition: all 0.3s !important;
+}
+.main-content__item__follow__item:hover {
+  transform: scale(1.1) !important;
 }
 
 .foot-link-flex {
