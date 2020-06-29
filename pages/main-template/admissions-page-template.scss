@@ -36,9 +36,9 @@
     font-family: $font-tgbe !important;
     color: wsu-palette($wcpurp-colors, 1) !important;
     font-size: 2rem !important;
-    margin-bottom: 30px;
+    margin-bottom: 30px !important;
     span {
-      font-size: 0.8em;
+      //font-size: 0.8em;
     }
   }
   &__partitions__right {
@@ -89,6 +89,10 @@
       }
     }
   }
+}
+
+h2.main-content__title {
+  margin-bottom: 30px !important;
 }
 
 .foot-link-flex {
