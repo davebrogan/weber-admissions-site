@@ -22,7 +22,10 @@ h2.main-content__home-title span {
   font-size: 0.8em !important;
 }
 
-
+@font-face {
+  font-family: "just-lovely";
+  src: url("https://www.weber.edu/wsuimages/annualreport/fonts/just-lovely.ttf");
+}
 
 $border-thin: 1px solid wsu-palette($wcpurp-colors, 2);
 $border-medium: 3px solid wsu-palette($wcpurp-colors, 2);

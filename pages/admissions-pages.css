@@ -110,13 +110,17 @@ svg.foot-icons:hover {
   margin-top: 50px;
 }
 
+.banner {
+  max-height: 450px;
+  min-height: 350px;
+}
 .banner--aspect-3200-1000 {
   height: calc(100vw * (1000 / 3200));
 }
 
 .additional-header__banner-text {
-  max-width: 586px;
-  width: 40%;
+  max-width: 700px;
+  width: 90%;
   min-width: 350px;
 }
 @media only screen and (max-width: 767px) {
@@ -195,10 +199,12 @@ h2.main-content__title {
 }
 
 /************* Admissions Home *******************/
+a:visited {
+  color: inherit;
+}
+
 .additional-header__banner--admissions-home {
   background-image: url("https://apps.weber.edu/wsuimages/Admissions/site-files/images/admissions-home-banner-1x.jpg");
-  max-height: 700px;
-  min-height: 400px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right top;
@@ -209,10 +215,6 @@ h2.main-content__title {
   }
 }
 
-.additional-header__banner-text--admissions-home {
-  margin-left: 9vw;
-}
-
 .apply-strip--home .foot-links {
   padding-top: 0;
 }
@@ -221,12 +223,15 @@ h2.main-content__home-title span {
   font-size: 0.8em !important;
 }
 
+@font-face {
+  font-family: "just-lovely";
+  src: url("https://www.weber.edu/wsuimages/Admissions/site-files/fonts/just-lovely.ttf");
+}
 .home-page-nav__link-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 220px);
+  grid-template-columns: repeat(auto-fit, 293px);
   grid-gap: 15px;
   justify-content: center;
-  max-width: 940px;
   margin: 0 auto;
   list-style-type: none !important;
 }
@@ -238,7 +243,6 @@ h2.main-content__home-title span {
   align-items: center;
   justify-content: center;
   height: 145px;
-  border-radius: 10px;
   padding: 1.8em;
   text-decoration: none !important;
   text-align: center;
@@ -266,80 +270,12 @@ h2.main-content__home-title span {
   transform: scale(1.03);
 }
 
-/*.home-page-nav {
-  &__link-grid.--no-shadow {
-    & a.home-page-nav__link {
-      //box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
-      box-shadow: none;
-      &:hover {
-        background-color: wsu-palette($hlcolor-colors, 1);
-        color: #FFF;
-        transform: scale(1.03);
-      }
-    }
-  }
-}*/
 .home-page-nav__link-grid.--no-shadow a.home-page-nav__link {
   box-shadow: none;
 }
 .home-page-nav__link-grid.--no-shadow a.home-page-nav__link:hover {
   background-color: #8446ac;
   color: #FFF;
-  transform: scale(1.05);
-}
-
-.home-page-nav__link-grid.--border > .home-page-nav__link {
-  box-shadow: none;
-  border: 1px solid #a491b2;
-}
-.home-page-nav__link-grid.--border > .home-page-nav__link:hover {
-  background-color: #8446ac;
-  color: #FFF;
-  transform: scale(1.03);
-}
-
-.home-page-nav__link-grid.--border-inset-shadow > .home-page-nav__link {
-  box-shadow: inset 0 0 15px 0 rgba(131, 129, 133, 0.4);
-  border: 1px solid #a491b2;
-}
-.home-page-nav__link-grid.--border-inset-shadow > .home-page-nav__link:hover {
-  background-color: #8446ac;
-  color: #FFF;
-  transform: scale(1.03);
-}
-
-.home-page-nav__link-grid.--gradient1 > .home-page-nav__link {
-  color: #FFF;
-  background-image: linear-gradient(to right, #c1a2d5 -22%, #8446ac 40%, #c1a2d5 129%);
-  background-size: 200% auto;
-  height: 145px;
-}
-.home-page-nav__link-grid.--gradient1 > .home-page-nav__link:hover {
-  background-position: right center;
-  color: #FFF;
-  transform: scale(1.03);
-}
-
-.home-page-nav__link-grid.--gradient2 > .home-page-nav__link {
-  color: #FFF;
-  background-image: linear-gradient(to bottom, #c1a2d5 -22%, #8446ac 40%, #c1a2d5 129%);
-  background-size: auto 200%;
-  height: 145px;
-}
-.home-page-nav__link-grid.--gradient2 > .home-page-nav__link:hover {
-  background-position: center 75%;
-  color: #FFF;
-  transform: scale(1.03);
-}
-
-.home-page-nav__link-grid.--heavy-border > .home-page-nav__link {
-  box-shadow: none;
-  color: #492365;
-}
-.home-page-nav__link-grid.--heavy-border > .home-page-nav__link:hover {
-  background-color: #ece9ef;
-  border: 5px solid #492365;
-  box-shadow: inset 0 0 10px 5px rgba(131, 129, 133, 0.4);
   transform: scale(1.05);
 }
 
@@ -358,15 +294,31 @@ h2.main-content__home-title span {
   justify-content: space-evenly;
   text-align: center;
   list-style-type: none !important;
+  margin: 0;
+}
+@media only screen and (max-width: 768px) {
+  .main-content__cta__list {
+    display: block;
+    flex-direction: column;
+  }
 }
 .main-content__cta__list__link {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   text-decoration: none !important;
-  color: #FFF !important;
-  padding: 2em;
+  color: #575047;
+  padding: 1em 3em;
   font-size: 1.5em;
-  transition: transform 0.5s;
+  font-family: "tradegothicltstd-boldext", sans-serif;
+  transition: all 0.5s !important;
+  height: 100%;
+  line-height: 1em;
+}
+.main-content__cta__list__link span {
+  font-family: "just-lovely", cursive;
+  font-size: 2.5em;
+  line-height: 1em;
 }
 .main-content__cta__list__link:hover {
   background-color: #8446ac;
@@ -377,14 +329,20 @@ h2.main-content__home-title span {
   width: 33.33%;
   margin: 0 1em;
 }
+@media only screen and (max-width: 768px) {
+  .main-content__cta__list-item {
+    width: initial;
+    margin: 0 auto 30px;
+  }
+}
 .main-content__cta__list-item--counselor {
-  background-color: #346094;
+  background-color: #92e4e9;
 }
 .main-content__cta__list-item--summer {
-  background-color: #691940;
+  background-color: #f6dfd0;
 }
 .main-content__cta__list-item--applied {
-  background-color: #005c49;
+  background-color: #d1eaae;
 }
 
 /*** Banners *****/
@@ -482,8 +440,7 @@ h2.main-content__home-title span {
 /******************* Distance Learning ********************/
 .additional-header__banner--distance {
   background-image: url("https://apps.weber.edu/wsuimages/Admissions/site-files/images/distance-banner-1x.jpg");
-  max-height: 700px;
-  min-height: 400px;
+  min-height: 475px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right center;
@@ -495,14 +452,19 @@ h2.main-content__home-title span {
 }
 
 .additional-header__banner-text--distance {
-  margin-right: 6vw;
+  margin-right: 1vw;
+  max-width: 650px;
+}
+@media only screen and (max-width: 768px) {
+  .additional-header__banner-text--distance {
+    margin-right: 0;
+  }
 }
 
 /*************** Concurrent Enrollment ****************/
 .additional-header__banner--ce {
   background-image: url("https://www.weber.edu/wsuimages/Admissions/site-files/images/concurrent-enrollment-banner-1x.jpg");
-  max-height: 700px;
-  min-height: 400px;
+  min-height: 475px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left center;
@@ -514,7 +476,13 @@ h2.main-content__home-title span {
 }
 
 .additional-header__banner-text--ce {
-  margin-right: 6vw;
+  margin-right: 1vw;
+  max-width: 650px;
+}
+@media only screen and (max-width: 768px) {
+  .additional-header__banner-text--ce {
+    margin-right: 0;
+  }
 }
 
 /*************** Early College ****************/
@@ -596,11 +564,9 @@ h2.main-content__home-title span {
 /************* Counselors *******************/
 .additional-header__banner--counselors {
   background-image: url("https://www.weber.edu/wsuimages/Admissions/site-files/images/counselors-banner-1x.jpg");
-  max-height: 700px;
-  min-height: 400px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center top;
 }
 @media only screen and (min-width: 1024px) and (min-resolution: 192dpi) {
   .additional-header__banner--counselors {
@@ -609,7 +575,12 @@ h2.main-content__home-title span {
 }
 
 .additional-header__banner-text--counselors {
-  margin-right: 6vw;
+  margin-right: 1vw;
+}
+@media only screen and (max-width: 768px) {
+  .additional-header__banner-text--counselors {
+    margin-right: 0;
+  }
 }
 
 /************* Parents *******************/

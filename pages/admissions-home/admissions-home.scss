@@ -1,28 +1,24 @@
 /************* Admissions Home *******************/
+a:visited {
+  color: inherit;
+}
+
 .additional-header__banner--admissions-home {
-
   @include bg-interchange-retina('https://apps.weber.edu/wsuimages/Admissions/site-files/images/admissions-home-banner-1x.jpg');
-
-  max-height: 700px;
-  min-height: 400px;
-
+  //max-height: 700px;
+  //min-height: 400px;
   @include bg-img-placement(right, top);
 }
 
-
 .additional-header__banner-text--admissions-home {
-  margin-left: 9vw;
+  //margin-left: 9vw;
 }
-
 .apply-strip--home .foot-links {
   padding-top: 0;
 }
-
 h2.main-content__home-title span {
   font-size: 0.8em !important;
 }
-
-
 
 $border-thin: 1px solid wsu-palette($wcpurp-colors, 2);
 $border-medium: 3px solid wsu-palette($wcpurp-colors, 2);
@@ -31,23 +27,27 @@ $border-thick: 5px solid wsu-palette($wcpurp-colors, 1);
 $height-box: 180px;
 $height-button: 145px;
 
+@font-face {
+  font-family: "just-lovely";
+  src: url("https://www.weber.edu/wsuimages/Admissions/site-files/fonts/just-lovely.ttf");
+}
+
 .home-page-nav {
   &__link-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 220px);
+    grid-template-columns: repeat(auto-fit, 293px);
     grid-gap: 15px;
     justify-content: center;
-    max-width: 940px;
+    //max-width: 940px;
     margin: 0 auto;
     list-style-type: none !important;
-
   }
   &__link {
     display: flex;
     background-color: wsu-palette($wcpurp-colors, 4);
     @include flex-column(center, center);
     height: $height-button;
-    border-radius: 10px;
+    //border-radius: 10px;
     padding: 1.8em;
     text-decoration: none !important;
     text-align: center;
@@ -80,20 +80,6 @@ $height-button: 145px;
    }
  }
 
-/*.home-page-nav {
-  &__link-grid.--no-shadow {
-    & a.home-page-nav__link {
-      //box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
-      box-shadow: none;
-      &:hover {
-        background-color: wsu-palette($hlcolor-colors, 1);
-        color: #FFF;
-        transform: scale(1.03);
-      }
-    }
-  }
-}*/
-
 .home-page-nav {
   &__link-grid.--no-shadow {
     & a.home-page-nav__link {
@@ -101,102 +87,6 @@ $height-button: 145px;
       &:hover {
         background-color: wsu-palette($hlcolor-colors, 1);
         color: #FFF;
-        transform: scale(1.05);
-      }
-    }
-  }
-}
-
-.home-page-nav {
-   &__link-grid.--border {
-     & > .home-page-nav__link {
-       //box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
-       box-shadow: none;
-       border: $border-thin;
-       &:hover {
-         background-color: wsu-palette($hlcolor-colors, 1);
-         color: #FFF;
-         transform: scale(1.03);
-       }
-     }
-   }
- }
-
-.home-page-nav {
-   &__link-grid.--border-inset-shadow {
-     & > .home-page-nav__link {
-       //box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
-       box-shadow: inset 0 0 15px 0 rgba(131,129,133,0.4);
-       border: $border-thin;
-       &:hover {
-         background-color: wsu-palette($hlcolor-colors, 1);
-         color: #FFF;
-         transform: scale(1.03);
-       }
-     }
-   }
- }
-
-.home-page-nav {
-  &__link-grid.--gradient1 {
-    & > .home-page-nav__link {
-      //box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
-      //box-shadow: inset 0 0 15px 0 rgba(131,129,133,0.4);
-      //border: 1px solid rgb(164, 145, 178);
-      color: #FFF;
-      background-image: linear-gradient(
-                      to right,
-                      wsu-palette($hlcolor-colors, 2) -22%,
-                      wsu-palette($hlcolor-colors, 1) 40%,
-                      wsu-palette($hlcolor-colors, 2) 129%);
-      background-size: 200% auto;
-      height: 145px;
-      &:hover {
-        background-position: right center;
-        //background-color: wsu-palette($hlcolor-colors, 1);
-        color: #FFF;
-        transform: scale(1.03);
-      }
-    }
-  }
-}
-
-.home-page-nav {
-  &__link-grid.--gradient2 {
-    & > .home-page-nav__link {
-      //box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
-      //box-shadow: inset 0 0 15px 0 rgba(131,129,133,0.4);
-      //border: 1px solid rgb(164, 145, 178);
-      color: #FFF;
-      background-image: linear-gradient(
-                      to bottom,
-                      wsu-palette($hlcolor-colors, 2) -22%,
-                      wsu-palette($hlcolor-colors, 1) 40%,
-                      wsu-palette($hlcolor-colors, 2) 129%);
-      background-size: auto 200%;
-      height: 145px;
-      &:hover {
-        background-position: center 75%;
-        //background-color: wsu-palette($hlcolor-colors, 1);
-        //background-image: linear-gradient(to top, #c1a2d5 0%, #8446ac 100%);
-        color: #FFF;
-        transform: scale(1.03);
-      }
-    }
-  }
-}
-
-.home-page-nav {
-  &__link-grid.--heavy-border {
-    & > .home-page-nav__link {
-      //box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
-      box-shadow: none;
-      //border: 1px solid rgb(164, 145, 178);
-      color: wsu-palette($wcpurp-colors, 1);
-      &:hover {
-        background-color: wsu-palette($wcpurp-colors, 4);
-        border: $border-thick;
-        box-shadow: inset 0 0 10px 5px rgba(131, 129, 133, 0.4);
         transform: scale(1.05);
       }
     }
@@ -206,24 +96,14 @@ $height-button: 145px;
 .home-page-nav {
   &__link-grid.--subtle-gradient {
     & > .home-page-nav__link {
-      //box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
-      //box-shadow: inset 0 0 15px 0 rgba(131,129,133,0.4);
-      //border: 1px solid rgb(164, 145, 178);
       color: #FFF;
       background-image: linear-gradient(
                       to right bottom,
                       wsu-palette($hlcolor-colors, 1) 47%,
                       #840a94 100%);
-      //background-size: 200% auto;
       height: 145px;
       &:hover {
-        //background-image: linear-gradient(
-                        //to right bottom,
-                        //wsu-palette($hlcolor-colors, 1) 0%,
-                        //wsu-palette($hlcolor-colors, 1) 100%);
         background-size: 283% 283%;
-        //background-color: wsu-palette($hlcolor-colors, 1);
-        //color: #FFF;
         transform: scale(1.05);
       }
     }
@@ -232,21 +112,35 @@ $height-button: 145px;
 
 .main-content__cta {
   &__wrap {
-
   }
   &__list {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
     list-style-type: none !important;
+    margin: 0;
+    @media #{$target-tablet} {
+      display: block;
+      flex-direction: column;
+    }
     &__link {
       display: flex;
       flex-direction: column;
+      justify-content: center;
       text-decoration: none !important;
-      color: #FFF !important;
-      padding: 2em;
+      //color: #FFF !important;
+      color: wsu-palette($unigray-colors, 1);
+      padding: 1em 3em;
       font-size: 1.5em;
-      transition: transform 0.5s;
+      font-family: $font-tgbe;
+      transition: all 0.5s !important;
+      height: 100%;
+      line-height: 1em;
+      & span {
+        font-family: "just-lovely", cursive;
+        font-size: 2.5em;
+        line-height: 1em;
+      }
       &:hover {
         background-color: wsu-palette($hlcolor-colors, 1);
         color: #FFF;
@@ -257,15 +151,21 @@ $height-button: 145px;
   &__list-item {
     width: 33.33%;
     margin: 0 1em;
-
+    @media #{$target-tablet} {
+      width: initial;
+      margin: 0 auto 30px;
+    }
     &--counselor {
-      background-color: wsu-palette($wsublue-colors, 1);
+      //background-color: wsu-palette($wsublue-colors, 1);
+      background-color: wsu-palette($lind-colors, 2);
     }
     &--summer {
-      background-color: wsu-palette($wsumauve-colors, 1);
+      //background-color: wsu-palette($wsumauve-colors, 1);
+      background-color: wsu-palette($east-colors, 3);
     }
     &--applied {
-      background-color: wsu-palette($wsugreen-colors, 1);
+      //background-color: wsu-palette($wsugreen-colors, 1);
+      background-color: wsu-palette($moyes-colors, 2);
     }
   }
 }
