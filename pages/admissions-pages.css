@@ -121,7 +121,7 @@ svg.foot-icons:hover {
 .additional-header__banner-text {
   max-width: 700px;
   width: 90%;
-  min-width: 350px;
+  min-width: 300px;
 }
 @media only screen and (max-width: 767px) {
   .additional-header__banner-text {
@@ -196,6 +196,39 @@ h2.main-content__title {
 
 .foot-link-flex {
   border-bottom: 2px solid #575047;
+}
+
+/************ Admissions Counselors ***************/
+.card-admissions-counselor {
+  padding-bottom: 6%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+}
+.card-admissions-counselor__header-image__image {
+  width: 100%;
+}
+.card-admissions-counselor__title {
+  padding: 10px;
+  margin: 0;
+  font-size: 1.7em !important;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 100%;
+  font-family: "tradegothiclt-condeighteen", sans-serif !important;
+}
+.card-admissions-counselor__content {
+  padding: 0 1.5em;
+  text-align: center;
+}
+.card-admissions-counselor__content__contact {
+  display: flex;
+  flex-direction: column;
+}
+.card-admissions-counselor__content__territories {
+  text-align: initial;
 }
 
 /************* Admissions Home *******************/
@@ -364,11 +397,10 @@ h2.main-content__home-title span {
 /************* New Freshmen *******************/
 .additional-header__banner--new-freshmen {
   background-image: url("https://apps.weber.edu/wsuimages/Admissions/site-files/images/sample-banner-1x.jpg");
-  max-height: 700px;
-  min-height: 400px;
+  min-height: 475px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: right top;
+  background-position: 20% top;
 }
 @media only screen and (min-width: 1024px) and (min-resolution: 192dpi) {
   .additional-header__banner--new-freshmen {
@@ -377,7 +409,13 @@ h2.main-content__home-title span {
 }
 
 .additional-header__banner-text--new-freshmen {
-  margin-right: 9vw;
+  margin-right: 1vw;
+  max-width: 650px;
+}
+@media only screen and (max-width: 768px) {
+  .additional-header__banner-text--new-freshmen {
+    margin-right: 0;
+  }
 }
 
 /****************** Freshmen Out-of-State *******************/
@@ -386,8 +424,7 @@ h2.main-content__home-title span {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  max-height: 700px;
-  min-height: 400px;
+  min-height: 475px;
 }
 @media only screen and (min-width: 1024px) and (min-resolution: 192dpi) {
   .additional-header__banner--freshmen-out-state {
@@ -396,7 +433,13 @@ h2.main-content__home-title span {
 }
 
 .additional-header__banner-text--freshmen-out-state {
-  margin-left: 6vw;
+  margin-left: 1vw;
+  max-width: 650px;
+}
+@media only screen and (max-width: 768px) {
+  .additional-header__banner-text--freshmen-out-state {
+    margin-right: 0;
+  }
 }
 
 /************* Transfer Students *******************/
@@ -421,8 +464,6 @@ h2.main-content__home-title span {
 /***************** International Students *******************/
 .additional-header__banner--international {
   background-image: url("https://apps.weber.edu/wsuimages/Admissions/site-files/images/international-banner-1x.jpg");
-  max-height: 700px;
-  min-height: 400px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left center;
@@ -433,8 +474,14 @@ h2.main-content__home-title span {
   }
 }
 
-.additional-header__banner-text--transfer {
-  margin-left: 6vw;
+.additional-header__banner-text--international {
+  margin-left: 1vw;
+  max-width: 650px;
+}
+@media only screen and (max-width: 768px) {
+  .additional-header__banner-text--international {
+    margin-right: 0;
+  }
 }
 
 /******************* Distance Learning ********************/
@@ -488,11 +535,10 @@ h2.main-content__home-title span {
 /*************** Early College ****************/
 .additional-header__banner--early-college {
   background-image: url("https://www.weber.edu/wsuimages/Admissions/site-files/images/early-college-banner-1x.jpg");
-  max-height: 700px;
-  min-height: 400px;
+  min-height: 475px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: left center;
+  background-position: left top;
 }
 @media only screen and (min-width: 1024px) and (min-resolution: 192dpi) {
   .additional-header__banner--early-college {
@@ -501,14 +547,18 @@ h2.main-content__home-title span {
 }
 
 .additional-header__banner-text--early-college {
-  margin-right: 6vw;
+  margin-right: 1vw;
+  max-width: 650px;
+}
+@media only screen and (max-width: 768px) {
+  .additional-header__banner-text--early-college {
+    margin-right: 0;
+  }
 }
 
 /*************** Graduate Students ****************/
 .additional-header__banner--graduate-students {
   background-image: url("https://www.weber.edu/wsuimages/Admissions/site-files/images/graduate-students-banner-1x.jpg");
-  max-height: 700px;
-  min-height: 400px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left center;
@@ -520,17 +570,22 @@ h2.main-content__home-title span {
 }
 
 .additional-header__banner-text--graduate-students {
-  margin-right: 6vw;
+  margin-right: 1vw;
+  max-width: 650px;
+}
+@media only screen and (max-width: 768px) {
+  .additional-header__banner-text--graduate-students {
+    margin-right: 0;
+  }
 }
 
 /************* Returning Students *******************/
 .additional-header__banner--returning {
   background-image: url("https://apps.weber.edu/wsuimages/Admissions/site-files/images/returning-students-banner-1x.jpg");
-  max-height: 700px;
-  min-height: 400px;
+  min-height: 475px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center top;
 }
 @media only screen and (min-width: 1024px) and (min-resolution: 192dpi) {
   .additional-header__banner--returning {
@@ -539,14 +594,19 @@ h2.main-content__home-title span {
 }
 
 .additional-header__banner-text--returning {
-  margin-left: 6vw;
+  margin-left: 1vw;
+  max-width: 650px;
+}
+@media only screen and (max-width: 768px) {
+  .additional-header__banner-text--returning {
+    margin-right: 0;
+  }
 }
 
 /************* Non-degree Seeking *******************/
 .additional-header__banner--non-degree {
   background-image: url("https://www.weber.edu/wsuimages/Admissions/site-files/images/non-degree-banner-1x.jpg");
-  max-height: 700px;
-  min-height: 400px;
+  min-height: 475px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -558,7 +618,13 @@ h2.main-content__home-title span {
 }
 
 .additional-header__banner-text--non-degree {
-  margin-right: 6vw;
+  margin-right: 1vw;
+  max-width: 650px;
+}
+@media only screen and (max-width: 768px) {
+  .additional-header__banner-text--non-degree {
+    margin-right: 0;
+  }
 }
 
 /************* Counselors *******************/
@@ -600,4 +666,28 @@ h2.main-content__home-title span {
 
 .additional-header__banner-text--parents {
   margin-right: 6vw;
+}
+
+/************* Visit Page (Get Into Weber) *******************/
+.additional-header__banner--visit {
+  background-image: url("https://www.weber.edu/wsuimages/Admissions/site-files/images/admissions-home-banner-1x.jpg");
+  min-height: 475px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+@media only screen and (min-width: 1024px) and (min-resolution: 192dpi) {
+  .additional-header__banner--visit {
+    background-image: url("https://www.weber.edu/wsuimages/Admissions/site-files/images/admissions-home-banner-2x.jpg");
+  }
+}
+
+.additional-header__banner-text--visit {
+  margin-right: 1vw;
+  max-width: 650px;
+}
+@media only screen and (max-width: 768px) {
+  .additional-header__banner-text--visit {
+    margin-right: 0;
+  }
 }

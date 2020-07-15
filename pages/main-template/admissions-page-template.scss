@@ -22,7 +22,7 @@
 .additional-header__banner-text {
   max-width: 700px;
   width: 90%;
-  min-width: 350px;
+  min-width: 300px;
   @media #{$target-tablet-under} {
     margin: 0;
   }
@@ -99,4 +99,39 @@ h2.main-content__title {
 
 .foot-link-flex {
   border-bottom: 2px solid wsu-palette($unigray-colors, 1);
+}
+
+/************ Admissions Counselors ***************/
+.card-admissions-counselor {
+  padding-bottom: 6%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  &__header-image {
+    &__image {
+      width: 100%
+    }
+  }
+  &__title {
+    padding: 10px;
+    margin: 0;
+    font-size: 1.7em !important;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+    font-family: $font-tgc18 !important;
+  }
+  &__content {
+    padding: 0 1.5em;
+    text-align: center;
+    &__contact {
+      display: flex;
+      flex-direction: column;
+    }
+    &__territories {
+      text-align: initial;
+    }
+  }
 }

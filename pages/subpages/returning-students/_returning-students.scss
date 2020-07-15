@@ -3,12 +3,15 @@
 
   @include bg-interchange-retina('https://apps.weber.edu/wsuimages/Admissions/site-files/images/returning-students-banner-1x.jpg');
 
-  max-height: 700px;
-  min-height: 400px;
+ // max-height: 700px;
+  min-height: 475px;
 
-  @include bg-img-placement(center, center);
+  @include bg-img-placement(center, top);
 }
 
 .additional-header__banner-text--returning {
-  margin-left: 6vw;
-}
+  margin-left: 1vw;
+  max-width: 650px;
+  @media #{$target-tablet} {
+    margin-right: 0;
+  }}

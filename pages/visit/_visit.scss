@@ -1,0 +1,18 @@
+/************* Visit Page (Get Into Weber) *******************/
+.additional-header__banner--visit {
+
+  @include bg-interchange-retina('https://www.weber.edu/wsuimages/Admissions/site-files/images/admissions-home-banner-1x.jpg');
+
+  //max-height: 700px;
+  min-height: 475px;
+
+  @include bg-img-placement(center, center);
+}
+
+.additional-header__banner-text--visit {
+  margin-right: 1vw;
+  max-width: 650px;
+  @media #{$target-tablet} {
+    margin-right: 0;
+  }
+}

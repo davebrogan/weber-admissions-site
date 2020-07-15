@@ -3,12 +3,16 @@
 
   @include bg-interchange-retina('https://www.weber.edu/wsuimages/Admissions/site-files/images/early-college-banner-1x.jpg');
 
-  max-height: 700px;
-  min-height: 400px;
+  //max-height: 700px;
+  min-height: 475px;
 
-  @include bg-img-placement(left, center);
+  @include bg-img-placement(left, top);
 }
 
 .additional-header__banner-text--early-college {
-  margin-right: 6vw;
+  margin-right: 1vw;
+  max-width: 650px;
+  @media #{$target-tablet} {
+    margin-right: 0;
+  }
 }

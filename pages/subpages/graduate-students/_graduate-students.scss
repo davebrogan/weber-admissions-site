@@ -3,12 +3,16 @@
 
   @include bg-interchange-retina('https://www.weber.edu/wsuimages/Admissions/site-files/images/graduate-students-banner-1x.jpg');
 
-  max-height: 700px;
-  min-height: 400px;
+  //max-height: 700px;
+  //min-height: 475px;
 
   @include bg-img-placement(left, center);
 }
 
 .additional-header__banner-text--graduate-students {
-  margin-right: 6vw;
+  margin-right: 1vw;
+  max-width: 650px;
+  @media #{$target-tablet} {
+    margin-right: 0;
+  }
 }

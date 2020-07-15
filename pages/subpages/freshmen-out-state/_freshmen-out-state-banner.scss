@@ -4,11 +4,15 @@
   @include bg-interchange-retina('https://apps.weber.edu/wsuimages/Admissions/site-files/images/out-of-state-new-banner-1x.jpg');
   @include bg-img-placement(center, center);
 
-  max-height: 700px;
-  min-height: 400px;
+  //max-height: 700px;
+  min-height: 475px;
 }
 
 .additional-header__banner-text--freshmen-out-state {
-  margin-left: 6vw;
+  margin-left: 1vw;
+  max-width: 650px;
+  @media #{$target-tablet} {
+    margin-right: 0;
+  }
 }
 
