@@ -691,3 +691,9 @@ h2.main-content__home-title span {
     margin-right: 0;
   }
 }
+
+.main-content__item__title.visit-title {
+  font-family: "tradegothicltstd-boldext", sans-serif !important;
+  font-size: 1.5em !important;
+  color: #492365 !important;
+}
