@@ -394,6 +394,10 @@ h2.main-content__home-title span {
   }
 }
 
+.cls-1 {
+  fill: #FFF;
+}
+
 /************* New Freshmen *******************/
 .additional-header__banner--new-freshmen {
   background-image: url("https://apps.weber.edu/wsuimages/Admissions/site-files/images/sample-banner-1x.jpg");
@@ -455,10 +459,6 @@ h2.main-content__home-title span {
   .additional-header__banner--transfer {
     background-image: url("https://apps.weber.edu/wsuimages/Admissions/site-files/images/transfer-background-2x.jpg");
   }
-}
-
-.additional-header__banner-text--transfer {
-  margin-left: 6vw;
 }
 
 /***************** International Students *******************/
