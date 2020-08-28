@@ -198,39 +198,6 @@ h2.main-content__title {
   border-bottom: 2px solid #575047;
 }
 
-/************ Admissions Counselors ***************/
-.card-admissions-counselor {
-  padding-bottom: 6%;
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  justify-content: center;
-}
-.card-admissions-counselor__header-image__image {
-  width: 100%;
-}
-.card-admissions-counselor__title {
-  padding: 10px;
-  margin: 0;
-  font-size: 1.7em !important;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  width: 100%;
-  font-family: "tradegothiclt-condeighteen", sans-serif !important;
-}
-.card-admissions-counselor__content {
-  padding: 0 1.5em;
-  text-align: center;
-}
-.card-admissions-counselor__content__contact {
-  display: flex;
-  flex-direction: column;
-}
-.card-admissions-counselor__content__territories {
-  text-align: initial;
-}
-
 /************* Admissions Home *******************/
 a:visited {
   color: inherit;
@@ -376,6 +343,154 @@ h2.main-content__home-title span {
 }
 .main-content__cta__list-item--applied {
   background-color: #d1eaae;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/************ Hover Map ***************************/
+.map-full-screen {
+  position: relative;
+  padding-bottom: 2em;
+  display: flex;
+  justify-content: center;
+}
+@media only screen and (max-width: 1023px) {
+  .map-full-screen {
+    display: none;
+  }
+}
+
+.map-wrap {
+  width: 80vw;
+}
+
+.counselor-region:hover {
+  cursor: pointer;
+  transition: fill 0.3s;
+}
+
+.st0:hover {
+  fill: #490e68;
+}
+
+.st1:hover {
+  fill: #726e87;
+}
+
+.st2:hover {
+  fill: #64357d;
+}
+
+.st3:hover {
+  fill: #490e68;
+}
+
+.st4:hover {
+  fill: #a191b2;
+}
+
+.st5:hover {
+  fill: #D3D3D3;
+}
+
+.st6:hover {
+  fill: #7e56c6;
+}
+
+.st7:hover {
+  fill: #9b77a7;
+}
+
+/************ Admissions Counselors ***************/
+.card-admissions-counselor {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  max-width: 400px;
+  padding: 2em;
+  border-radius: 20px;
+}
+.card-admissions-counselor__header-image__image {
+  width: 100%;
+}
+.card-admissions-counselor__title {
+  padding: 10px;
+  margin: 0;
+  font-size: 1.7em !important;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 100%;
+  font-family: "tradegothiclt-condeighteen", sans-serif !important;
+}
+.card-admissions-counselor__content {
+  padding: 0 1.5em;
+  text-align: center;
+}
+.card-admissions-counselor__content__contact {
+  display: flex;
+  flex-direction: column;
+}
+.card-admissions-counselor__content__territories {
+  text-align: initial;
+  font-size: 90%;
+}
+
+/********************* Admissions Counselor Hover Card ***************/
+.deck-holder {
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  z-index: 1000;
+  width: 200px;
+}
+
+.deck-wrap {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.card-counselor {
+  display: none;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  position: absolute;
+  background-color: #FFF;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  transition: all 0.3s;
+  font-size: 75%;
+}
+.card-counselor__header-image {
+  text-align: center;
+}
+.card-counselor__header-image__image {
+  width: 75%;
+}
+.card-counselor__title {
+  padding: 10px 0;
+  margin: 0;
+  font-size: 1.7em !important;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 100%;
+  font-family: "tradegothiclt-condeighteen", sans-serif !important;
+  font-weight: bold;
+}
+.card-counselor__content {
+  padding: 0 1.5em;
+  text-align: center;
+}
+.card-counselor__content__contact {
+  display: flex;
+  flex-direction: column;
 }
 
 /*** Banners *****/

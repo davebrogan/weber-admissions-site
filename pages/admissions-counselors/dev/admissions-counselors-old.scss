@@ -1,0 +1,79 @@
+/************ Admissions Counselors ***************/
+.card-admissions-counselor {
+  padding-bottom: 6%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  &__header-image {
+    &__image {
+      width: 100%
+    }
+  }
+  &__title {
+    padding: 10px;
+    margin: 0;
+    font-size: 1.7em !important;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+    font-family: $font-tgc18 !important;
+  }
+  &__content {
+    padding: 0 1.5em;
+    text-align: center;
+    &__contact {
+      display: flex;
+      flex-direction: column;
+    }
+    &__territories {
+      text-align: initial;
+    }
+  }
+}
+
+/********************* Admissions Counselor Hover Card ***************/
+.deck-holder {
+
+}
+.card-counselor {
+  display: none;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  position: absolute;
+  background-color: #FFF;
+  top: 1%;
+  left: 1%;
+  z-index: 1000;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  transition: all 0.3s;
+  &__header-image {
+    text-align: center;
+    &__image {
+      width: 75%
+    }
+  }
+  &__title {
+    padding: 10px 0;
+    margin: 0;
+    font-size: 1.7em !important;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+    font-family: $font-tgc18 !important;
+    font-weight: bold;
+  }
+  &__content {
+    padding: 0 1.5em;
+    text-align: center;
+    &__contact {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
