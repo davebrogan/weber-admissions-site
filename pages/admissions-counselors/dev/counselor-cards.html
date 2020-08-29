@@ -1,24 +1,91 @@
-
-<div class="card-counselor card-counselor--alejandro -shadow">
+<!------------- Counselor Card for Hover Map ------------------------->
+<div class="card-counselor -shadow" id="card-counselor--alejandro">
     <h2 class="card-counselor__title title-override text-center">Admissions Counselor</h2>
     <div class="card-counselor__header-image">
         <picture>
             <source media="(min-width: 768px)"
                     srcset="https://www.weber.edu/wsuimages/Admissions/site-files/images/counselor-head-shots/alejandro-valquinto-1x.jpg 1x,
-                            https://www.weber.edu/wsuimages/Admissions/site-files/images/counselor-head-shots/alejandro-valquinto-2x.jpg 2x">
-            <img class="card-counselor__header-image__image" alt="" src="https://www.weber.edu/wsuimages/Admissions/site-files/images/counselor-head-shots/alejandro-valquinto-1x.jpg" />
+                            https://www.weber.edu/wsuimages/Admissions/site-files/images/counselor-head-shots/alejandro-valquinto-2x.jpg 2x" />
+            <img alt="" class="card-counselor__header-image__image" src="https://www.weber.edu/wsuimages/Admissions/site-files/images/counselor-head-shots/alejandro-valquinto-1x.jpg" />
         </picture>
     </div>
     <h3 class="card-counselor__title title-override text-center">Alejandro Valquinto</h3>
-    <div class="card-counselor__content">
-        <p class="card-counselor__content__contact">
-            <a class="card-counselor__content__contact__email" href="mailto:angelvalquinto@weber.edu">angelvalquinto@weber.edu</a>
-            <a class="card-counselor__content__contact__phone" href="ph:801-626-7481">801-626-7481</a>
+</div>
+
+<!--------------- Counselor Card for Main Content ------------------------------->
+<div class="card-admissions-counselor" id="main-counselor-card--alejandro" onclick="addShadow(this)">
+    <div class="card-admissions-counselor__header-image">
+        <picture>
+            <source media="(min-width: 768px)"
+                    srcset="https://www.weber.edu/wsuimages/Admissions/site-files/images/counselor-head-shots/alejandro-valquinto-1x.jpg 1x,
+                            https://www.weber.edu/wsuimages/Admissions/site-files/images/counselor-head-shots/alejandro-valquinto-2x.jpg 2x" />
+            <img alt="" class="card-admissions-counselor__header-image__image" src="https://www.weber.edu/wsuimages/Admissions/site-files/images/counselor-head-shots/alejandro-valquinto-1x.jpg" />
+        </picture>
+    </div>
+
+    <h3 class="card-admissions-counselor__title title-override text-center">Alejandro Valquinto</h3>
+
+    <div class="card-admissions-counselor__content" data-equalizer-watch="">
+        <p class="card-admissions-counselor__content__contact">
+            <a class="card-admissions-counselor__content__contact__email" href="mailto:angelvalquinto@weber.edu">angelvalquinto@weber.edu</a>
+            <a class="card-admissions-counselor__content__contact__phone" href="ph:801-626-7481">801-626-7481</a>
         </p>
-        <p class="card-counselor__content__meeting-request"><a href="">Request a time to meet</a></p>
+
+        <p class="card-admissions-counselor__content__meeting-request"><a href="">Request a time to meet</a></p>
+
+        <div class="card-admissions-counselor__content__territories">
+            <div class="accordion territory-list" data-accordion="jkt7nu-accordion" data-allow-all-closed="true" data-multi-expand="true" role="tablist">
+                <div class="accordion-item" data-accordion-item=""><a aria-controls="p7blem-accordion" aria-expanded="false" aria-selected="false" class="accordion-title" href="#" id="p7blem-accordion-label" role="tab">Utah Territories</a>
+
+                    <div aria-hidden="true" aria-labelledby="p7blem-accordion-label" class="accordion-content" data-tab-content="" id="p7blem-accordion" role="tabpanel">
+                        <ul>
+                            <li>Ogden</li>
+                            <li>Ben Lomond</li>
+                            <li>Northridge</li>
+                            <li>St. Joseph Catholic</li>
+                            <li>George Washington</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion territory-list" data-accordion="jkt7nu-accordion" data-allow-all-closed="true" data-multi-expand="true" role="tablist">
+                <div class="accordion-item" data-accordion-item=""><a aria-controls="p7blem-accordion" aria-expanded="false" aria-selected="false" class="accordion-title" href="#" id="p7blem-accordion-label" role="tab">Territories outside of Utah</a>
+
+                    <div aria-hidden="true" aria-labelledby="p7blem-accordion-label" class="accordion-content" data-tab-content="" id="p7blem-accordion" role="tabpanel">
+                        <ul>
+                            <li>Arizona</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
+<!---------------- Counselor Card for Hover Map, Utah Variation ---------------------------->
 <div class="card-counselor card-counselor--utah -shadow">
-    <h2 class="card-admissions-counselor__title title-override text-center">Utah Territories</h2>
+    <h2 class="card-admissions-counselor__title title-override text-center">Utah High Schools and Territories</h2>
+    <ul class="card-counselor--utah__counselor-list">
+        <li class="card-counselor--utah__counselor-list__item">
+            <h3 class="card-counselor__title title-override">Alejandro</h3>
+            <p>Ogden, Ben Lomand, Northridge, St. Joseph Catholic, George Washington</p>
+        </li>
+        <li class="card-counselor--utah__counselor-list__item">
+            <h3 class="card-counselor__title title-override">Alexa</h3>
+            <p>Fremont, Bonneville, Morgan, Weber Innovation, Job Corps, Juab County, Summit County, Wasatch County</p>
+        </li>
+        <li class="card-counselor--utah__counselor-list__item">
+            <h3 class="card-counselor__title title-override">Gary</h3>
+            <p>All schools in Salt Lake West of I-15, Davis, Farmington, Weber, Layton, Two Rivers, Career Path HS, Tooele, Grantsville, Dugway</p>
+        </li>
+        <li class="card-counselor--utah__counselor-list__item">
+            <h3 class="card-counselor__title title-override">Jennifer</h3>
+            <p>All other schools in Utah not in another territory, NUAMES, NUAMES North, Bountiful, Viewmont, Woods Cross, Venture Academy Mountain</p>
+        </li>
+        <li class="card-counselor--utah__counselor-list__item">
+            <h3 class="card-counselor__title title-override">Jeshua</h3>
+            <p>All Box Elder, Cache and Rich county schools and all schools in Salt Lake County East of I-15, Roy, Clearfield, Syracuse, DaVinci Academy, Utah Military, Layton Christian</p>
+        </li>
+    </ul>
 </div>
