@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1257a340-e828-4cf5-bac0-316d36fe6571" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pages/admissions-counselors/dev/admissions-counselors-dev.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/admissions-counselors/dev/admissions-counselors-map-only-dev.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/admissions-site.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/admissions-site.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/admissions-counselors/admissions-counselors-map-only-prod.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-counselors/admissions-counselors-map-only-prod.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/admissions-counselors/admissions-counselors-prod.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-counselors/admissions-counselors-prod.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/admissions-counselors/admissions-counselors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-counselors/admissions-counselors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/admissions-counselors/dev/admissions-counselors-map-dev-v2.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-counselors/dev/old-versions/admissions-counselors-map-dev-v2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/admissions-counselors/dev/admissions-counselors-map-dev.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-counselors/dev/old-versions/admissions-counselors-map-dev.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/admissions-counselors/dev/admissions-counselors-old.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-counselors/dev/old-versions/admissions-counselors-old.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/admissions-counselors/dev/admissions-counselors-old.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-counselors/dev/old-versions/admissions-counselors-old.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/admissions-counselors/dev/admissions-counselors-orig-prod.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-counselors/dev/old-versions/admissions-counselors-orig-prod.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/admissions-counselors/dev/counselor-cards.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-counselors/dev/counselor-cards.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/admissions-counselors/dev/hover-map.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-counselors/dev/old-versions/hover-map.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/admissions-pages.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-pages.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -29,17 +25,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/admissions-counselors/admissions-counselors.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+            <state relative-caret-position="545">
+              <caret line="76" column="12" lean-forward="true" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/admissions-counselors/admissions-counselors-map-only-prod.html">
+        <entry file="file://$PROJECT_DIR$/pages/admissions-counselors/dev/admissions-counselors-dev.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="733">
-              <caret line="493" column="181" selection-end-line="493" selection-end-column="181" />
+            <state relative-caret-position="285">
+              <caret line="83" column="21" lean-forward="true" selection-end-line="139" />
             </state>
           </provider>
         </entry>
@@ -47,35 +43,68 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/admissions-site.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/admissions-counselors/dev/hover-map-shield.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="493" column="181" selection-start-line="493" selection-start-column="181" selection-end-line="493" selection-end-column="181" />
+            <state relative-caret-position="1932">
+              <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/admissions-pages.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/admissions-site-dev.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="15" column="5" lean-forward="true" selection-end-line="84" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/admissions-counselors/dev/admissions-counselors-dev.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2209">
+              <caret line="524" lean-forward="true" selection-end-line="1092" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#section#1;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#section#1;n#!!top" />
+                <element signature="n#div#0;n#section#2;n#!!top" />
+                <element signature="n#section#0;n#div#0;n#section#2;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#2;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#2;n#!!top" />
+                <element signature="n#svg#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#2;n#!!top" />
+                <element signature="n#svg#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#2;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#2;n#!!top" />
+                <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#2;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/admissions-counselors/admissions-counselors-prod.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11477">
-              <caret line="639" column="21" lean-forward="true" selection-start-line="639" selection-start-column="21" selection-end-line="639" selection-end-column="21" />
+            <state relative-caret-position="10074">
+              <caret line="1092" lean-forward="true" selection-start-line="1092" selection-end-line="1092" />
               <folding>
-                <element signature="n#div#0;n#section#0;n#!!top" />
-                <element signature="n#section#0;n#div#0;n#section#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#0;n#!!top" />
-                <element signature="n#svg#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#0;n#!!top" />
-                <element signature="n#svg#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#0;n#!!top" />
-                <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#0;n#!!top" />
-                <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#0;n#!!top" />
+                <element signature="n#section#1;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#section#1;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#section#1;n#!!top" />
+                <element signature="n#div#0;n#section#2;n#!!top" />
+                <element signature="n#section#0;n#div#0;n#section#2;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#2;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#2;n#!!top" />
+                <element signature="n#svg#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#2;n#!!top" />
+                <element signature="n#svg#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#2;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#2;n#!!top" />
+                <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#2;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -122,11 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pages/subpages/concurrent-enrollment/concurrent-enrollment.html" />
-        <option value="$PROJECT_DIR$/pages/subpages/new-freshmen/new-freshmen.html" />
-        <option value="$PROJECT_DIR$/pages/subpages/freshmen-out-state/freshmen-out-state.html" />
-        <option value="$PROJECT_DIR$/pages/banner-text-svgs/pursuit-continues.html" />
-        <option value="$PROJECT_DIR$/pages/subpages/transfer/transfer.html" />
         <option value="$PROJECT_DIR$/pages/subpages/transfer/_transfer-banner.scss" />
         <option value="$PROJECT_DIR$/pages/banner-text-svgs/pusuit-starts.html" />
         <option value="$PROJECT_DIR$/pages/subpages/international/international.html" />
@@ -163,16 +187,21 @@
         <option value="$PROJECT_DIR$/pages/admissions-counselors/hover-map.html" />
         <option value="$PROJECT_DIR$/pages/admissions-counselors/admissions-counselors-map-dev.html" />
         <option value="$PROJECT_DIR$/pages/admissions-counselors/admissions-counselors-map-dev-v2.html" />
-        <option value="$PROJECT_DIR$/js/admissions-site.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/pages/admissions-counselors/admissions-counselors-map-prod.html" />
         <option value="$PROJECT_DIR$/../modules/hover-map/admissions-advisor-map-regions-with-shield.svg" />
-        <option value="$PROJECT_DIR$/pages/admissions-counselors/admissions-counselors.scss" />
         <option value="$PROJECT_DIR$/pages/admissions-counselors/dev/counselor-cards.html" />
-        <option value="$PROJECT_DIR$/pages/admissions-counselors/admissions-counselors-prod.html" />
         <option value="$PROJECT_DIR$/pages/admissions-counselors/dev/admissions-counselors-map-shield.html" />
-        <option value="$PROJECT_DIR$/pages/admissions-counselors/admissions-counselors-map-only-prod.html" />
         <option value="$PROJECT_DIR$/pages/admissions-counselors/dev/hover-map-shield.html" />
+        <option value="$PROJECT_DIR$/pages/admissions-counselors/dev/admissions-counselors-map-only-dev.html" />
+        <option value="$PROJECT_DIR$/pages/admissions-counselors/admissions-counselors-map-only-prod.html" />
+        <option value="$PROJECT_DIR$/pages/admissions-pages-dev.scss" />
+        <option value="$PROJECT_DIR$/pages/admissions-counselors/dev/admissions-counselors-dev.scss" />
+        <option value="$PROJECT_DIR$/js/admissions-site-dev.js" />
+        <option value="$PROJECT_DIR$/pages/admissions-counselors/dev/admissions-counselors-dev.html" />
+        <option value="$PROJECT_DIR$/pages/admissions-counselors/admissions-counselors.scss" />
+        <option value="$PROJECT_DIR$/js/admissions-site.js" />
+        <option value="$PROJECT_DIR$/pages/admissions-counselors/admissions-counselors-prod.html" />
       </list>
     </option>
   </component>
@@ -235,8 +264,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/pages/admissions-counselors/dev/old-versions" />
       <recent name="$PROJECT_DIR$/pages/admissions-counselors/dev" />
+      <recent name="$PROJECT_DIR$/pages/admissions-counselors/dev/old-versions" />
       <recent name="$PROJECT_DIR$/pages/admissions-counselors" />
       <recent name="$PROJECT_DIR$/pages/subpages/counselors" />
       <recent name="$PROJECT_DIR$/pages/subpages" />
@@ -292,18 +321,18 @@
       <workItem from="1596750128115" duration="2948000" />
       <workItem from="1596825126081" duration="17571000" />
       <workItem from="1598035093306" duration="29236000" />
-      <workItem from="1598471988182" duration="33397000" />
+      <workItem from="1598471988182" duration="43085000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="227168000" />
+    <option name="totallyTimeSpent" value="236856000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1443" y="-117" width="1859" height="1039" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20308201" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20308201" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -319,62 +348,13 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Terminal" order="3" weight="0.27682993" />
+      <window_info anchor="right" id="Terminal" order="3" visible="true" weight="0.27517888" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pages/main-template/_sample-banner.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/subpages/transfer/transfer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="6403" selection-end-column="10" />
-          <folding>
-            <element signature="n#svg#0;n#div#0;n#div#0;n#section#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/subpages/early-college/early-college.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="5044" selection-end-column="10" />
-          <folding>
-            <element signature="n#svg#0;n#div#0;n#div#0;n#section#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/banner-text-svgs/pursuit-continues.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" lean-forward="true" selection-end-line="6399" />
-          <folding>
-            <element signature="n#svg#0;n#!!top" />
-            <element signature="n#g#1;n#g#0;n#svg#0;n#!!top" />
-            <element signature="n#g#3;n#g#0;n#svg#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/subpages/graduate-students/graduate-students-backup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="6403" selection-end-column="10" />
-          <folding>
-            <element signature="n#svg#0;n#div#0;n#div#0;n#section#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/subpages/returning-students/returning-students.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -948,13 +928,6 @@
     <entry file="file://$PROJECT_DIR$/pages/admissions-home/admissions-home.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/admissions-pages.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/main-template/admissions-page-template.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="733">
@@ -1065,27 +1038,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/admissions-counselors/admissions-counselors.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/admissions-site.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/admissions-counselors/dev/counselor-cards.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="63" column="6" lean-forward="true" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/admissions-counselors/dev/admissions-counselors-prod-formatted.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -1093,34 +1045,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/admissions-counselors/admissions-counselors-prod.html">
+    <entry file="file://$PROJECT_DIR$/pages/admissions-counselors/admissions-counselors-map-only-prod.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11477">
-          <caret line="639" column="21" lean-forward="true" selection-start-line="639" selection-start-column="21" selection-end-line="639" selection-end-column="21" />
+        <state relative-caret-position="466">
+          <caret line="451" column="24" lean-forward="true" selection-end-line="517" selection-end-column="181" />
           <folding>
-            <element signature="n#div#0;n#section#0;n#!!top" />
-            <element signature="n#section#0;n#div#0;n#section#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#0;n#!!top" />
-            <element signature="n#svg#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#0;n#!!top" />
-            <element signature="n#svg#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#section#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#section#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/admissions-counselors/admissions-counselors-map-only-prod.html">
+    <entry file="file://$PROJECT_DIR$/pages/admissions-counselors/dev/counselor-cards.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="733">
-          <caret line="493" column="181" selection-end-line="493" selection-end-column="181" />
+        <state relative-caret-position="1771">
+          <caret line="77" column="63" lean-forward="true" selection-start-line="77" selection-start-column="63" selection-end-line="77" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/admissions-counselors/dev/hover-map-shield.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="493" column="181" selection-start-line="493" selection-start-column="181" selection-end-line="493" selection-end-column="181" />
+        <state relative-caret-position="46">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/admissions-counselors/dev/admissions-counselors-map-only-dev.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="145" column="38" lean-forward="true" selection-end-line="517" selection-end-column="181" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#section#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#section#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/admissions-pages-dev.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/admissions-counselors/dev/admissions-counselors-dev.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="83" column="21" lean-forward="true" selection-end-line="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/admissions-pages.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/admissions-counselors/admissions-counselors.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="76" column="12" lean-forward="true" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/admissions-site-dev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="5" lean-forward="true" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/admissions-site.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1932">
+          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/admissions-counselors/dev/admissions-counselors-dev.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2209">
+          <caret line="524" lean-forward="true" selection-end-line="1092" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#section#1;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#section#1;n#!!top" />
+            <element signature="n#div#0;n#section#2;n#!!top" />
+            <element signature="n#section#0;n#div#0;n#section#2;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#2;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#2;n#!!top" />
+            <element signature="n#svg#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#2;n#!!top" />
+            <element signature="n#svg#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#2;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#2;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#2;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/admissions-counselors/admissions-counselors-prod.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10074">
+          <caret line="1092" lean-forward="true" selection-start-line="1092" selection-end-line="1092" />
+          <folding>
+            <element signature="n#section#1;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#section#1;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#section#1;n#!!top" />
+            <element signature="n#div#0;n#section#2;n#!!top" />
+            <element signature="n#section#0;n#div#0;n#section#2;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#2;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#2;n#!!top" />
+            <element signature="n#svg#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#2;n#!!top" />
+            <element signature="n#svg#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#2;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#2;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#2;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
