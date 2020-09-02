@@ -139,6 +139,11 @@ svg.foot-icons:hover {
   font-size: 2rem !important;
   margin-bottom: 30px !important;
 }
+@media only screen and (max-width: 640px) {
+  .main-content__title {
+    font-size: 1.8rem !important;
+  }
+}
 .main-content__partitions__right {
   border-left: 2px solid #575047;
 }
@@ -308,8 +313,9 @@ h2.main-content__home-title span {
   justify-content: center;
   text-decoration: none !important;
   color: #575047;
-  padding: 1em 3em;
+  padding: 1.5em 1em;
   font-size: 1.5em;
+  text-align: center;
   font-family: "tradegothicltstd-boldext", sans-serif;
   transition: all 0.5s !important;
   height: 100%;

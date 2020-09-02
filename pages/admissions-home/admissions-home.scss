@@ -5,8 +5,6 @@ a:visited {
 
 .additional-header__banner--admissions-home {
   @include bg-interchange-retina('https://apps.weber.edu/wsuimages/Admissions/site-files/images/admissions-home-banner-1x.jpg');
-  //max-height: 700px;
-  //min-height: 400px;
   @include bg-img-placement(right, top);
 }
 
@@ -38,7 +36,6 @@ $height-button: 145px;
     grid-template-columns: repeat(auto-fit, 293px);
     grid-gap: 15px;
     justify-content: center;
-    //max-width: 940px;
     margin: 0 auto;
     list-style-type: none !important;
   }
@@ -47,7 +44,6 @@ $height-button: 145px;
     background-color: wsu-palette($wcpurp-colors, 4);
     @include flex-column(center, center);
     height: $height-button;
-    //border-radius: 10px;
     padding: 1.8em;
     text-decoration: none !important;
     text-align: center;
@@ -128,10 +124,10 @@ $height-button: 145px;
       flex-direction: column;
       justify-content: center;
       text-decoration: none !important;
-      //color: #FFF !important;
       color: wsu-palette($unigray-colors, 1);
-      padding: 1em 3em;
+      padding: 1.5em 1em;
       font-size: 1.5em;
+      text-align: center;
       font-family: $font-tgbe;
       transition: all 0.5s !important;
       height: 100%;
@@ -156,15 +152,12 @@ $height-button: 145px;
       margin: 0 auto 30px;
     }
     &--counselor {
-      //background-color: wsu-palette($wsublue-colors, 1);
       background-color: wsu-palette($lind-colors, 2);
     }
     &--summer {
-      //background-color: wsu-palette($wsumauve-colors, 1);
       background-color: wsu-palette($east-colors, 3);
     }
     &--applied {
-      //background-color: wsu-palette($wsugreen-colors, 1);
       background-color: wsu-palette($moyes-colors, 2);
     }
   }

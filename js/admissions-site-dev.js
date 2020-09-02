@@ -1,5 +1,5 @@
 
-let cardList = document.getElementsByClassName('card-counselor');
+let mapCardsList = document.getElementsByClassName('card-counselor');
 let mainCardList = document.getElementsByClassName('card-admissions-counselor');
 let mapField = document.getElementById('map-wrap');
 
@@ -8,19 +8,19 @@ function showCard(el) {
         el = document.getElementById('ut');
     }
     const counselorName = el.dataset.counselor;
-    for (let i = 0; i < cardList.length; i++) {
-        if (cardList[i].id === ('card-counselor--' + counselorName)) {
-            cardList[i].style.visibility = 'visible';
-            cardList[i].style.opacity = '1';
+    for (let i = 0; i < mapCardsList.length; i++) {
+        if (mapCardsList[i].id === ('card-counselor--' + counselorName)) {
+            mapCardsList[i].style.visibility = 'visible';
+            mapCardsList[i].style.opacity = '1';
         }
     }
 }
 
 function hideCard() {
-    for (let i = 0; i < cardList.length; i++) {
-        if (cardList[i].style.visibility === 'visible') {
-            cardList[i].style.visibility = 'hidden';
-            cardList[i].style.opacity = '0';
+    for (let i = 0; i < mapCardsList.length; i++) {
+        if (mapCardsList[i].style.visibility === 'visible') {
+            mapCardsList[i].style.visibility = 'hidden';
+            mapCardsList[i].style.opacity = '0';
         }
     }
 }
@@ -28,6 +28,11 @@ function hideCard() {
 function scrollToCard(el) {
     if (el.dataset.counselor === 'utah') {
         document.getElementById('main-counselor-card--alejandro').scrollIntoView();
+        for (let i = 0; i < mainCardList.length; i++) {
+            if (mainCardList[i].classList.contains('-shadow')) {
+                removeShadow(mainCardList[i]);
+            }
+        }
         return false;
     } else {
         const counselorName = el.dataset.counselor;

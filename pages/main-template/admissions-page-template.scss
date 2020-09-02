@@ -39,6 +39,9 @@
     color: wsu-palette($wcpurp-colors, 1) !important;
     font-size: 2rem !important;
     margin-bottom: 30px !important;
+    @media #{$target-large-phone} {
+      font-size: 1.8rem !important;
+    }
     span {
       //font-size: 0.8em;
     }
