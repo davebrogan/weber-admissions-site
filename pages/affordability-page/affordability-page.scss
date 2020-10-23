@@ -1,0 +1,239 @@
+@import "../../ui-utilities-master/variables";
+@import "../../ui-utilities-master/placeholders";
+@import "../../ui-utilities-master/functions";
+@import "../../ui-utilities-master/mixins";
+
+@font-face {
+  font-family: 'Clarendon XtraBold';
+  src:  url('https://www.weber.edu/wsuimages/affordability/fonts/Clarendon-ExtraBold.woff2') format('woff2'),
+  url('https://www.weber.edu/wsuimages/affordability/fonts/Clarendon-ExtraBold.woff') format('woff');
+}
+
+.affordability {
+  font-family: $font-tg;
+  strong {
+    font-family: $font-tg;
+    font-weight: bold;
+  }
+}
+
+.main-content h1:first-of-type {
+  text-align: center;
+  text-transform: uppercase;
+  @media #{$target-phone} {
+    font-size: 1.8em;
+  }
+}
+
+//reset ui-mod-base
+.page-title-space {
+  padding: 0;
+}
+
+.affordability-head__banner {
+  margin-bottom: 20px;
+}
+
+.affordability-subtitle {
+  text-align: center;
+  font-size: 1.3em;
+  & p > strong {
+    font-family: $font-tg;
+    font-weight: bold;
+  }
+}
+
+.affordability-timeline {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  @media #{$target-tablet-under} {
+    //flex-direction: column;
+    display: block;
+  }
+  &__box {
+    @include flex-row(center, center);
+    min-width: 50px;
+    padding: 10px;
+    background-color: wsu-palette($wcpurp-colors, 1);
+    border-radius: 10px;
+    margin: 15px 0;
+    &__text {
+      color: white;
+      max-width: 150px;
+      text-align: center;
+      font-size: .9em;
+      margin-bottom: 0;
+      &__title {
+        display: block;
+        text-transform: uppercase;
+        font-weight: bold;
+
+      }
+    }
+  }
+  &__operator {
+    @include flex-column(center, center);
+    font-size: 3em;
+    padding: 5px;
+    margin: 0 10px;
+    @media #{$target-tablet-under} {
+      width: inherit;
+      margin: 0;
+    }
+  }
+}
+
+.badge-grid {
+  display: flex;
+  @media #{$target-large-phone} {
+    flex-direction: column;
+  }
+}
+
+.landmark-strip {
+  background-color: #a491b2;
+  padding: 3em;
+  @media #{$target-tablet-under} {
+    //margin: 0 -1em 30px;
+  }
+  @include  flex-row(center, center);
+  margin-bottom: 30px;
+  &__text {
+    font-size: 1.3em;
+    max-width: 700px;
+    font-family: $font-tgbe;
+    text-align: center;
+    margin-bottom: 0;
+    color: #FFF;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    &--reg-text {
+      text-transform: none;
+      font-family: $font-tg;
+    }
+  }
+  &--overlap {
+    position: relative;
+    top: -22px;
+    @media #{$target-laptop} {
+      position: inherit;
+      top: 0;
+    }
+  }
+}
+
+.compare-cost__card {
+  &__header {
+    background-color: #FFF;
+    text-transform: uppercase;
+    @include flex-column(center, space-between);
+  }
+  &__title.title-override {
+    font-family: $font-tge;
+    text-align: center;
+  }
+  &__image {
+    padding: 20px 13%;
+  }
+  &__content {
+    padding-top: 5px;
+  }
+  &__price {
+    font-family: "Clarendon XtraBold", serif;
+    color: wsu-palette($wcpurp-colors, 1);
+    font-size: 7em;
+    line-height: 1;
+    margin-bottom: 0;
+    @media #{$target-tablet-under} {
+      font-size: 20vw;
+    }
+  }
+}
+
+.compare-cost__megaphone {
+  &__text {
+    text-align: center;
+    font-family: $font-tge;
+    font-size: 2.5em;
+    color: wsu-palette($wcpurp-colors, 1);
+    p {
+      line-height: 1.2em;
+      strong {
+        font-weight: bold;
+        font-family: $font-tge;
+      }
+    }
+  }
+}
+
+.affordability-card {
+  @include flex-column(center, space-between);
+  text-align: center;
+  margin-bottom: 30px;
+  &__image {
+    padding: 0 38%;
+    @media #{$target-tablet-under} {
+      padding: 0 28%;
+    }
+
+    &--28pad {
+      padding: 0 28%;
+    }
+
+    &--15pad {
+      padding: 0 15%;
+    }
+
+    &--full-width {
+      padding: 0;
+      max-width: 450px;
+      @media #{$target-tablet-under} {
+        max-width: 300px;
+        padding: 0;
+      }
+    }
+  }
+  &__title.title-override {
+    text-transform: uppercase;
+    font-family: $font-tge;
+    color: wsu-palette($wcpurp-colors, 1);
+    text-align: center;
+    font-weight: bold;
+  }
+  &__text {
+    font-size: 1.2em;
+  }
+}
+
+a.affordability-big-button {
+  display: block;
+  padding: 2em;
+  max-width: 600px;
+  background-color: wsu-palette($wcpurp-colors, 1);
+  font-family: $font-tgbe;
+  font-size: 1.3em;
+  color: #FFF !important;
+  text-align: center;
+  margin: 30px auto;
+  transition: all 800ms;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  @media #{$target-tablet-under} {
+    margin: 30px 10px;
+  }
+  &:hover {
+    //background-color: wsu-palette($hlcolor-colors, 2);
+    transform: scale(1.03);
+    background-color: wsu-palette($wcpurp-colors, 2);
+    @media screen and (prefers-reduced-motion: reduce) {
+      transform: none;
+      text-decoration: underline;
+      background-color: wsu-palette($wcpurp-colors, 2);
+    }
+  }
+}
+
+

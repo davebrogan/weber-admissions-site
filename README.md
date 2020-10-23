@@ -44,3 +44,6 @@ pages/admissions-home/admissions-home.scss -> all css specific to the Admissions
 pages/admissions-counselors/admissions-counselors.scss -> css for all of the elements on the admissions counselors page
 
 pages/subpages/*banners -> specific css for each subpage banner with specific svg or jpg urls
+
+### Virtual Campus Tour
+The scss (currently (8/15/2020)) compiles separately, not as a partial to admissions-pages.scss

@@ -1,0 +1,251 @@
+@font-face {
+  font-family: "Clarendon XtraBold";
+  src: url("https://www.weber.edu/wsuimages/affordability/fonts/Clarendon-ExtraBold.woff2") format("woff2"), url("https://www.weber.edu/wsuimages/affordability/fonts/Clarendon-ExtraBold.woff") format("woff");
+}
+.affordability {
+  font-family: "tradegothiclt", sans-serif;
+}
+.affordability strong {
+  font-family: "tradegothiclt", sans-serif;
+  font-weight: bold;
+}
+
+.main-content h1:first-of-type {
+  text-align: center;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 480px) {
+  .main-content h1:first-of-type {
+    font-size: 1.8em;
+  }
+}
+
+.page-title-space {
+  padding: 0;
+}
+
+.affordability-head__banner {
+  margin-bottom: 20px;
+}
+
+.affordability-subtitle {
+  text-align: center;
+  font-size: 1.3em;
+}
+.affordability-subtitle p > strong {
+  font-family: "tradegothiclt", sans-serif;
+  font-weight: bold;
+}
+
+.affordability-timeline {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+@media only screen and (max-width: 767px) {
+  .affordability-timeline {
+    display: block;
+  }
+}
+.affordability-timeline__box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-width: 50px;
+  padding: 10px;
+  background-color: #492365;
+  border-radius: 10px;
+  margin: 15px 0;
+}
+.affordability-timeline__box__text {
+  color: white;
+  max-width: 150px;
+  text-align: center;
+  font-size: 0.9em;
+  margin-bottom: 0;
+}
+.affordability-timeline__box__text__title {
+  display: block;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.affordability-timeline__operator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+  padding: 5px;
+  margin: 0 10px;
+}
+@media only screen and (max-width: 767px) {
+  .affordability-timeline__operator {
+    width: inherit;
+    margin: 0;
+  }
+}
+
+.badge-grid {
+  display: flex;
+}
+@media only screen and (max-width: 640px) {
+  .badge-grid {
+    flex-direction: column;
+  }
+}
+
+.landmark-strip {
+  background-color: #a491b2;
+  padding: 3em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.landmark-strip__text {
+  font-size: 1.3em;
+  max-width: 700px;
+  font-family: "tradegothicltstd-boldext", sans-serif;
+  text-align: center;
+  margin-bottom: 0;
+  color: #FFF;
+  line-height: 1.2em;
+  text-transform: uppercase;
+}
+.landmark-strip__text--reg-text {
+  text-transform: none;
+  font-family: "tradegothiclt", sans-serif;
+}
+.landmark-strip--overlap {
+  position: relative;
+  top: -22px;
+}
+@media only screen and (max-width: 1024px) {
+  .landmark-strip--overlap {
+    position: inherit;
+    top: 0;
+  }
+}
+
+.compare-cost__card__header {
+  background-color: #FFF;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.compare-cost__card__title.title-override {
+  font-family: "tradegothicltstd-extended", sans-serif;
+  text-align: center;
+}
+.compare-cost__card__image {
+  padding: 20px 13%;
+}
+.compare-cost__card__content {
+  padding-top: 5px;
+}
+.compare-cost__card__price {
+  font-family: "Clarendon XtraBold", serif;
+  color: #492365;
+  font-size: 7em;
+  line-height: 1;
+  margin-bottom: 0;
+}
+@media only screen and (max-width: 767px) {
+  .compare-cost__card__price {
+    font-size: 20vw;
+  }
+}
+
+.compare-cost__megaphone__text {
+  text-align: center;
+  font-family: "tradegothicltstd-extended", sans-serif;
+  font-size: 2.5em;
+  color: #492365;
+}
+.compare-cost__megaphone__text p {
+  line-height: 1.2em;
+}
+.compare-cost__megaphone__text p strong {
+  font-weight: bold;
+  font-family: "tradegothicltstd-extended", sans-serif;
+}
+
+.affordability-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.affordability-card__image {
+  padding: 0 38%;
+}
+@media only screen and (max-width: 767px) {
+  .affordability-card__image {
+    padding: 0 28%;
+  }
+}
+.affordability-card__image--28pad {
+  padding: 0 28%;
+}
+.affordability-card__image--15pad {
+  padding: 0 15%;
+}
+.affordability-card__image--full-width {
+  padding: 0;
+  max-width: 450px;
+}
+@media only screen and (max-width: 767px) {
+  .affordability-card__image--full-width {
+    max-width: 300px;
+    padding: 0;
+  }
+}
+.affordability-card__title.title-override {
+  text-transform: uppercase;
+  font-family: "tradegothicltstd-extended", sans-serif;
+  color: #492365;
+  text-align: center;
+  font-weight: bold;
+}
+.affordability-card__text {
+  font-size: 1.2em;
+}
+
+a.affordability-big-button {
+  display: block;
+  padding: 2em;
+  max-width: 600px;
+  background-color: #492365;
+  font-family: "tradegothicltstd-boldext", sans-serif;
+  font-size: 1.3em;
+  color: #FFF !important;
+  text-align: center;
+  margin: 30px auto;
+  transition: all 800ms;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 767px) {
+  a.affordability-big-button {
+    margin: 30px 10px;
+  }
+}
+a.affordability-big-button:hover {
+  transform: scale(1.03);
+  background-color: #a491b2;
+}
+@media screen and (prefers-reduced-motion: reduce) {
+  a.affordability-big-button:hover {
+    transform: none;
+    text-decoration: underline;
+    background-color: #a491b2;
+  }
+}

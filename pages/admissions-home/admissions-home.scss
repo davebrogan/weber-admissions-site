@@ -1,7 +1,7 @@
 /************* Admissions Home *******************/
-a:visited {
+/*a:visited {
   color: inherit;
-}
+}*/
 
 .additional-header__banner--admissions-home {
   @include bg-interchange-retina('https://apps.weber.edu/wsuimages/Admissions/site-files/images/admissions-home-banner-1x.jpg');
@@ -137,9 +137,12 @@ $height-button: 145px;
         font-size: 2.5em;
         line-height: 1em;
       }
+      &:visited {
+        color: $gray-text;
+      }
       &:hover {
         background-color: wsu-palette($hlcolor-colors, 1);
-        color: #FFF;
+        color: #FFF !important;
         transform: scale(1.03);
       }
     }

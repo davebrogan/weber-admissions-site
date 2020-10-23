@@ -447,6 +447,7 @@ html {
   text-align: initial;
   font-size: 90%;
 }
+
 /********************* Admissions Counselor Hover Card ***************/
 .deck-holder {
   position: absolute;
@@ -834,4 +835,16 @@ html {
   font-family: "tradegothicltstd-boldext", sans-serif !important;
   font-size: 1.5em !important;
   color: #492365 !important;
+}
+
+.additional-header__banner--admissions-apply {
+  background-image: url("https://www.weber.edu/wsuimages/Admissions/site-files/images/apply-banner-overlay-1x.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right center;
+}
+@media only screen and (min-width: 1024px) and (min-resolution: 192dpi) {
+  .additional-header__banner--admissions-apply {
+    background-image: url("https://www.weber.edu/wsuimages/Admissions/site-files/images/apply-banner-overlay-2x.jpg");
+  }
 }

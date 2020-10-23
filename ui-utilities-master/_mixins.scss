@@ -64,7 +64,7 @@
 // based either on an aspect ratio (ex.: 16:9)
 // or the pixel dimensions of the original image
 //
-@mixin aspect-ratio($container-width:100vw, $aspect-width:16, $aspect-height:9) {
+@mixin aspect-ratio($aspect-width:16, $aspect-height:9, $container-width:100vw) {
   $height: calc(#{$container-width} * (#{$aspect-height} / #{$aspect-width}));
   @if $aspect-width == 2 and $aspect-height == 1 {
     &--aspect-2-1 {
@@ -100,7 +100,7 @@
 //
 // like the aspect-ratio mixin but for custom width and height only
 //
-@mixin aspect-ratio-source($container-width:100vw, $aspect-width, $aspect-height) {
+@mixin aspect-ratio-source($aspect-width, $aspect-height, $container-width:100vw) {
   $height: calc(#{$container-width} * (#{$aspect-height} / #{$aspect-width}));
   &--aspect-#{$aspect-width}-#{$aspect-height} {
     height: #{$height};

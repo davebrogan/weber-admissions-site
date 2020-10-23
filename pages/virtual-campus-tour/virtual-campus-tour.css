@@ -1,0 +1,106 @@
+@media only screen and (min-width: 1025px) {
+  .virtual-tour-content--mobile, .tour-stops--mobile {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .virtual-tour-content--desktop, .tour-stops--desktop {
+    display: none;
+  }
+}
+
+.tour-map-wrap {
+  overflow: scroll;
+}
+
+.virtual-tour-map--full-screen {
+  background-image: url("https://www.weber.edu/wsuimages/Admissions/site-files/graphics/virtual-campus-tour/virtual-campus-tour-map-pindrops-1x.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+  position: relative;
+  min-width: 600px;
+  min-height: 330px;
+  overflow: scroll;
+}
+@media only screen and (min-width: 1024px) and (min-resolution: 192dpi) {
+  .virtual-tour-map--full-screen {
+    background-image: url("https://www.weber.edu/wsuimages/Admissions/site-files/graphics/virtual-campus-tour/virtual-campus-tour-map-pindrops-2x.jpg");
+  }
+}
+.virtual-tour-map--full-screen--aspect-1418-845 {
+  height: calc(100vw * (845 / 1418));
+}
+@media only screen and (max-width: 600px) {
+  .virtual-tour-map--full-screen {
+    background-position: center bottom;
+  }
+}
+
+.tour-stops {
+  padding: 1em 2em;
+  width: 40vw;
+  max-width: 600px;
+  background-color: #fff;
+  position: absolute;
+  right: 1%;
+  top: 1%;
+  border: 3px solid #a52428;
+}
+.tour-stops--mobile {
+  position: relative;
+  top: 0;
+  right: 0;
+  width: 100%;
+  margin: 20px auto;
+  border: none;
+  font-size: 100%;
+}
+.tour-stops__title {
+  font-family: "tradegothicltstd-boldext", sans-serif !important;
+  color: #492365 !important;
+  font-size: 1.3em !important;
+}
+.tour-stops__list {
+  font-family: "tradegothiclt", sans-serif;
+}
+.tour-stops__list__item {
+  font-family: "tradegothiclt", sans-serif;
+}
+.tour-stops__list__item span {
+  display: block;
+  font-family: "caecilialtstd-roman", serif;
+  font-size: 0.7em;
+}
+
+a.virtual-tour-big-button {
+  display: block;
+  padding: 2em;
+  max-width: 600px;
+  background-color: #492365;
+  font-family: "tradegothicltstd-boldext", sans-serif;
+  font-size: 1.3em;
+  color: #FFF !important;
+  text-align: center;
+  margin: 30px auto;
+  transition: all 800ms;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 767px) {
+  a.virtual-tour-big-button {
+    margin: 30px 10px;
+  }
+}
+a.virtual-tour-big-button:hover {
+  transform: scale(1.03);
+  background-color: #5f2e83;
+}
+@media screen and (prefers-reduced-motion: reduce) {
+  a.virtual-tour-big-button:hover {
+    transform: none;
+    text-decoration: underline;
+    background-color: #5f2e83;
+  }
+}

@@ -1,0 +1,106 @@
+@import "../../ui-utilities-master/variables";
+@import "../../ui-utilities-master/placeholders";
+@import "../../ui-utilities-master/functions";
+@import "../../ui-utilities-master/mixins";
+
+.virtual-tour-content, .tour-stops {
+  &--mobile {
+    @media #{$target-laptop-over} {
+      display: none;
+    }
+  }
+  &--desktop {
+    @media #{$target-laptop} {
+      display: none;
+    }
+  }
+}
+
+.tour-map-wrap {
+  overflow: scroll;
+}
+
+.virtual-tour-map--full-screen {
+  @include bg-interchange-retina('https://www.weber.edu/wsuimages/Admissions/site-files/graphics/virtual-campus-tour/virtual-campus-tour-map-pindrops-1x.jpg');
+  @include aspect-ratio-source(1418, 845);
+  //max-width: 1400px;
+  @include bg-img-placement (top, left);
+  position: relative;
+  min-width: 600px;
+  min-height: 330px;
+  overflow: scroll;
+  @media only screen and (max-width: 600px) {
+    background-position: center bottom;
+  }
+}
+
+.tour-stops {
+  padding: 1em 2em;
+  width: 40vw;
+  max-width: 600px;
+  background-color: #fff;
+  position: absolute;
+  right: 1%;
+  top: 1%;
+  border: 3px solid wsu-palette($wsured-colors, 1);
+  @media only screen and (max-width: 1200px) {
+    //font-size: 80%;
+  }
+  &--mobile {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 100%;
+    margin: 20px auto;
+    border: none;
+    font-size: 100%;
+  }
+  &__title {
+    font-family: "tradegothicltstd-boldext", sans-serif !important;
+    color: wsu-palette($wcpurp-colors, 1) !important;
+    font-size: 1.3em !important;
+  }
+  &__list {
+    font-family: $font-tg;
+    @media only screen and (max-width: 1200px) {
+      //font-size: 80%;
+    }
+    &__item {
+      font-family: $font-tg;
+      span {
+        display: block;
+        font-family: $font-pmnr;
+        font-size: .7em;
+      }
+    }
+  }
+}
+
+a.virtual-tour-big-button {
+  display: block;
+  padding: 2em;
+  max-width: 600px;
+  background-color: wsu-palette($wcpurp-colors, 1);
+  font-family: $font-tgbe;
+  font-size: 1.3em;
+  color: #FFF !important;
+  text-align: center;
+  margin: 30px auto;
+  transition: all 800ms;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  @media #{$target-tablet-under} {
+    margin: 30px 10px;
+  }
+  &:hover {
+    //background-color: wsu-palette($hlcolor-colors, 2);
+    transform: scale(1.03);
+    background-color: #5f2e83;
+    @media screen and (prefers-reduced-motion: reduce) {
+      transform: none;
+      text-decoration: underline;
+      background-color: #5f2e83;
+    }
+  }
+}

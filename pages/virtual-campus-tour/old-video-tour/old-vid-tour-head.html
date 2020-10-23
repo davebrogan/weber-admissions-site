@@ -1,0 +1,19 @@
+<script type="text/javascript" src="https://www.weber.edu/wsuimages/GetIntoWeber/campusvideotour/language-handler.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css">
+<link rel="stylesheet" href="https://www.weber.edu/wsuimages/GetIntoWeber/tour-styles.css">
+
+<script>
+$(document).ready(function(e) {
+    $(".play").click(function(e) {
+        $(this).addClass("played");
+    });
+});
+
+function visited(spotNum) {
+    document.getElementById("spot"+spotNum).click();
+}
+
+$(document).ready(function () {
+    PopulateLanguage('english');
+});
+</script>

@@ -1,0 +1,4 @@
+.additional-header__banner--admissions-apply {
+  @include bg-interchange-retina('https://www.weber.edu/wsuimages/Admissions/site-files/images/apply-banner-overlay-1x.jpg');
+  @include bg-img-placement(right, center);
+}

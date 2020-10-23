@@ -3,6 +3,12 @@ let mapCardsList = document.getElementsByClassName('card-counselor');
 let mainCardList = document.getElementsByClassName('card-admissions-counselor');
 let mapField = document.getElementById('map-wrap');
 
+for (const card of mainCardList) {
+    card.addEventListener('focus', function(e) {
+        this.style.outline = 'none';
+    });
+}
+
 function showCard(el) {
     if (el === 'utah') {
         el = document.getElementById('ut');
