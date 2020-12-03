@@ -100,9 +100,10 @@ svg.foot-icons:hover {
 .showcase-html-section {
   box-shadow: none;
 }
-
-.mega-menu {
-  position: initial;
+@media only screen and (min-width: 1025px) {
+  .showcase-html-section {
+    padding-top: 158px;
+  }
 }
 
 .mobile-logo {
@@ -204,10 +205,9 @@ h2.main-content__title {
 }
 
 /************* Admissions Home *******************/
-a:visited {
+/*a:visited {
   color: inherit;
-}
-
+}*/
 .additional-header__banner--admissions-home {
   background-image: url("https://apps.weber.edu/wsuimages/Admissions/site-files/images/admissions-home-banner-1x.jpg");
   background-repeat: no-repeat;
@@ -326,9 +326,12 @@ h2.main-content__home-title span {
   font-size: 2.5em;
   line-height: 1em;
 }
+.main-content__cta__list__link:visited {
+  color: #575047;
+}
 .main-content__cta__list__link:hover {
   background-color: #8446ac;
-  color: #FFF;
+  color: #FFF !important;
   transform: scale(1.03);
 }
 .main-content__cta__list-item {
@@ -443,9 +446,6 @@ html {
 .card-admissions-counselor__content__territories {
   text-align: initial;
   font-size: 90%;
-}
-.card-admissions-counselor__content__meeting-request {
-  display: none;
 }
 
 /********************* Admissions Counselor Hover Card ***************/
@@ -835,4 +835,16 @@ html {
   font-family: "tradegothicltstd-boldext", sans-serif !important;
   font-size: 1.5em !important;
   color: #492365 !important;
+}
+
+.additional-header__banner--admissions-apply {
+  background-image: url("https://www.weber.edu/wsuimages/Admissions/site-files/images/apply-banner-overlay-1x.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right center;
+}
+@media only screen and (min-width: 1024px) and (min-resolution: 192dpi) {
+  .additional-header__banner--admissions-apply {
+    background-image: url("https://www.weber.edu/wsuimages/Admissions/site-files/images/apply-banner-overlay-2x.jpg");
+  }
 }
