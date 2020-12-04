@@ -84,6 +84,7 @@ function findObjectCoords(mouseEvent) {
     xpos -= obj_left;
     ypos -= obj_top;
 
+    //set distance of card from pointer
     if (xpos < (obj.offsetWidth - 300) / 2) {
         deckHolder.style.left = xpos + 400 + 'px';
     } else {
