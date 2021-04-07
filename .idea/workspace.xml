@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1257a340-e828-4cf5-bac0-316d36fe6571" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="1257a340-e828-4cf5-bac0-316d36fe6571" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -187,8 +184,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="15" />
-    <option name="y" value="23" />
+    <option name="x" value="61" />
+    <option name="y" value="34" />
     <option name="width" value="2514" />
     <option name="height" value="1406" />
   </component>
@@ -354,18 +351,17 @@
       <workItem from="1613081606534" duration="1176000" />
       <workItem from="1615235084175" duration="1852000" />
       <workItem from="1617053756068" duration="710000" />
-      <workItem from="1617811995282" duration="256000" />
+      <workItem from="1617811995282" duration="729000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="317135000" />
+    <option name="totallyTimeSpent" value="317608000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="15" y="23" width="2514" height="1406" extended-state="0" />
-    <editor active="true" />
+    <frame x="61" y="34" width="2514" height="1406" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49946293" visible="true" weight="0.20145631" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49946293" visible="true" weight="0.20145631" />
       <window_info id="Structure" order="1" sideWeight="0.50053704" side_tool="true" weight="0.20308201" />
       <window_info id="Favorites" order="2" sideWeight="0.50053704" side_tool="true" weight="0.20308201" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -381,7 +377,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Terminal" order="3" visible="true" weight="0.25161812" />
+      <window_info active="true" anchor="right" id="Terminal" order="3" visible="true" weight="0.25161812" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
