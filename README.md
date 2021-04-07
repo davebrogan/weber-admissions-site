@@ -14,7 +14,7 @@ The /admissions-counselors directory also includes all the code for the interact
 
 ### Map SVGs
 
-Located in /modules/hover-map
+Located in admissions/modules/hover-map (not in code/modules)
 
 
 ### Subpages

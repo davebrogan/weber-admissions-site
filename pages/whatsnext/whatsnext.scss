@@ -1,0 +1,187 @@
+
+.showcase-html-section {
+  padding-top:0;
+}
+.showcase-html-section .columns {
+  padding: 2em;
+}
+.main {
+  padding-top:130px!important;
+}
+.main:before {
+  position: absolute;
+  left: 50%;
+  margin-left:-52px;
+  top:1em;
+}
+.button {
+  width:100%;
+  max-width:100%;
+}
+a:hover {
+  opacity:.7;
+}
+.aside a {
+  color:#fff;
+}
+.aside .accordion a {
+  color: #8446ac;
+  text-decoration:underline!important;
+}
+.aside a.accordion-title {
+  text-decoration:none!important;
+}
+.accordion {
+  border:4px solid #fff;
+}
+a.button {
+  color:#fff!important;
+}
+
+.steps {counter-reset: counter;max-width: 375px;margin: auto;padding-left: 2em;}
+.steps li {list-style: none;}
+.steps li a {display:block; position: relative;padding:.8em 2em; margin-bottom:1em;color:#fff;box-shadow: 5px 3px 5px #333;}
+.steps li a:before {content: counter(counter);counter-increment: counter;position: absolute;left:-1em;top: 0;font-size:3em;font-weight: normal; font-family: 'tradegothicltstd-boldext', sans-serif;line-height: 1;text-shadow: 5px 3px 5px #333;}
+.steplink1 {background-color:#37939b;}
+.steplink1 a:before {color:#37939b;}
+.steplink2 {background-color:#97b52c;}
+.steplink2 a:before {color:#97b52c;}
+.steplink3 {background-color:#e4701e;}
+.steplink3 a:before {color:#e4701e;}
+.steplink4 {background-color:#575047;}
+.steplink4 a:before {color:#575047;}
+.steplink5 {background-color:#6f57a5;}
+.steplink5 a:before {color:#6f57a5;}
+.steplink6 {background-color:#825d9c;}
+.steplink6 a:before {color:#825d9c;}
+
+.showcase-html-section h1 {color:#492365;text-align:center;font-size:2.5em;font-family: 'tradegothicltstd-boldext', sans-serif;}
+.headCheck {display:block;margin-left:auto;margin-right:auto;}
+
+//{background-color:#dad7d3;position:relative;}
+.aside h3 {background-color:#575047;color:#fff;}
+.button {background-color:#575047;border:1px solid #fff;}
+.main:before {content: url(https://www.weber.edu/wsuimages/GetIntoWeber/whatsnext/images/step1Icon.png);}
+
+.step1 {background-color:#fadcc5;position:relative;}
+.step1 .aside, .step1 .aside h3 {background-color:#e4701e;color:#fff;}
+.step1 .button {background-color:#f1b78e;border:1px solid #fff;color:#575047!important;}
+.step1 .main:before {content: url(https://www.weber.edu/wsuimages/GetIntoWeber/whatsnext/images/step3Icon.png);}
+
+.step2 {background-color:#e6edcf;position:relative;}
+.step2 .aside, .step2 .aside h3 {background-color:#97b52c;color:#fff;}
+.step2 .button {background-color:#cbda95;border:1px solid #fff;color:#575047!important;}
+.step2 .main:before {content: url(https://www.weber.edu/wsuimages/GetIntoWeber/whatsnext/images/step2Icon.png);}
+
+.step3 {background-color:#cfe3e7;position:relative;}
+.step3 .aside, .step3 .aside h3 {background-color:#37939b;color:#fff;}
+.step3 .button {background-color:#9bc9cd;border:1px solid #fff;color:#575047!important;}
+.step3 .main:before {content: url(https://www.weber.edu/wsuimages/GetIntoWeber/whatsnext/images/step4Icon.png);}
+
+.step5 {background-color:#d8d2e9;position:relative;}
+.step5 .aside, .step5 .aside h3 {background-color:#6f57a5;color:#fff;}
+.step5 .button {background-color:#b7abd2;border:1px solid #fff;color:#575047!important;}
+.step5 .main:before {content: url(https://www.weber.edu/wsuimages/GetIntoWeber/whatsnext/images/step5Icon.png);}
+
+.step6 {background-color:#e8e5e4;position:relative;}
+.step6 .aside, .step6 .aside h3, .step6 .aside h4 {background-color:#58277b;color:#fff;}
+.step6 .button {background-color:#ab93bd;border:1px solid #fff;color:#575047!important;}
+.step6 .main:before {content: url(https://www.weber.edu/wsuimages/GetIntoWeber/whatsnext/images/step6Icon.png);}
+
+/********************NAV GUIDE****************/
+.nav-guide {
+  margin-bottom: 30px;
+}
+
+.page-menu-item {
+  padding: 15px;
+}
+
+.page-menu-item-img {
+  margin-bottom: 20px;
+}
+
+.page-menu-item img {
+  max-width: 64px;
+}
+
+.page-menu-item p {
+  margin-bottom: 0;
+}
+
+h2.page-menu-text {
+  //margin-bottom: 30px !important;
+}
+
+.nav-blocks {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-blocks div {
+  text-align: center;
+  border-radius: 10px;
+}
+
+#menu-item-step1 {
+  //background-color: rgba(232,174,136,1.0);
+  background-color: #fadcc5;
+  border: 3px solid #D25D12;
+  transition: background-color 0.3s ease;
+}
+
+#menu-item-step1:hover {
+  background-color: rgba(232,174,136,1.0);
+  color: #FFF !important;
+  cursor: pointer;
+}
+
+#menu-item-step2 {
+  //background-color: rgba(209,234,174,1.0);
+  background-color: #e6edcf;
+  border: 3px solid #A3D55D;
+  transition: background-color 0.3s ease;
+}
+
+#menu-item-step2:hover {
+  //background-color: rgba(209,234,174,1.0);
+  background-color: #cbda95;
+  cursor: pointer;
+}
+
+#menu-item-step3 {
+  //background-color: rgba(204,222,236,1.0);
+  background-color: #cfe3e7;
+  border: 3px solid #005F71;
+  transition: background-color 0.3s ease;
+}
+
+#menu-item-step3:hover {
+  //background-color: rgba(204,222,236,1.0);
+  background-color: #9bc9cd;
+  cursor: pointer;
+}
+
+.orientation-portal-image {
+  width: 300px;
+}
+
+@media screen and (max-width: 640px) {
+  .nav-blocks {
+	flex-direction: column;
+  }
+}
+
+@media screen and (max-width:1025px) {
+  .aside {width: initial;margin: 1em;}
+}
+
+@media screen and (min-width:641px) {
+  .menu-content {padding:4em 8em 2em 8em;}
+}
+
+@media screen and (min-width:481px){
+  .main {padding-left: 175px!important;padding-top:1em!important;}
+  .main:before {left:2em;margin-left:0;}
+  .button {width:320px;}
+}
