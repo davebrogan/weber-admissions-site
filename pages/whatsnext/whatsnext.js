@@ -9,10 +9,29 @@
 })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 
 $(document).ready(function(){
-    $("#menu-item-step1").click(function(){
+    $('main').find('.fancy-link').removeClass('fancy-link');
+    $('main').find('.fancy-link').removeClass('fancy-link');
+
+/*    $("#menu-item-step1").click(function(){
         $('html, body').animate({
             scrollTop: $("#step1-scroll").offset().top
         },1000);
+    });*/
+
+    $("#menu-item-step1").keyup(function(event) {
+        if (event.which === 13) {
+            $(this).click(step1Scroll());
+        }
+    });
+
+    var step1Scroll = function() {
+        $('html, body').animate({
+            scrollTop: $("#step1-scroll").offset().top
+        }, 1000);
+    };
+
+    $("#submit").click(function() {
+        alert('clicked!');
     });
 
     $("#menu-item-step2").click(function (){

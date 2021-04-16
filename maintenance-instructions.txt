@@ -1,0 +1,16 @@
+When performing page maintenance, or making any changes to pages from the IDE side:
+
+Create a branch called edits-20XXXXXX
+
+Make all edits on that branch
+
+Copy the existing deploy file to backup file.
+Use dev file version to build changes if they are complex or require new CSS
+If the changes are content or links only make changes in deploy
+If using dev, test in weber-dev or copy page. When code is ready copy/paste to deploy.
+Copy/paste deploy to live page in SM
+If editing directly in deploy file, copy over to SM live page when ready.
+
+Commit the changes
+
+Merge branch back to master
