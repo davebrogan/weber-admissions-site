@@ -1,45 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1257a340-e828-4cf5-bac0-316d36fe6571" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/maintenance-instructions.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/apply-strip/apply-strip.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/admissions-counselors/old-versions/admissions-counselors-apply-strip-edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/admissions-feature/admissions-feature.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/admissions-feature/admissions-feature.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/admissions-counselors/admissions-counselors-prod.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-counselors/admissions-counselors-prod.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/admissions-home/admissions-home-backup.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-home/admissions-home-backup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/admissions-home/admissions-home-deploy.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-home/admissions-home-deploy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/apply/admissions-apply.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/apply/admissions-apply.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subpages/concurrent-enrollment/concurrent-enrollment-backup.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subpages/concurrent-enrollment/concurrent-enrollment-backup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subpages/concurrent-enrollment/concurrent-enrollment-deploy.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subpages/concurrent-enrollment/concurrent-enrollment-deploy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subpages/counselors/counselors-backup.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subpages/counselors/counselors-backup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subpages/counselors/counselors-deploy.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subpages/counselors/counselors-deploy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subpages/early-college/early-college-backup.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subpages/early-college/early-college-backup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subpages/early-college/early-college-deploy.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subpages/early-college/early-college-deploy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subpages/freshmen-out-state/freshmen-out-state-backup.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subpages/freshmen-out-state/freshmen-out-state-backup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subpages/freshmen-out-state/freshmen-out-state-deploy.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subpages/freshmen-out-state/freshmen-out-state-deploy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subpages/graduate-students/graduate-students-backup.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subpages/graduate-students/graduate-students-backup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subpages/graduate-students/graduate-students-deploy.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subpages/graduate-students/graduate-students-deploy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subpages/international/international-backup.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subpages/international/international-backup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subpages/international/international-deploy.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subpages/international/international-deploy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subpages/new-freshmen/new-freshmen-backup.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subpages/new-freshmen/new-freshmen-backup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subpages/new-freshmen/new-freshmen-deploy.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subpages/new-freshmen/new-freshmen-deploy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subpages/non-degree/non-degree-backup.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subpages/non-degree/non-degree-backup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subpages/non-degree/non-degree-deploy.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subpages/non-degree/non-degree-deploy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subpages/parents/parents-backup.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subpages/parents/parents-backup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subpages/parents/parents-deploy.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subpages/parents/parents-deploy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subpages/returning-students/returning-students-backup.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subpages/returning-students/returning-students-backup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subpages/returning-students/returning-students-deploy.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subpages/returning-students/returning-students-deploy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subpages/returning-students/returning-students.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subpages/returning-students/returning-students.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subpages/transfer/transfer-backup.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subpages/transfer/transfer-backup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subpages/transfer/transfer-deploy.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subpages/transfer/transfer-deploy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subpages/transfer/transfer.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subpages/transfer/transfer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/visit/visit-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/visit/visit-dev.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/visit/visit.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/visit/visit-deploy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/whatsnext/whatsnext.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/whatsnext/whatsnext.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/whatsnext/whatsnext.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/whatsnext/whatsnext.js" afterDir="false" />
-    </list>
+    <list default="true" id="1257a340-e828-4cf5-bac0-316d36fe6571" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -238,7 +200,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="15" />
+    <option name="x" value="-18" />
     <option name="y" value="23" />
     <option name="width" value="2468" />
     <option name="height" value="1341" />
@@ -388,16 +350,15 @@
       <workItem from="1617811995282" duration="1353000" />
       <workItem from="1618328701409" duration="4266000" />
       <workItem from="1618423899901" duration="6112000" />
-      <workItem from="1618515106905" duration="756000" />
+      <workItem from="1618515106905" duration="1152000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="329366000" />
+    <option name="totallyTimeSpent" value="329762000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="15" y="23" width="2468" height="1341" extended-state="0" />
-    <editor active="true" />
+    <frame x="-18" y="23" width="2468" height="1341" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49946293" visible="true" weight="0.16776587" />
       <window_info id="Structure" order="1" sideWeight="0.50053704" side_tool="true" weight="0.20308201" />
@@ -415,7 +376,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Terminal" order="3" weight="0.2563891" />
+      <window_info anchor="right" id="Terminal" order="3" visible="true" weight="0.2563891" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
