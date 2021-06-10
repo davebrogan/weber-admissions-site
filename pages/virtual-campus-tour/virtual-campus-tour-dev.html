@@ -139,7 +139,6 @@
             let vidContainer = $(this).parent().attr('id');
             let vidElement = $('#' + vidContainer).find('iframe');
             let video = vidElement.attr('src');
-            console.log('The container is ' + vidContainer + ' and the src attribute is ' + video);
             vidElement.attr('src', '');
             vidElement.attr('src', video);
         });
