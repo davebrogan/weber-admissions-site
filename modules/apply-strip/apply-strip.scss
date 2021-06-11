@@ -1,0 +1,82 @@
+/********************* Links ***********************/
+section.foot-links {
+  background-color: #FFF;
+  padding-top: 40px;
+}
+
+.foot-link-flex {
+  display: flex;
+  align-items: center;
+}
+
+.foot-link-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  -ms-flex-pack: center;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.direc-link {
+  text-align: center;
+  font-size: 1.5em;
+  margin: 0 20px 20px;
+  text-transform: uppercase;
+}
+
+.direc-btn {
+  margin-bottom: 0px;
+  border-radius: 50%;
+  transition: all 0.3s linear;
+  display: flex;
+  flex-direction: column;
+}
+.direc-btn__link {
+  text-decoration: none !important;
+}
+.direc-btn__text {
+  display: block;
+  font-family: "tradegothiclt", sans-serif;
+  color: #492365 !important;
+  transition: all 0.3s linear;
+  font-size: large;
+}
+.direc-btn__text:hover {
+  color: #8446AC !important;
+}
+@media screen and (prefers-reduced-motion: reduce) {
+  .direc-btn__text:hover {
+    transform: none;
+  }
+}
+
+.direc-btn:hover {
+  transform: scale(1.08);
+}
+
+.direc-anchor {
+  font-family: "tradegothiclt", sans-serif;
+  color: #492365 !important;
+  transition: all 0.3s linear;
+  font-size: large;
+}
+
+a.direc-anchor:hover {
+  color: #8446AC !important;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  a.direc-anchor:hover {
+    transform: none;
+  }
+}
+svg.foot-icons {
+  fill: #492365;
+  height: 130px;
+  max-width: 100px;
+}
+
+svg.foot-icons:hover {
+  fill: #8446AC;
+}
