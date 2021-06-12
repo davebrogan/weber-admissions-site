@@ -1,0 +1,20 @@
+.contact-strip {
+  &__container {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  &__social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__icon {
+      list-style-type: none;
+      & a {
+        text-decoration: none !important;
+      }
+    }
+  }
+}
