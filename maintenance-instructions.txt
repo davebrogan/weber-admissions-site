@@ -1,16 +1,54 @@
 When performing page maintenance, or making any changes to pages from the IDE side:
 
-Create a branch called edits-20XXXXXX
+GIT: Create a branch called edits-20XXXXXX
 
 Make all edits on that branch
 
-Copy the existing deploy file to backup file.
-Use dev file version to build changes if they are complex or require new CSS
-If the changes are content or links only make changes in deploy
-If using dev, test in weber-dev or copy page. When code is ready copy/paste to deploy.
+FILES:
+Copy the existing "deploy" file to "backup" file.
+Copy the code from the live page to "deploy."
+Copy new "deploy" to "dev" for edit and test.
+Once dev is tested and ready paste in deploy and in Site Manager.
+
+USE "DEV" file version to build changes if they are complex or require new CSS.
+USE "DEPLOY" if changes are content or links only. (Or make changes in Site Manager and copy back to "deploy."
+If using "dev," test in weber-dev or copy page. When code is ready copy/paste to "deploy."
 Copy/paste deploy to live page in SM
 If editing directly in deploy file, copy over to SM live page when ready.
 
-Commit the changes
+Folder and file structures:
+/page-name
+    ------- page-name-dev.html (edits to current deploy code)
+    ------- page-name-backup.html (holds copy of deploy code previous to current edit)
+    ------- page-name-deploy.html (should mirror the code on the current live page)
+    ------- page-name.scss (deploy (live) style-sheet)
+        -------- page-name.css
+    ------- page-name-dev.scss (edit copy of page-name.scss)
+        -------- page-name-dev.css
 
-Merge branch back to master
+CSS Structure:
+/css
+    ---- admissions-pages.css (official stylesheet for most of the site. Compile admissions-pages.scss to this file location)
+    ---- apply-strip.css (compile here if you need to attach apply strip css separate from admissions-pages.css
+    ---- ui-mod-base-with-global (a combined version of ui-mod-base and ui-global-styles for admissions site)
+
+/admissions-counselors (compiles to admissions-pages (main stylesheet))
+/admissions-home (compiles ot admissions-pages)
+/affordability-page (compiles to itself separate from admissions-pages)
+/apply (compiles to admissions-pages)
+/main-template (banner style and main content css both compile to admissions-pages)
+/subpages/* (custom banner css for each page compiles to admissions-pages)
+/virtual-campus-tour (compiles to itself. Used on top of admissions-page.css on live page)
+/visit (compiles to admissions-pages)
+/whatsnext (compiles to itself and used independently from admissions on page)
+
+admissions-pages.scss (main stylesheet compiler)
+admissions-pages-dev.scss (used when doing extensive development edits to a page that is compiled in the main stylesheet.
+scss for the page being edited can be commented out and a dev version of the stylesheet can be imported instead.)
+
+
+GIT: Commit the changes
+
+GIT: Merge branch back to master
+
+
