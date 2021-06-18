@@ -2,41 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1257a340-e828-4cf5-bac0-316d36fe6571" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/whatsnext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/whatsnext/whatsnext-deploy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/whatsnext/whatsnext-dev.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maintenance-instructions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/maintenance-instructions.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/admissions-counselors/admissions-counselors-prod.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-counselors/admissions-counselors-deploy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/admissions-pages.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-pages.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/admissions-pages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-pages.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/affordability-page/affordability-page-dbl-fix.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/affordability-page/affordability-backups/affordability-page-dbl-fix.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/affordability-page/affordability-page-noti.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/affordability-page/affordability-backups/affordability-page-noti.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/affordability-page/affordability-page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/apply/admissions-apply.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/banner-text-svgs/discover-mountains.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/banner-text-svgs/ever-upward.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/banner-text-svgs/ignite-power.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/banner-text-svgs/pursuit-continues.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/banner-text-svgs/pusuit-starts.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/banner-text-tests/banner-text-test-results-page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/banner-text-tests/banner-text-tests.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/banner-text-tests/banner-text-tests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/banner-text-tests/banner-text-tests.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/main-template/admissions-page-template.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subpages/concurrent-enrollment/concurrent-enrollment.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subpages/concurrent-enrollment/concurrent-enrollment-dev.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subpages/counselors/counselors.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subpages/counselors/counselors-dev.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subpages/distance/distance.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subpages/distance/distance-dev.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subpages/early-college/early-college.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subpages/early-college/early-college-dev.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subpages/freshmen-out-state/freshmen-out-state.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subpages/freshmen-out-state/freshmen-out-state-dev.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subpages/graduate-students/graduate-students.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subpages/graduate-students/graduate-students-dev.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subpages/international/international.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subpages/international/international-dev.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subpages/new-freshmen/new-freshmen.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subpages/new-freshmen/new-freshmen-dev.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subpages/non-degree/non-degree.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subpages/non-degree/non-degree-dev.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subpages/parents/parents.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subpages/parents/parents-dev.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subpages/returning-students/returning-students.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subpages/returning-students/returning-students-dev.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subpages/transfer/transfer.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subpages/transfer/transfer-dev.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/whatsnext/whatsnext.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/whatsnext/whatsnext-backup.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,8 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/admissions-pages.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="644">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -71,11 +39,20 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/maintenance-instructions.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="689">
-              <caret line="49" column="23" lean-forward="true" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+            <state relative-caret-position="1242">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="628">
+              <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -114,7 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/virual-campus-tour.js" />
         <option value="$PROJECT_DIR$/js/stop-videos.js" />
         <option value="$PROJECT_DIR$/pages/virtual-campus-tour/virtual-campus-tour-dev.html" />
         <option value="$PROJECT_DIR$/pages/whatsnext/whatsnext.scss" />
@@ -165,6 +141,7 @@
         <option value="$PROJECT_DIR$/pages/admissions-pages.scss" />
         <option value="$PROJECT_DIR$/pages/virtual-campus-tour/stylesheet-backup/virtual-campus-tour-backup-20200615.css" />
         <option value="$PROJECT_DIR$/maintenance-instructions.txt" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -233,19 +210,19 @@
       <recent name="https://google.com" />
       <recent name="https://weber.edu/admissions" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/js" />
-      <recent name="$PROJECT_DIR$/pages/whatsnext" />
-      <recent name="$PROJECT_DIR$/pages/admissions-counselors/old-versions" />
-      <recent name="$PROJECT_DIR$/modules" />
-      <recent name="$PROJECT_DIR$/css" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/pages/virtual-campus-tour/stylesheet-backup" />
       <recent name="$PROJECT_DIR$/pages/affordability-page/affordability-backups" />
       <recent name="$PROJECT_DIR$/pages/visit" />
       <recent name="$PROJECT_DIR$/pages/admissions-counselors" />
       <recent name="$PROJECT_DIR$/pages/admissions-counselors/dev/old-versions" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$/pages/whatsnext" />
+      <recent name="$PROJECT_DIR$/pages/admissions-counselors/old-versions" />
+      <recent name="$PROJECT_DIR$/modules" />
+      <recent name="$PROJECT_DIR$/css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -344,7 +321,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="344972000" />
+    <option name="totallyTimeSpent" value="345111000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-140" width="1920" height="1080" extended-state="0" />
@@ -384,28 +361,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pages/admissions-counselors/admissions-counselors-deploy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="629" column="10" lean-forward="true" selection-end-line="983" />
-          <folding>
-            <element signature="e#122#127#0" expanded="true" />
-            <element signature="n#section#1;n#!!top" />
-            <element signature="e#2352#2358#0" expanded="true" />
-            <element signature="e#2362#2368#0" expanded="true" />
-            <element signature="e#2386#2392#0" expanded="true" />
-            <element signature="n#div#0;n#section#2;n#!!top" />
-            <element signature="n#div#0;n#section#0;n#div#0;n#section#2;n#!!top" />
-            <element signature="e#92742#92748#0" expanded="true" />
-            <element signature="e#92772#92778#0" expanded="true" />
-            <element signature="e#92782#92788#0" expanded="true" />
-            <element signature="e#92806#92812#0" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#5;n#div#0;n#section#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#5;n#div#0;n#section#3;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/wsu-ui.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -598,41 +553,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/affordability-page/affordability-page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9660">
-          <caret line="420" selection-start-line="420" selection-end-line="420" />
-          <folding>
-            <element signature="e#1073#1078#0" expanded="true" />
-            <element signature="e#3071#3077#1" expanded="true" />
-            <element signature="e#3215#3220#0" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#2;n#!!top" expanded="true" />
-            <element signature="e#4547#4552#0" expanded="true" />
-            <element signature="e#4577#4582#0" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#section#2;n#!!top" expanded="true" />
-            <element signature="e#5452#5457#0" expanded="true" />
-            <element signature="e#5482#5487#0" expanded="true" />
-            <element signature="e#5955#5960#0" expanded="true" />
-            <element signature="e#5985#5990#0" expanded="true" />
-            <element signature="e#6203#6208#0" expanded="true" />
-            <element signature="e#6758#6765#0" expanded="true" />
-            <element signature="e#6778#6785#0" expanded="true" />
-            <element signature="e#6860#6867#0" expanded="true" />
-            <element signature="e#7405#7412#0" expanded="true" />
-            <element signature="e#7494#7501#0" expanded="true" />
-            <element signature="e#8032#8039#0" expanded="true" />
-            <element signature="e#8632#8639#0" expanded="true" />
-            <element signature="e#9147#9153#1" expanded="true" />
-            <element signature="e#10417#10424#0" expanded="true" />
-            <element signature="e#13690#13696#1" expanded="true" />
-            <element signature="e#16124#16130#1" expanded="true" />
-            <element signature="e#16261#16266#0" expanded="true" />
-            <element signature="e#17460#17466#1" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#section#7;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/affordability-page/affordability-page.html" />
     <entry file="file://$PROJECT_DIR$/pages/admissions-home/admissions-home-dev.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="862">
@@ -659,30 +580,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/apply/admissions-apply.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-257">
-          <caret line="17" column="124" selection-start-line="17" selection-start-column="124" selection-end-line="17" selection-end-column="124" />
-          <folding>
-            <element signature="n#svg#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" />
-            <element signature="n#div#0;n#section#0;n#div#1;n#section#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#div#1;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#section#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#0;n#section#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/main-template/admissions-page-template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="258" column="22" selection-start-line="251" selection-start-column="16" selection-end-line="258" selection-end-column="22" />
-          <folding>
-            <element signature="n#div#1;n#section#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/apply/admissions-apply.html" />
+    <entry file="file://$PROJECT_DIR$/pages/main-template/admissions-page-template.html" />
     <entry file="file://$PROJECT_DIR$/pages/apply/admissions-apply-deploy.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -737,8 +636,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/admissions-pages.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="644">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
@@ -747,8 +646,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/maintenance-instructions.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="49" column="23" lean-forward="true" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+        <state relative-caret-position="1242">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="628">
+          <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
         </state>
       </provider>
     </entry>
