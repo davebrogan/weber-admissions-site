@@ -6,11 +6,12 @@
 
 /******* Templates *******/
 @import "../modules/apply-strip/apply-strip";
+@import "../modules/contact-footer/contact-footer";
 @import "main-template/admissions-page-template";
 @import "admissions-home/admissions-home";
 @import "admissions-counselors/admissions-counselors";
 
-/*** Banners *****/
+/***** Banners *****/
 @import "main-template/sample-banner.scss";
 @import "subpages/new-freshmen/new-freshmen-banner";
 @import "subpages/freshmen-out-state/freshmen-out-state-banner";

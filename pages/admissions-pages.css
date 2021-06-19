@@ -86,6 +86,24 @@ svg.foot-icons:hover {
   fill: #8446AC;
 }
 
+.contact-strip__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.contact-strip__social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-strip__social__icon {
+  list-style-type: none;
+}
+.contact-strip__social__icon a {
+  text-decoration: none !important;
+}
+
 /***** Admissions SubPages ********/
 .showcase-html-section {
   box-shadow: none;
@@ -531,7 +549,7 @@ html {
   flex-direction: column;
 }
 
-/*** Banners *****/
+/***** Banners *****/
 /** banner local build - MAIN TEMPLATE **/
 .additional-header__banner--page-name {
   background-image: url("https://apps.weber.edu/wsuimages/Admissions/site-files/css/images/sample-banner-1x.jpg");

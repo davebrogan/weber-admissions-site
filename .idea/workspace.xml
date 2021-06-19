@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1257a340-e828-4cf5-bac0-316d36fe6571" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/admissions-home/admissions-home-backup.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-home/admissions-home-backup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/admissions-home/admissions-home-deploy.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-home/admissions-home-deploy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/admissions-home/admissions-home-dev.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-home/admissions-home-dev.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/admissions-pages.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-pages.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/admissions-pages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-pages.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,11 +23,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/admissions-home/admissions-home-deploy.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="847">
+              <caret line="238" column="10" selection-start-line="238" selection-start-column="10" selection-end-line="238" selection-end-column="10" />
+              <folding>
+                <element signature="e#509#515#0" expanded="true" />
+                <element signature="e#555#561#0" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#section#0;n#div#1;n#section#0;n#!!top" expanded="true" />
+                <element signature="e#1075156#1075161#0" expanded="true" />
+                <element signature="e#1075181#1075186#0" expanded="true" />
+                <element signature="e#1075548#1075554#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/admissions-home/admissions-home-backup.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="847">
+              <caret line="282" selection-start-line="282" selection-end-line="282" />
+              <folding>
+                <element signature="n#svg#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" />
+                <element signature="e#509#515#0" expanded="true" />
+                <element signature="e#555#561#0" expanded="true" />
+                <element signature="n#section#1;n#!!top" />
+                <element signature="n#section#2;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/admissions-pages.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="644">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/admissions-pages-dev.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/admissions-home/admissions-home-dev.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="220" selection-start-line="220" selection-end-line="240" selection-end-column="10" />
+              <folding>
+                <element signature="n#svg#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" />
+                <element signature="e#509#515#0" expanded="true" />
+                <element signature="e#555#561#0" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#section#0;n#div#1;n#section#0;n#!!top" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#section#0;n#div#1;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#section#1;n#!!top" />
+                <element signature="n#section#2;n#!!top" />
+                <element signature="e#1075156#1075161#0" expanded="true" />
+                <element signature="e#1075181#1075186#0" expanded="true" />
+                <element signature="e#1075548#1075554#1" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -40,6 +106,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/admissions-pages.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18457">
+              <caret line="883" selection-start-line="883" selection-end-line="883" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/maintenance-instructions.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1242">
@@ -48,11 +123,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="628">
-              <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+              <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -98,7 +173,6 @@
         <option value="$PROJECT_DIR$/modules/admissions-feature/admissions-feature.html" />
         <option value="$PROJECT_DIR$/pages/subpages/returning-students/returning-students.html" />
         <option value="$PROJECT_DIR$/pages/subpages/transfer/transfer.html" />
-        <option value="$PROJECT_DIR$/pages/admissions-home/admissions-home-backup.html" />
         <option value="$PROJECT_DIR$/pages/subpages/new-freshmen/new-freshmen-backup.html" />
         <option value="$PROJECT_DIR$/pages/subpages/new-freshmen/new-freshmen-deploy.html" />
         <option value="$PROJECT_DIR$/pages/subpages/freshmen-out-state/freshmen-out-state-backup.html" />
@@ -123,7 +197,6 @@
         <option value="$PROJECT_DIR$/pages/subpages/counselors/counselors-deploy.html" />
         <option value="$PROJECT_DIR$/pages/admissions-counselors/admissions-counselors-prod.html" />
         <option value="$PROJECT_DIR$/pages/apply/admissions-apply.html" />
-        <option value="$PROJECT_DIR$/pages/admissions-home/admissions-home-deploy.html" />
         <option value="$PROJECT_DIR$/modules/apply-strip/apply-strip.html" />
         <option value="$PROJECT_DIR$/pages/whatsnext/whatsnext.html" />
         <option value="$PROJECT_DIR$/pages/visit/visit.html" />
@@ -135,13 +208,15 @@
         <option value="$PROJECT_DIR$/pages/admissions-home/admissions-home.scss" />
         <option value="$PROJECT_DIR$/pages/admissions-pages-dev.scss" />
         <option value="$PROJECT_DIR$/modules/contact-footer/contact-footer.scss" />
-        <option value="$PROJECT_DIR$/pages/admissions-home/admissions-home-dev.html" />
         <option value="$PROJECT_DIR$/pages/affordability-page/affordability-page.html" />
         <option value="$PROJECT_DIR$/pages/subpages/early-college/early-college-dev.html" />
-        <option value="$PROJECT_DIR$/pages/admissions-pages.scss" />
         <option value="$PROJECT_DIR$/pages/virtual-campus-tour/stylesheet-backup/virtual-campus-tour-backup-20200615.css" />
         <option value="$PROJECT_DIR$/maintenance-instructions.txt" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/pages/admissions-pages.scss" />
+        <option value="$PROJECT_DIR$/pages/admissions-home/admissions-home-dev.html" />
+        <option value="$PROJECT_DIR$/pages/admissions-home/admissions-home-backup.html" />
+        <option value="$PROJECT_DIR$/pages/admissions-home/admissions-home-deploy.html" />
       </list>
     </option>
   </component>
@@ -179,6 +254,12 @@
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="admissions-home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="admissions-pages.scss" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
@@ -210,19 +291,19 @@
       <recent name="https://google.com" />
       <recent name="https://weber.edu/admissions" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/pages/virtual-campus-tour/stylesheet-backup" />
-      <recent name="$PROJECT_DIR$/pages/affordability-page/affordability-backups" />
-      <recent name="$PROJECT_DIR$/pages/visit" />
-      <recent name="$PROJECT_DIR$/pages/admissions-counselors" />
-      <recent name="$PROJECT_DIR$/pages/admissions-counselors/dev/old-versions" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/pages/whatsnext" />
       <recent name="$PROJECT_DIR$/pages/admissions-counselors/old-versions" />
       <recent name="$PROJECT_DIR$/modules" />
       <recent name="$PROJECT_DIR$/css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pages/virtual-campus-tour/stylesheet-backup" />
+      <recent name="$PROJECT_DIR$/pages/affordability-page/affordability-backups" />
+      <recent name="$PROJECT_DIR$/pages/visit" />
+      <recent name="$PROJECT_DIR$/pages/admissions-counselors" />
+      <recent name="$PROJECT_DIR$/pages/admissions-counselors/dev/old-versions" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -321,7 +402,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="345111000" />
+    <option name="totallyTimeSpent" value="346445000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-140" width="1920" height="1080" extended-state="0" />
@@ -343,7 +424,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Terminal" order="3" visible="true" weight="0.27209798" />
+      <window_info anchor="right" id="Terminal" order="3" visible="true" weight="0.2891374" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,9 +442,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/wsu-ui.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/virual-campus-tour.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -477,27 +555,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/apply-strip/-fuck.css" />
     <entry file="file://$PROJECT_DIR$/modules/apply-strip/-fuck.scss" />
-    <entry file="file://$PROJECT_DIR$/pages/admissions-home/admissions-home-deploy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5060">
-          <caret line="221" column="22" selection-start-line="221" selection-start-column="22" selection-end-line="221" selection-end-column="22" />
-          <folding>
-            <element signature="n#svg#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" />
-            <element signature="e#509#515#0" expanded="true" />
-            <element signature="e#555#561#0" expanded="true" />
-            <element signature="n#section#1;n#!!top" />
-            <element signature="n#section#2;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/admissions-pages.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3881">
-          <caret line="919" column="42" selection-start-line="919" selection-start-column="42" selection-end-line="919" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/admissions-home/admissions-home-orig.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -554,32 +611,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/affordability-page/affordability-page.html" />
-    <entry file="file://$PROJECT_DIR$/pages/admissions-home/admissions-home-dev.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="862">
-          <caret line="211" column="46" selection-start-line="211" selection-start-column="46" selection-end-line="211" selection-end-column="46" />
-          <folding>
-            <element signature="n#svg#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" />
-            <element signature="e#509#515#0" expanded="true" />
-            <element signature="e#555#561#0" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#section#0;n#div#1;n#section#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#section#0;n#div#1;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#section#1;n#!!top" />
-            <element signature="n#section#2;n#!!top" />
-            <element signature="e#1075156#1075161#0" expanded="true" />
-            <element signature="e#1075181#1075186#0" expanded="true" />
-            <element signature="e#1075548#1075554#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/admissions-pages-dev.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/apply/admissions-apply.html" />
     <entry file="file://$PROJECT_DIR$/pages/main-template/admissions-page-template.html" />
     <entry file="file://$PROJECT_DIR$/pages/apply/admissions-apply-deploy.html">
@@ -631,18 +662,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/virtual-campus-tour/virtual-campus-tour.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/admissions-pages.scss">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="628">
+          <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/whatsnext/whatsnext.scss">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/maintenance-instructions.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -651,10 +676,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/pages/virtual-campus-tour/virtual-campus-tour.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/whatsnext/whatsnext.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/admissions-pages-dev.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+        <state relative-caret-position="184">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/admissions-pages.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/admissions-pages.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18457">
+          <caret line="883" selection-start-line="883" selection-end-line="883" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/admissions-home/admissions-home-backup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="847">
+          <caret line="282" selection-start-line="282" selection-end-line="282" />
+          <folding>
+            <element signature="n#svg#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" />
+            <element signature="e#509#515#0" expanded="true" />
+            <element signature="e#555#561#0" expanded="true" />
+            <element signature="n#section#1;n#!!top" />
+            <element signature="n#section#2;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/admissions-home/admissions-home-dev.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="220" selection-start-line="220" selection-end-line="240" selection-end-column="10" />
+          <folding>
+            <element signature="n#svg#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" />
+            <element signature="e#509#515#0" expanded="true" />
+            <element signature="e#555#561#0" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#section#0;n#div#1;n#section#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#section#0;n#div#1;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#section#1;n#!!top" />
+            <element signature="n#section#2;n#!!top" />
+            <element signature="e#1075156#1075161#0" expanded="true" />
+            <element signature="e#1075181#1075186#0" expanded="true" />
+            <element signature="e#1075548#1075554#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/admissions-home/admissions-home-deploy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="847">
+          <caret line="238" column="10" selection-start-line="238" selection-start-column="10" selection-end-line="238" selection-end-column="10" />
+          <folding>
+            <element signature="e#509#515#0" expanded="true" />
+            <element signature="e#555#561#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#section#0;n#div#1;n#section#0;n#!!top" expanded="true" />
+            <element signature="e#1075156#1075161#0" expanded="true" />
+            <element signature="e#1075181#1075186#0" expanded="true" />
+            <element signature="e#1075548#1075554#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
