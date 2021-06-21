@@ -6,9 +6,6 @@
 /***** Admissions SubPages ********/
 .showcase-html-section {
   box-shadow: none;
-  @media #{$target-laptop-over} {
-    padding-top: 158px;
-  }
 }
 .mega-menu {
   //position: initial;

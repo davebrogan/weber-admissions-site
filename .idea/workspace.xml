@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1257a340-e828-4cf5-bac0-316d36fe6571" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/admissions-home/admissions-home-backup.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-home/admissions-home-backup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/admissions-home/admissions-home-deploy.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-home/admissions-home-deploy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/admissions-home/admissions-home-dev.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-home/admissions-home-dev.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/admissions-pages.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-pages.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/admissions-pages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-pages.scss" afterDir="false" />
-    </list>
+    <list default="true" id="1257a340-e828-4cf5-bac0-316d36fe6571" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -402,11 +395,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="346445000" />
+    <option name="totallyTimeSpent" value="346807000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-140" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49798793" visible="true" weight="0.23961662" />
       <window_info id="Structure" order="1" sideWeight="0.50053704" side_tool="true" weight="0.20308201" />
