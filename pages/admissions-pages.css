@@ -109,11 +109,6 @@ svg.foot-icons:hover {
   box-shadow: none;
 }
 
-.mobile-logo {
-  position: initial;
-  margin-top: 50px;
-}
-
 .banner {
   max-height: 450px;
   min-height: 350px;

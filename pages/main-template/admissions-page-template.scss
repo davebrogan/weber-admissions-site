@@ -7,13 +7,7 @@
 .showcase-html-section {
   box-shadow: none;
 }
-.mega-menu {
-  //position: initial;
-}
-.mobile-logo {
-  position: initial;
-  margin-top: 50px;
-}
+
 .banner {
   @include aspect-ratio-source(3200, 1000);
   max-height: 450px;
