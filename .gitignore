@@ -46,6 +46,7 @@ Thumbs.db
 # WebStorm / JetBrains #
 ########################
 .idea/*
+../.idea/*
 *.iml
 
 #node#
