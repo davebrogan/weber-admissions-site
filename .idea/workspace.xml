@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1257a340-e828-4cf5-bac0-316d36fe6571" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/code.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/admissions-counselors/dev/admissions-counselors-dev.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-counselors/dev/admissions-counselors-dev.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/admissions-counselors/map-only/admissions-counselors-map-dev-v2.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-counselors/map-only/old-versions/admissions-counselors-map-dev-v2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/admissions-counselors/map-only/admissions-counselors-map-dev.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-counselors/map-only/old-versions/admissions-counselors-map-dev.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/admissions-counselors/map-only/admissions-counselors-map-only-dev.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-counselors/map-only/admissions-counselors-map-only-dev.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/admissions-counselors/map-only/admissions-counselors-map-only-prod.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-counselors/map-only/admissions-counselors-map-only-prod.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/admissions-counselors/map-only/hover-map-shield.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-counselors/map-only/old-versions/hover-map-shield.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/admissions-counselors/map-only/hover-map-stroke-fix-merge.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-counselors/map-only/old-versions/hover-map-stroke-fix-merge.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/admissions-counselors/map-only/hover-map.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-counselors/map-only/old-versions/hover-map.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,11 +197,11 @@
       <recent name="https://weber.edu/admissions" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pages/admissions-counselors/map-only/old-versions" />
       <recent name="$PROJECT_DIR$/pages/admissions-counselors/map-only" />
       <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/pages/virtual-campus-tour/stylesheet-backup" />
       <recent name="$PROJECT_DIR$/pages/affordability-page/affordability-backups" />
-      <recent name="$PROJECT_DIR$/pages/visit" />
     </key>
   </component>
   <component name="RunManager">
@@ -283,7 +291,7 @@
       <workItem from="1624398333201" duration="55000" />
       <workItem from="1626382709870" duration="4907000" />
       <workItem from="1626797941435" duration="8201000" />
-      <workItem from="1626887153389" duration="722000" />
+      <workItem from="1626887153389" duration="1857000" />
     </task>
     <servers />
   </component>
@@ -314,17 +322,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/pages/admissions-counselors/dev/admissions-counselors-dev.html</url>
-          <line>152</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/virual-campus-tour.js">
