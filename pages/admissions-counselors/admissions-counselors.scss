@@ -61,6 +61,9 @@ html {
     &__contact {
       display: flex;
       flex-direction: column;
+      & .visited {
+        border-bottom: none;
+      }
     }
     &__territories {
       text-align: initial;
@@ -126,6 +129,8 @@ html {
     overflow: hidden;
     width: 100%;
     font-family: $font-tgc18 !important;
+  }
+  &__name {
     font-weight: bold;
   }
   &__content {

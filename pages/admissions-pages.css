@@ -465,6 +465,9 @@ html {
   display: flex;
   flex-direction: column;
 }
+.card-admissions-counselor__content__contact .visited {
+  border-bottom: none;
+}
 .card-admissions-counselor__content__territories {
   text-align: initial;
   font-size: 90%;
@@ -528,6 +531,8 @@ html {
   overflow: hidden;
   width: 100%;
   font-family: "tradegothiclt-condeighteen", sans-serif !important;
+}
+.card-counselor__name {
   font-weight: bold;
 }
 .card-counselor__content {

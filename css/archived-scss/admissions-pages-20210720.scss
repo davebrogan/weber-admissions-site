@@ -1,0 +1,31 @@
+/****** Utilities *******/
+@import "../../ui-utilities-master/variables";
+@import "../../ui-utilities-master/placeholders";
+@import "../../ui-utilities-master/functions";
+@import "../../ui-utilities-master/mixins";
+
+/******* Templates *******/
+@import "../../modules/apply-strip/apply-strip";
+@import "../../modules/contact-footer/contact-footer";
+@import "main-template/admissions-page-template";
+@import "admissions-home/admissions-home";
+@import "admissions-counselors/admissions-counselors";
+
+/***** Banners *****/
+@import "main-template/sample-banner.scss";
+@import "subpages/new-freshmen/new-freshmen-banner";
+@import "subpages/freshmen-out-state/freshmen-out-state-banner";
+@import "subpages/transfer/transfer-banner";
+@import "subpages/international/international-banner";
+@import "subpages/distance/distance-banner";
+@import "subpages/concurrent-enrollment/concurrent-enrollment-banner";
+@import "subpages/early-college/early-college";
+@import "subpages/graduate-students/graduate-students";
+@import "subpages/returning-students/returning-students";
+@import "subpages/non-degree/non-degree";
+@import "subpages/counselors/counselors";
+@import "subpages/parents/parents";
+
+/*** Other Pages ***/
+@import "visit/visit";
+@import "apply/admissions-apply";

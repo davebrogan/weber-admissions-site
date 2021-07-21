@@ -109,11 +109,6 @@ svg.foot-icons:hover {
   box-shadow: none;
 }
 
-.mobile-logo {
-  position: initial;
-  margin-top: 50px;
-}
-
 .banner {
   max-height: 450px;
   min-height: 350px;
@@ -469,6 +464,9 @@ html {
 .card-admissions-counselor__content__contact {
   display: flex;
   flex-direction: column;
+}
+.card-admissions-counselor__content__contact .visited {
+  border-bottom: none;
 }
 .card-admissions-counselor__content__territories {
   text-align: initial;
