@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1257a340-e828-4cf5-bac0-316d36fe6571" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/archived-scss/admissions-pages-20210720.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/admissions-pages-new.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/admissions-pages.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/admissions-pages.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/archived/admissions-pages-20210621.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/archived-css/admissions-pages-20210621.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/admissions-counselors/admissions-counselors-backup.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-counselors/admissions-counselors-backup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/admissions-counselors/admissions-counselors-deploy.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-counselors/admissions-counselors-deploy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/admissions-counselors/admissions-counselors.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/admissions-counselors/admissions-counselors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-counselors/admissions-counselors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/admissions-counselors/dev/admissions-counselors-dev.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/admissions-counselors/dev/admissions-counselors-dev.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-counselors/dev/admissions-counselors-dev.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/admissions-counselors/dev/admissions-counselors-dev.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-counselors/dev/admissions-counselors-dev.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/admissions-counselors/map-only/admissions-counselors-map-only-dev.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-counselors/map-only/admissions-counselors-map-only-dev.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/admissions-counselors/map-only/admissions-counselors-map-only-prod.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-counselors/map-only/admissions-counselors-map-only-prod.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/admissions-pages-dev.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-pages-dev.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/admissions-pages.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-pages.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/whatsnext.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/whatsnext.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -300,7 +287,7 @@
       <workItem from="1624398333201" duration="55000" />
       <workItem from="1626382709870" duration="4907000" />
       <workItem from="1626797941435" duration="8201000" />
-      <workItem from="1626887153389" duration="7003000" />
+      <workItem from="1626887153389" duration="8374000" />
     </task>
     <servers />
   </component>

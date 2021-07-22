@@ -10,8 +10,6 @@
 
 $(document).ready(function(){
     $('main').find('.fancy-link').removeClass('fancy-link');
-    $('main').find('.fancy-link').removeClass('fancy-link');
-
 /*    $("#menu-item-step1").click(function(){
         $('html, body').animate({
             scrollTop: $("#step1-scroll").offset().top
