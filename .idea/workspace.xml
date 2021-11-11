@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1257a340-e828-4cf5-bac0-316d36fe6571" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pages/admissions-counselors/map-only/illinois-svg.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/admissions-counselors/map-only/jenn-region-backup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/admissions-counselors/admissions-counselors-deploy.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-counselors/admissions-counselors-deploy.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/admissions-counselors/dev/admissions-counselors-dev.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-counselors/dev/admissions-counselors-dev.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/admissions-counselors/dev/admissions-counselors-dev.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-counselors/dev/admissions-counselors-dev.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/admissions-counselors/map-only/admissions-counselors-map-only-dev.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-counselors/map-only/admissions-counselors-map-only-dev.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/admissions-counselors/map-only/jenn-region.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-counselors/map-only/jenn-region-dev.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,9 +197,9 @@
       <recent name="https://weber.edu/admissions" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pages/admissions-counselors/map-only" />
       <recent name="$PROJECT_DIR$/css/archived-scss" />
       <recent name="$PROJECT_DIR$/pages/admissions-counselors/map-only/old-versions" />
-      <recent name="$PROJECT_DIR$/pages/admissions-counselors/map-only" />
       <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/pages/virtual-campus-tour/stylesheet-backup" />
     </key>
@@ -289,7 +293,8 @@
       <workItem from="1626797941435" duration="8201000" />
       <workItem from="1626887153389" duration="8831000" />
       <workItem from="1634667420242" duration="916000" />
-      <workItem from="1636395887323" duration="2878000" />
+      <workItem from="1636395887323" duration="3189000" />
+      <workItem from="1636578856174" duration="2341000" />
     </task>
     <servers />
   </component>
@@ -323,6 +328,23 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/pages/admissions-counselors/map-only/admissions-counselors-map-only-dev.html</url>
+          <line>261</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/pages/admissions-counselors/map-only/admissions-counselors-map-only-dev.html</url>
+          <line>454</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/virual-campus-tour.js">
