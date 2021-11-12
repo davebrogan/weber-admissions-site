@@ -289,7 +289,7 @@
       <workItem from="1626887153389" duration="8831000" />
       <workItem from="1634667420242" duration="916000" />
       <workItem from="1636395887323" duration="3189000" />
-      <workItem from="1636578856174" duration="4883000" />
+      <workItem from="1636578856174" duration="5768000" />
     </task>
     <servers />
   </component>
@@ -323,6 +323,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/pages/admissions-counselors/map-only/admissions-counselors-map-only-dev.html</url>
+          <line>188</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/virual-campus-tour.js">
