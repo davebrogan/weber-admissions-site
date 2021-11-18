@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1257a340-e828-4cf5-bac0-316d36fe6571" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/admissions-counselors/admissions-counselors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-counselors/admissions-counselors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/admissions-counselors/dev/admissions-counselors-dev.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admissions-counselors/dev/admissions-counselors-dev.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/admissions-counselors/map-only/colorado-svg.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/admissions-counselors/map-only/illinois-svg.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/admissions-counselors/map-only/jenn-region-backup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/admissions-counselors/map-only/jenn-region-dev.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/admissions-counselors/map-only/sarah-region-backup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/admissions-counselors/map-only/sarah-region-dev.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -296,7 +288,8 @@
       <workItem from="1626887153389" duration="8831000" />
       <workItem from="1634667420242" duration="916000" />
       <workItem from="1636395887323" duration="3189000" />
-      <workItem from="1636578856174" duration="8511000" />
+      <workItem from="1636578856174" duration="8996000" />
+      <workItem from="1637163091275" duration="2335000" />
     </task>
     <servers />
   </component>
@@ -337,7 +330,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/pages/admissions-counselors/map-only/admissions-counselors-map-only-dev.html</url>
           <line>188</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>

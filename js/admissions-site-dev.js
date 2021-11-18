@@ -44,7 +44,7 @@ function scrollToCard(el) {
         const counselorName = el.dataset.counselor;
         for (let i = 0; i < mainCardList.length; i++) {
             if (mainCardList[i].id === ('main-counselor-card--' + counselorName)) {
-                mainCardList[i].scrollIntoView();
+                mainCardList[i].scrollIntoVieW();
                 addShadow(mainCardList[i]);
             }
         }
