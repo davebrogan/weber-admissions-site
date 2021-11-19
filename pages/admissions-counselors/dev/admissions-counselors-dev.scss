@@ -1,4 +1,4 @@
- html {
+html {
   scroll-behavior: smooth
 }
 /************ Hover Map ***************************/
@@ -15,6 +15,8 @@
   width: 80vw;
 }
 
+.counselor-region {fill: #d3d3d3;}
+
 .counselor-region:hover {
   cursor: pointer;
   transition: fill 0.3s;
@@ -28,7 +30,14 @@
 .st5:hover {fill:#726e87;}
 .st6:hover {fill:#7e56c6;}
 .st7:hover {fill:#9b77a7;}
-
+.st8{
+  display:none;
+  fill:none;
+  stroke:#A9A9A9;
+  stroke-width:1.152;
+}
+.st9{fill:#490E67;}
+.st10{fill:#FFFFFF;}
 
 /************ Admissions Counselors ***************/
 .card-admissions-counselor {
@@ -69,9 +78,6 @@
       text-align: initial;
       font-size: 90%;
     }
-    &__meeting-request {
-      //display: none;
-    }
   }
 }
 
@@ -85,6 +91,7 @@
   display: flex;
   justify-content: center;
 }
+
 .card-counselor {
   display: flex;
   visibility: hidden;
@@ -132,7 +139,6 @@
     overflow: hidden;
     width: 100%;
     font-family: $font-tgc18 !important;
-    //font-weight: bold;
   }
   &__name {
     font-weight: bold;
